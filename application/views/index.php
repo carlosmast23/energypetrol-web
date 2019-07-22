@@ -13,7 +13,7 @@
                 <!-- LAYERS -->
                 <!-- LAYER NR. 1 -->
                 <div style="z-index: 8; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1200" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="280" data-x="0" class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0">Integradores de Tecnolog&iacute;a&nbsp;&nbsp;<br>
-                    <span>Innovando desde 1998</span> <br>
+                    <span>Innovando desde 2000</span> <br>
                 </div>
                 <!-- LAYER NR. 2 -->
                 <div style="z-index: 7; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.05" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1800" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="400" data-x="0" class="tp-caption small_text customin tp-resizeme rs-parallaxlevel-0 backgroun-col">

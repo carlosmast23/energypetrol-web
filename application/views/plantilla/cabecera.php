@@ -67,6 +67,7 @@
                                 <ul class="social-icons"><a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo");?>">
                                     </a><a class="bandera" href="index.html"><img alt="" src="<?= base_url() ?>public/images\ecu.png"></a>
                                     <a class="bandera" id="left" href="english\index.html"><img alt="" src="<?= base_url() ?>public/images\usa.png"></a>
+                                    <a class="bandera" id="left" href="<?= base_url() ?>index.php/welcome/login"><img alt="" src="<?= base_url() ?>public/images\candado-ico.png"></a>
                                 </ul>
                                 <ul class="social-icons">
                                     <li><a target="_blank" href="<?php echo buscarDato($parametro, "facebook");?>" class="facebook"><em class="fa fa-facebook"></em></a> </li>

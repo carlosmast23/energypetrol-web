@@ -5,7 +5,7 @@
 
     <div class="row">
         <div class="offset-md-3 col-md-6">
-            <form action="videoCrear" class="form" method="POST">
+            <form action="<?= base_url() ?>index.php/admin/videoCrear" class="form" method="POST">
                 <div class="form-group">
                     <input type="text" name="titulo" class="form-control" id="titulo" aria-describedby="emailHelp" placeholder="Titulo Video">
                 </div>

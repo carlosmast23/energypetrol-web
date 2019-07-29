@@ -24,7 +24,7 @@
                     <div class="card rounded-0">
                         
                         <div class="card-body">
-                            <form action="" class="form" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
+                            <form action="<?= base_url() ?>index.php/welcome/login" class="form" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
                                 <div class="form-group">
                                     
                                     <input type="text" class="form-control form-control-lg rounded-0" name="usuario" id="usuario" required="true">

@@ -1,7 +1,7 @@
 <section class="single-page-section">
     <div class="container">
         <div class="row">
-            <form action="grabarParametros" method="POST">
+            <form action="<?= base_url() ?>index.php/admin/grabarParametros" method="POST">
                 <div class="form-group row">
                     <div class="col-md-4">
                         <h4>Email:</h4>

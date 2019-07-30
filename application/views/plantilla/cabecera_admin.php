@@ -34,6 +34,7 @@
     <script type="text/javascript" src="<?= base_url() ?>public/js\jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript" src="<?= base_url() ?>public/js\clients.js"></script>
     <script type="text/javascript" src="<?= base_url() ?>public/js\script.js"></script>
+    
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <!-- REVOLUTION BANNER CSS SETTINGS -->
@@ -89,7 +90,11 @@
                     <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/index" class="active">General</a> </li>
-                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/videos" >Videos</a> </li>                            
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/videos" >Videos</a> </li>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/categoria" >Categorias</a> </li>                            
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/producto" >Productos</a> </li>                            
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyecto" >Proyecto</a> </li>                            
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyectoAnio" >Proyecto del año</a> </li>                            
                         </ul>
                     </div>
                 </div>

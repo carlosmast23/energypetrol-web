@@ -2,7 +2,8 @@
 			#################################
 				- THEMEPUNCH BANNER -
 			#################################
-			-->
+            -->
+
 <div class="tp-banner-container">
     <div class="tp-banner">
         <ul>
@@ -67,7 +68,7 @@
 			================================================== -->
 <section class="banner-section">
     <div class="container">
-        <h2>Proyecto del A&ntilde;o<a data-lightbox="example-1" href="<?= base_url() ?>public/upload\slide\6.jpg" class="button-one">Ver m&aacute;s</a></h2>
+        <h2>Proyecto del A&ntilde;o<a data-lightbox="example-1" href="<?= base_url() ?>uploads/<?php echo buscarDato($parametro, "proyecto_anio");?>" class="button-one">Ver m&aacute;s</a></h2>
     </div>
 </section>
 <!-- End banner section -->
@@ -174,6 +175,8 @@
         </div>
     </div>
 </section>
+
+
 <!-- End clients section -->
 <section class="news-section">
     <div class="container">
@@ -182,35 +185,40 @@
         </div>
         <div class="news-box">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="news-post">
-                        <img alt="" src="<?= base_url() ?>public/images\prueba\foto8.png">
-                        <h2><a href="electrico.html">El&eacute;ctrico</a></h2>
-                        <p>Celdas de Media Tensi&oacute;n Siemens Simoprime 17.5kV para centrales Cumbaya y Nay&oacute;n de EEQ.</p>
+                <!-- Este primer fila abro porque asumo que tiene datos-->
+                <?php
+                $i = 0;
+                foreach ($consulta->result() as $fila) {
+                    ?>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="news-post">
+                            <img alt="" src="<?= base_url() ?>uploads/<?php echo $fila->imagen ?>">
+                            <h2><a href="electrico.html"><?php echo $fila->nombre ?></a></h2>
+                            <p><?php echo $fila->descripcion ?></p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="news-post">
-                        <img alt="" src="<?= base_url() ?>public/images\prueba\SCB BM 2.jpeg">
-                        <h2><a href="mecanico.html">Mec&aacute;nico</a></h2>
-                        <p>Instalaci&oacute;n de Bombas de transferencia de 40.000 BFPD para las plataformas ECB y CPT &ndash; Petroamazonas EP</p>
+
+                    <!-- Si ya se completan 4 lineas creo otra nueva etiqueta de row -->
+                    <?php
+                        $i++;
+                        if($i%4===0)
+                        {                        
+                    ?>
                     </div>
+                    <div class="row">
+                    <?php
+                        }
+                        
+                    ?>
+
+                <?php
+                }
+                ?>
+
+                <!-- Validacion final para cerrar la etiqueta row  -->
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="news-post">
-                        <img alt="" src="<?= base_url() ?>public/images\prueba\foto3.jpg">
-                        <h2><a href="fireandgas.html">Fire and Gas</a></h2>
-                        <p>Mantenimiento de los Sistemas de Alarma para Repsol &ndash; Bloque 16 NPF y SPF </p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="news-post">
-                        <img alt="" src="<?= base_url() ?>public/images\prueba\foto7.jpg">
-                        <h2><a href="instrumentacion.html">Instrumentaci&oacute;n y Paquetizados</a></h2>
-                        <p>Provisi&oacute;n de un Separador de 100.000 BFPD para la plataforma CPT - Petroamazonas EP</p>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>

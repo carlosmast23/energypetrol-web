@@ -20,8 +20,11 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->load->model('ProyectoModel');
+        $result = $this->ProyectoModel->todos();
+
 		$this->vistaCabeceraConDatos();
-		$this->load->view('index.php');		
+		$this->load->view('index.php',array('consulta'=>$result));		
 		$this->load->view('plantilla/piepagina.php');
 	}
 
@@ -67,9 +70,12 @@ class Welcome extends CI_Controller {
 
 	public function stock()
 	{
+		$this->load->model('CategoriaModel');
+        $result = $this->CategoriaModel->todos();
+
 		$this->vistaCabeceraConDatos();
 		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Stock','ruta'=>'stock'));
-		$this->load->view('stock.php');
+		$this->load->view('stock.php',array('consulta' =>$result));
 		$this->load->view('plantilla/piepagina.php');
 	}
 
@@ -226,6 +232,18 @@ class Welcome extends CI_Controller {
 		}
 		
 	
+	}
+
+	public function productoVenta($id = NULL)
+	{
+		$this->load->model('ProductoVentaModel');
+        $result = $this->ProductoVentaModel->buscarPorCategoriaId($id);
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Productos','ruta'=>'productoVenta'));
+		$this->load->view('producto_venta.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+
+		
 	}
 
 	//==================> FUNCIONES ADICIONALES PARA LA VISTA <=====================================//

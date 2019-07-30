@@ -66,7 +66,7 @@
                                 </a>
                                 <ul class="social-icons"><a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo");?>">
                                     </a><a class="bandera" href="index.html"><img alt="" src="<?= base_url() ?>public/images\ecu.png"></a>
-                                    <a class="bandera" id="left" href="english\index.html"><img alt="" src="<?= base_url() ?>public/images\usa.png"></a>
+                                    <a class="bandera" id="left" href="http://translate.google.com/translate?sl=es&tl=en&u=http%3A%2F%2Fwww.energypetrol.net"><img alt="" src="<?= base_url() ?>public/images\usa.png"></a>
                                     <a class="bandera" id="left" href="<?= base_url() ?>index.php/welcome/login"><img alt="" src="<?= base_url() ?>public/images\candado-ico.png"></a>
                                 </ul>
                                 <ul class="social-icons">

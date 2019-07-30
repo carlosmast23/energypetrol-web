@@ -92,10 +92,46 @@ class Admin extends CI_Controller {
 	
 	public function producto()
 	{
+		$this->load->model('ProductoVentaModel');
+		$result = $this->ProductoVentaModel->todos();
 		
-		$this->load->view('plantilla/cabecera_admin.php');
-		$this->load->view('admin/producto_admin.php');
+		$this->load->model('CategoriaModel');
+        $categorias = $this->CategoriaModel->todos();
+		
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Producto','ruta'=>'producto'));
+		$this->load->view('admin/producto_admin.php',array('consulta' =>$result,'categorias' =>$categorias));
 		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function productoGrabar()
+	{
+		$this->load->model('ProductoVentaModel');
+		$this->load->model("ArchivoModel");
+		//echo "archivo subir ->".$this->upload;
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+
+		$this->load->model("ProductoVentaModel");		
+        $add = $this->ProductoVentaModel->crear(
+			$this->input->post("categoria"),
+            $this->input->post("nombre"),
+			$this->input->post("descripcion"),
+			$imagenNombre
+		);
+		
+		//echo $imagenNombre;
+		redirect('admin/producto');
+	}
+
+	public function productoEliminar($id = NULL)
+	{
+		if($id != NULL)
+        {
+            $this->load->model("ProductoVentaModel");
+            $this->ProductoVentaModel->eliminar($id);
+            redirect('admin/producto');
+
+        }
 	}
 
 	public function grabarParametros()
@@ -139,5 +175,114 @@ class Admin extends CI_Controller {
 
         redirect('admin/index');
 	}
+
+	public function categoria()
+	{
+		$this->load->model('CategoriaModel');
+        $result = $this->CategoriaModel->todos();
+
+		//$this->load->view('plantilla/cabecera_admin.php');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Categoria Producto','ruta'=>'categoria'));
+		$this->load->view('admin/categoria_admin.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function categoriaEliminar($id = NULL)
+	{
+		if($id != NULL)
+        {
+            $this->load->model("CategoriaModel");
+            $this->CategoriaModel->eliminar($id);
+            redirect('admin/categoria');
+
+        }
+	}
+
+	public function categoriaCrear()
+	{
+		$this->load->model("ArchivoModel");
+		//echo "archivo subir ->".$this->upload;
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+
+		$this->load->model("CategoriaModel");
+		
+        $add = $this->CategoriaModel->crear(
+            $this->input->post("nombre"),
+			$this->input->post("descripcion"),
+			$imagenNombre
+		);
+		
+		//echo $imagenNombre;
+		redirect('admin/categoria');
+
+	}
+
+	public function proyecto()
+	{
+		$this->load->model('ProyectoModel');
+        $result = $this->ProyectoModel->todos();
+
+		//$this->load->view('plantilla/cabecera_admin.php');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Proyectos','ruta'=>'proyecto'));
+		$this->load->view('admin/proyecto_admin.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function proyectoCrear()
+	{
+		$this->load->model("ArchivoModel");
+		//echo "archivo subir ->".$this->upload;
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+
+		$this->load->model("ProyectoModel");
+		
+        $add = $this->ProyectoModel->crear(
+            $this->input->post("nombre"),
+			$this->input->post("descripcion"),
+			$imagenNombre
+		);
+		
+		//echo $imagenNombre;
+		redirect('admin/proyecto');
+
+	}
+
+	public function proyectoEliminar($id = NULL)
+	{
+		if($id != NULL)
+        {
+            $this->load->model("ProyectoModel");
+            $this->ProyectoModel->eliminar($id);
+            redirect('admin/proyecto');
+        }
+	}
+
+	public function proyectoAnio()
+	{
+		$this->load->model('ProyectoModel');
+        $result = $this->ProyectoModel->todos();
+
+		//$this->load->view('plantilla/cabecera_admin.php');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Proyecto del año','ruta'=>'proyectoAnio'));
+		$this->load->view('admin/proyecto_anio.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+	}
+	
+	public function proyectoAnioGrabar()
+	{
+		$this->load->model("ArchivoModel");		
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+
+		$this->load->model('ParametrosModel');				
+		$this->ParametrosModel->editar(
+			"proyecto_anio",
+            $imagenNombre
+		);
+		redirect('admin/proyectoAnio');		
+	}
+
 
 }

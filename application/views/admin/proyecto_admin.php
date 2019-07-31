@@ -16,6 +16,13 @@
                 </div>
 
                 <div class="form-group row">
+                    <div class="col-md-1">
+
+                        <input type="text" class="form-control" value="" name="orden" placeholder="Orden">
+                    </div>
+                </div>
+
+                <div class="form-group row">
                     <div class="col-md-6">
 
                         <input type="file" value="" name="imagen" placeholder="Imagen">
@@ -35,6 +42,7 @@
                 <thead>
                     <tr>
                         <th style="width:20%">Nombre</th>
+                        <th style="width:10%">Orden</th>
                         <th style="width:50%">Descripción</th>
                         <th style="width:20%">Imagen</th>
                         <th>Acciones</th>
@@ -47,6 +55,7 @@
                         ?>
                         <tr>
                             <td><?php echo $fila->nombre ?></td>
+                            <td><?php echo $fila->orden ?></td>
                             <td><?php echo $fila->descripcion ?></td>
                             <td>
                                 <img src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>" ></img>                                

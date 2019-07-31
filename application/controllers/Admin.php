@@ -115,8 +115,9 @@ class Admin extends CI_Controller {
         $add = $this->ProductoVentaModel->crear(
 			$this->input->post("categoria"),
             $this->input->post("nombre"),
-			$this->input->post("descripcion"),
-			$imagenNombre
+			$this->input->post("descripcion"),			
+			$imagenNombre,
+			$this->input->post("orden")			
 		);
 		
 		//echo $imagenNombre;
@@ -240,8 +241,9 @@ class Admin extends CI_Controller {
 		
         $add = $this->ProyectoModel->crear(
             $this->input->post("nombre"),
-			$this->input->post("descripcion"),
-			$imagenNombre
+			$this->input->post("descripcion"),			
+			$imagenNombre,
+			$this->input->post("orden")
 		);
 		
 		//echo $imagenNombre;
@@ -291,7 +293,8 @@ class Admin extends CI_Controller {
 
 		$this->load->model('NuestrosClientesModel');
 		$add = $this->NuestrosClientesModel->crear(
-			$imagenNombre
+			$imagenNombre,
+			$this->input->post("orden")
 		);
 		
 		//echo $imagenNombre;

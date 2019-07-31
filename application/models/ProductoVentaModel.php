@@ -3,15 +3,15 @@
     {
         public function todos()
         {
-            $result = $this->db->query('SELECT pv.id id, pv.categoria_id, pv.nombre, pv.descripcion,pv.imagen, c.nombre categoria FROM producto_venta pv, categoria c WHERE pv.categoria_id=c.id');
+            $result = $this->db->query('SELECT pv.id id, pv.categoria_id, pv.nombre, pv.descripcion,pv.imagen,pv.orden, c.nombre categoria FROM producto_venta pv, categoria c WHERE pv.categoria_id=c.id ORDER BY pv.id asc');
             //$result = $this->db->get('producto_venta');
             return $result;
             //return $this->db->get('post');
         }
 
-        public function crear($categoriaId,$nombre,$descripcion,$videoNombre)
+        public function crear($categoriaId,$nombre,$descripcion,$videoNombre,$orden)
         {
-            $consulta = $this->db->query("INSERT INTO producto_venta VALUES(NULL,'$categoriaId','$nombre','$descripcion','$videoNombre');");
+            $consulta = $this->db->query("INSERT INTO producto_venta VALUES(NULL,'$categoriaId','$nombre','$descripcion','$videoNombre','$orden');");
             if ($consulta == true) {
                 return true;
             } else {

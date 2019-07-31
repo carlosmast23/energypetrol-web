@@ -6,6 +6,12 @@
                 <div class="form-group row">
                     <div class="col-md-6">
 
+                        <input type="text" value="" name="orden" placeholder="Orden">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-1">
                         <input type="file" value="" name="imagen" placeholder="Imagen">
                     </div>
                 </div>
@@ -23,6 +29,7 @@
                 <thead>
                     <tr>
                         <th>Imagen</th>
+                        <th>Orden</th>
                         <th>Acciones</th>
                     </tr>
                 </thead>
@@ -34,6 +41,9 @@
                         <tr>
                             <td>
                                 <img style="width: 30%" src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>"></img>
+                            </td>
+                            <td>
+                                <?php echo $fila->orden ?>
                             </td>
                             <td>
                                 <!--<a href="<?php echo base_url('index.php/admin/videoEditarVista') . "/" . $fila->id ?>" title="Editar"><i class="fa fa-edit fa-lg" aria-hidden="true"></i></a>-->

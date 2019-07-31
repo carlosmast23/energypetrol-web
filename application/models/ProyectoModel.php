@@ -3,14 +3,15 @@
     {
         public function todos()
         {
-            $result = $this->db->get('proyecto');
+            $result = $this->db->query("SELECT * FROM proyecto ORDER BY orden asc");
+            //$result = $this->db->get('proyecto');
             return $result;
             //return $this->db->get('post');
         }
 
-        public function crear($nombre,$descripcion,$imagenNombre)
+        public function crear($nombre,$descripcion,$imagenNombre,$orden)
         {
-            $consulta = $this->db->query("INSERT INTO proyecto VALUES(NULL,'$nombre','$descripcion','$imagenNombre');");
+            $consulta = $this->db->query("INSERT INTO proyecto VALUES(NULL,'$nombre','$descripcion','$imagenNombre','$orden');");
             if ($consulta == true) {
                 return true;
             } else {

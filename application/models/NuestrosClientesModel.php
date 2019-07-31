@@ -3,14 +3,15 @@
     {
         public function todos()
         {
-            $result = $this->db->get('nuestros_clientes');
+            $result = $this->db->query('select * from nuestros_clientes order by orden asc');
+            //$result = $this->db->get('nuestros_clientes');
             return $result;
             //return $this->db->get('post');
         }
 
-        public function crear($imagenNombre)
+        public function crear($imagenNombre,$orden)
         {
-            $consulta = $this->db->query("INSERT INTO nuestros_clientes VALUES(NULL,'$imagenNombre');");
+            $consulta = $this->db->query("INSERT INTO nuestros_clientes VALUES(NULL,'$imagenNombre',$orden);");
             if ($consulta == true) {
                 return true;
             } else {

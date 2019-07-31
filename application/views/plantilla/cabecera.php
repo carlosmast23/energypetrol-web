@@ -95,7 +95,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="drop"><a href="<?= base_url() ?>index.php/welcome" class="active">Inicio</a> </li>
                             <li class="drop"><a href="<?= base_url() ?>index.php/welcome/nosotros">Nosotros</a> </li>
-                            <li class="drop"><a href="productos.html">Productos y Servicios</a>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/welcome/productosServicios">Productos y Servicios</a>
                                 <ul class="dropdown">
                                     <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
                                     <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>

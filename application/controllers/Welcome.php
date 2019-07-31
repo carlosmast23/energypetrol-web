@@ -191,6 +191,15 @@ class Welcome extends CI_Controller {
 		$this->load->view('plantilla/piepagina.php');
 	}
 
+	
+	public function productosServicios()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Productos y Servicios','ruta'=>'productosServicios'));
+		$this->load->view('productos_servicios.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
+
 	public function producto($id = NULL)
 	{
 		

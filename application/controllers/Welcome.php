@@ -21,10 +21,13 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->model('ProyectoModel');
-        $result = $this->ProyectoModel->todos();
+		$result = $this->ProyectoModel->todos();
+		
+		$this->load->model('NuestrosClientesModel');
+        $nuestrosClientes = $this->NuestrosClientesModel->todos();
 
 		$this->vistaCabeceraConDatos();
-		$this->load->view('index.php',array('consulta'=>$result));		
+		$this->load->view('index.php',array('consulta'=>$result,'clientes'=>$nuestrosClientes));		
 		$this->load->view('plantilla/piepagina.php');
 	}
 

@@ -94,7 +94,9 @@
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/categoria" >Categorias</a> </li>                            
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/producto" >Productos</a> </li>                            
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyecto" >Proyecto</a> </li>                            
-                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyectoAnio" >Proyecto del año</a> </li>                            
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyectoAnio" >Proyecto del año</a> </li>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/nuestrosClientes" >Nuestros Clientes</a> </li>
+                            
                         </ul>
                     </div>
                 </div>

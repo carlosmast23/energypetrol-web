@@ -68,7 +68,7 @@
 			================================================== -->
 <section class="banner-section">
     <div class="container">
-        <h2>Proyecto del A&ntilde;o<a data-lightbox="example-1" href="<?= base_url() ?>uploads/<?php echo buscarDato($parametro, "proyecto_anio");?>" class="button-one">Ver m&aacute;s</a></h2>
+        <h2>Proyecto del A&ntilde;o<a data-lightbox="example-1" href="<?= base_url() ?>uploads/<?php echo buscarDato($parametro, "proyecto_anio"); ?>" class="button-one">Ver m&aacute;s</a></h2>
     </div>
 </section>
 <!-- End banner section -->
@@ -152,19 +152,11 @@
                         <div class="row">
                             <div class="span12">
                                 <ul class="partner-logo">
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client1.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client3.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client4.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client5.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client9.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client7.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client2.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client8.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client6.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client19.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client20.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client21.png"></li>
-                                    <li><img alt="" src="<?= base_url() ?>public/images\clients\client15.png"></li>
+                                    <?php foreach ($clientes->result() as $fila) {
+                                        ?>
+                                        <li><img alt="" src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>" ></li>                                        
+                                    <?php }
+                                    ?>
                                 </ul>
                             </div>
                         </div>
@@ -201,15 +193,14 @@
 
                     <!-- Si ya se completan 4 lineas creo otra nueva etiqueta de row -->
                     <?php
-                        $i++;
-                        if($i%4===0)
-                        {                        
-                    ?>
+                    $i++;
+                    if ($i % 4 === 0) {
+                        ?>
                     </div>
                     <div class="row">
                     <?php
-                        }
-                        
+                    }
+
                     ?>
 
                 <?php
@@ -217,7 +208,7 @@
                 ?>
 
                 <!-- Validacion final para cerrar la etiqueta row  -->
-                </div>
+            </div>
 
         </div>
     </div>

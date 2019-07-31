@@ -284,5 +284,42 @@ class Admin extends CI_Controller {
 		redirect('admin/proyectoAnio');		
 	}
 
+	public function nuestrosClientesGrabar()
+	{
+		$this->load->model("ArchivoModel");		
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+
+		$this->load->model('NuestrosClientesModel');
+		$add = $this->NuestrosClientesModel->crear(
+			$imagenNombre
+		);
+		
+		//echo $imagenNombre;
+		redirect('admin/nuestrosClientes');
+	}
+
+	public function nuestrosClientesEliminar($id)
+	{
+		if($id != NULL)
+        {
+            $this->load->model("NuestrosClientesModel");
+            $this->NuestrosClientesModel->eliminar($id);
+            redirect('admin/nuestrosClientes');
+        }
+	}
+
+
+	public function nuestrosClientes()
+	{
+		$this->load->model('NuestrosClientesModel');
+        $result = $this->NuestrosClientesModel->todos();
+
+		//$this->load->view('plantilla/cabecera_admin.php');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Nuestros Clientes','ruta'=>'nuestrosClientes'));
+		$this->load->view('admin/nuestros_clientes_admin.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+	}
+
 
 }

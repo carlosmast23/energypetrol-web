@@ -8,9 +8,9 @@
             //return $this->db->get('post');
         }
 
-        public function crearVideo($titulo,$video)
+        public function crearVideo($titulo,$video,$orden)
         {
-            $consulta = $this->db->query("INSERT INTO video VALUES(NULL,'$video','$titulo');");
+            $consulta = $this->db->query("INSERT INTO video VALUES(NULL,'$video','$titulo','$orden');");
             if ($consulta == true) {
                 return true;
             } else {
@@ -30,12 +30,13 @@
             return $query->row_array(); //Devuelve un unico resultado
         }
 
-        public function editar($id,$titulo,$video)
+        public function editar($id,$titulo,$video,$orden)
         {
             $data = array(
                 'id' => $id,
                 'titulo' => $titulo,
-                'url' => $video
+                'url' => $video,
+                'orden' => $orden
             );
     
             $this->db->where('id', $id);

@@ -22,7 +22,7 @@
                     <div style="text-align: left;">consolidando su liderazgo&nbsp;en el mercado Petrolero e Industrial del Ecuador.</div>
                 </div>
                 <!-- LAYER NR. 3 -->
-                <div style="text-align: left; z-index: 10; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="530" data-x="0" class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="productos.html">Ver m&aacute;s</a></div>
+                <div style="text-align: left; z-index: 10; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="530" data-x="0" class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="<?= base_url() ?>index.php/welcome/productosServicios">Ver m&aacute;s</a></div>
                 <!-- LAYER NR. 4 -->
             </li>
             <!-- SLIDE  -->
@@ -40,7 +40,7 @@
                 <div style="z-index: 7; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1500" data-speed="500" data-y="414" data-x="95" class="tp-caption finewide_medium_white lfr tp-resizeme rs-parallaxlevel-0"><span>NOSOTROS SABEMOS C&Oacute;MO HACERLO <br>
                         NOSOTROS TENEMOS LA SOLUCI&Oacute;N</span></div>
                 <!-- LAYER NR. 4 -->
-                <div style="z-index: 12; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="580" data-x="470" class="tp-caption lfb tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="videos.html">Ver Proyectos</a></div>
+                <div style="z-index: 12; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="580" data-x="470" class="tp-caption lfb tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="<?= base_url() ?>index.php/welcome/videos">Ver Proyectos</a></div>
             </li>
             <!-- SLIDE  -->
             <li data-title="Parallax 3D" data-saveperformance="on" data-masterspeed="1000" data-slotamount="7" data-transition="fade">
@@ -55,7 +55,7 @@
                     constante de nuestro personal y de nuestro pa&iacute;s<br>
                 </div>
                 <!-- LAYER NR. 3 -->
-                <div style="z-index: 10; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="490" data-x="0" class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="nosotros.html">Ver m&aacute;s</a></div>
+                <div style="z-index: 10; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="490" data-x="0" class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="<?= base_url() ?>index.php/welcome/nosotros">Ver m&aacute;s</a></div>
                 <!-- LAYER NR. 4 -->
             </li>
         </ul>
@@ -79,16 +79,16 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="offer-post">
-                    <a href="services.html"><img alt="" src="<?= base_url() ?>public/images\logof.png"></a>
-                    <h2><a href="services.html">Qui&eacute;nes Somos</a></h2>
+                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\logof.png"></a>
+                    <h2><a href="<?= base_url() ?>index.php/welcome/productosServicios">Qui&eacute;nes Somos</a></h2>
                     <p>ENERGYPETROL S.A. es una compa&ntilde;&iacute;a Ecuatoriana Fundada en 1998, su objetivo principal es entregar calidad, efectividad y valor agregado en todas sus actividades, tales como la provisi&oacute;n de productos y servicios de la m&aacute;s alta calidad para el sector petrolero e industrial del pa&iacute;s.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="offer-post">
                     <br>
-                    <a href="services.html"><img alt="" src="<?= base_url() ?>public/images\prueba\4.jpg"></a>
-                    <h2><a href="services.html">Qu&eacute; hacemos</a></h2>
+                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\prueba\4.jpg"></a>
+                    <h2><a href="<?= base_url() ?>index.php/welcome/productosServicios">Qu&eacute; hacemos</a></h2>
                     <p>La empresa procura atender a clientes que necesiten de ingenier&iacute;as especializadas en las que se requiera soluciones innovadoras, con las m&aacute;s recientes y avanzadas tecnolog&iacute;as.</p>
                 </div>
             </div>
@@ -186,7 +186,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="news-post">
                             <img alt="" src="<?= base_url() ?>uploads/<?php echo $fila->imagen ?>">
-                            <h2><a href="electrico.html"><?php echo $fila->nombre ?></a></h2>
+                            <h2><a href="#"><?php echo $fila->nombre ?></a></h2>
                             <p><?php echo $fila->descripcion ?></p>
                         </div>
                     </div>

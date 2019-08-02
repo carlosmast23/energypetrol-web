@@ -39,7 +39,8 @@ class Admin extends CI_Controller {
         $this->VideoModel->editar(
             $this->input->post("id"),
             $this->input->post("titulo"),
-            $this->input->post("url_video")
+			$this->input->post("url_video"),
+			$this->input->post("orden")
 
         );
         redirect('admin/videos');
@@ -52,7 +53,9 @@ class Admin extends CI_Controller {
         //$result=$this->db->get('pregunta');
         $data = array('consulta' => $result);
 
-        $this->load->view('plantilla/cabecera_admin');
+		//$this->load->view('plantilla/cabecera_admin');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Editar Videos','ruta'=>'videoEditar'));
         $this->load->view('admin/video_editar.php',$data);
         $this->load->view('plantilla/piepagina');
 	}
@@ -63,7 +66,8 @@ class Admin extends CI_Controller {
 
         $add = $this->VideoModel->crearVideo(
             $this->input->post("titulo"),
-            $this->input->post("url_video")            
+			$this->input->post("url_video"),
+			$this->input->post("orden")
 		);
 		redirect('admin/videos');
 	}
@@ -102,6 +106,38 @@ class Admin extends CI_Controller {
 		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Producto','ruta'=>'producto'));
 		$this->load->view('admin/producto_admin.php',array('consulta' =>$result,'categorias' =>$categorias));
 		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function productoEditarVista($id = NULL)
+	{
+		$this->load->model('ProductoVentaModel');
+		$result = $this->ProductoVentaModel->buscarPorId($id);
+		
+		$this->load->model('CategoriaModel');
+        $categorias = $this->CategoriaModel->todos();
+		
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Editar Producto','ruta'=>'productoEditarVista'));
+		$this->load->view('admin/producto_editar.php',array('consulta' =>$result,'categorias' =>$categorias));
+		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function productoEditar()
+	{
+		
+		$this->load->model("ArchivoModel");
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+		
+		$this->load->model('ProductoVentaModel');
+        $this->ProductoVentaModel->editar(
+			$this->input->post("id"),
+			$this->input->post("categoria"),
+            $this->input->post("nombre"),
+			$this->input->post("descripcion"),			
+			$imagenNombre,
+			$this->input->post("orden")			
+		);
+        redirect('admin/producto');
 	}
 
 	public function productoGrabar()
@@ -189,6 +225,35 @@ class Admin extends CI_Controller {
 		$this->load->view('plantilla/piepagina.php');
 	}
 
+	public function categoriaEditarVista($id = NULL)
+	{
+		$this->load->model('CategoriaModel');
+        $result = $this->CategoriaModel->buscarPorId($id);
+
+		//$this->load->view('plantilla/cabecera_admin.php');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Editar Categoria Producto','ruta'=>'categoriaEditarVista'));
+		$this->load->view('admin/categoria_editar.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function categoriaEditar()
+	{
+		
+		$this->load->model("ArchivoModel");
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+		
+		$this->load->model('CategoriaModel');
+        $this->CategoriaModel->editar(
+			$this->input->post("id"),
+			$this->input->post("nombre"),
+			$this->input->post("descripcion"),
+			$imagenNombre
+
+        );
+        redirect('admin/categoria');
+	}
+
 	public function categoriaEliminar($id = NULL)
 	{
 		if($id != NULL)
@@ -229,6 +294,34 @@ class Admin extends CI_Controller {
 		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Proyectos','ruta'=>'proyecto'));
 		$this->load->view('admin/proyecto_admin.php',array('consulta' =>$result));
 		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function proyectoEditarVista($id = NULL)
+	{
+		$this->load->model('ProyectoModel');
+        $result = $this->ProyectoModel->buscarPorId($id);
+
+		//$this->load->view('plantilla/cabecera_admin.php');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Editar Proyectos','ruta'=>'proyectoEditarVista'));
+		$this->load->view('admin/proyecto_editar.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function proyectoEditar()
+	{		
+		$this->load->model("ArchivoModel");
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+		
+		$this->load->model('ProyectoModel');
+        $this->ProyectoModel->editar(
+			$this->input->post("id"),
+            $this->input->post("nombre"),
+			$this->input->post("descripcion"),			
+			$imagenNombre,
+			$this->input->post("orden")
+		);
+        redirect('admin/proyecto');
 	}
 
 	public function proyectoCrear()
@@ -301,6 +394,20 @@ class Admin extends CI_Controller {
 		redirect('admin/nuestrosClientes');
 	}
 
+	public function nuestrosClientesEditar()
+	{		
+		$this->load->model("ArchivoModel");
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+		
+		$this->load->model('NuestrosClientesModel');
+        $this->NuestrosClientesModel->editar(
+			$this->input->post("id"),
+			$imagenNombre,
+			$this->input->post("orden")
+		);
+        redirect('admin/nuestrosClientes');
+	}
+
 	public function nuestrosClientesEliminar($id)
 	{
 		if($id != NULL)
@@ -321,6 +428,18 @@ class Admin extends CI_Controller {
 		$this->vistaCabeceraConDatos();
 		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Nuestros Clientes','ruta'=>'nuestrosClientes'));
 		$this->load->view('admin/nuestros_clientes_admin.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function nuestrosClientesEditarVista($id = NULL)
+	{
+		$this->load->model('NuestrosClientesModel');
+        $result = $this->NuestrosClientesModel->buscarPorId($id);
+
+		//$this->load->view('plantilla/cabecera_admin.php');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Editar Nuestros Clientes','ruta'=>'nuestrosClientesEditarVista'));
+		$this->load->view('admin/nuestros_clientes_editar.php',array('consulta' =>$result));
 		$this->load->view('plantilla/piepagina.php');
 	}
 

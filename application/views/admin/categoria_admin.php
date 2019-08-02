@@ -52,7 +52,7 @@
                                 <img src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>" ></img>                                
                             </td>
                             <td>
-                                <a href="<?php echo base_url('index.php/admin/videoEditarVista') . "/" . $fila->id ?>" title="Editar"><i class="fa fa-edit fa-lg" aria-hidden="true"></i></a>
+                                <a href="<?php echo base_url('index.php/admin/categoriaEditarVista') . "/" . $fila->id ?>" title="Editar"><i class="fa fa-edit fa-lg" aria-hidden="true"></i></a>
                                 <a onclick="return confirm('Esta seguro que quiere eliminar el registro?')" href="<?php echo base_url('index.php/admin/categoriaEliminar') . "/" . $fila->id ?>" title="Eliminar">
                                     <i class="fa fa-trash fa-lg" aria-hidden="true"></i>
                                 </a>

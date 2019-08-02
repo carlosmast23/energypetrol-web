@@ -26,20 +26,25 @@
 
         public function buscarPorId($id)
         {
-            $query=$this->db->get_where('producto',array('id' => $id));
+            $query=$this->db->get_where('categoria',array('id' => $id));
             return $query->row_array(); //Devuelve un unico resultado
         }
 
-        public function editar($id,$titulo,$video)
+        public function editar($id,$nombre,$descripcion,$imagenNombre)
         {
             $data = array(
                 'id' => $id,
-                'titulo' => $titulo,
-                'url' => $video
+                'nombre' => $nombre,
+                'descripcion' => $descripcion,
             );
-    
+        
+            if(strcmp ($imagenNombre ,"") !== 0)
+            {
+                $data['imagen']=$imagenNombre;
+            }
+
             $this->db->where('id', $id);
-            return $this->db->update('video', $data);
+            return $this->db->update('categoria', $data);
         }
     }
 ?>

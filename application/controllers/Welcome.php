@@ -71,14 +71,17 @@ class Welcome extends CI_Controller {
 	}
 
 
-	public function stock()
+	public function stock($id = NULL)
 	{
 		$this->load->model('CategoriaModel');
-        $result = $this->CategoriaModel->todos();
+		$result = $this->CategoriaModel->buscarPorCategoriaId($id);
+		
+		$this->load->model('CategoriaProductoModel');
+        $categorias = $this->CategoriaProductoModel->todos();
 
 		$this->vistaCabeceraConDatos();
 		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Stock','ruta'=>'stock'));
-		$this->load->view('stock.php',array('consulta' =>$result));
+		$this->load->view('stock.php',array('consulta' =>$result,'categorias'=>$categorias));
 		$this->load->view('plantilla/piepagina.php');
 	}
 
@@ -256,6 +259,17 @@ class Welcome extends CI_Controller {
 		$this->load->view('plantilla/piepagina.php');
 
 		
+	}
+
+	public function categoriaProductos()
+	{
+		$this->load->model('CategoriaModel');
+        $result = $this->CategoriaModel->todos();
+
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Productos','ruta'=>'productos'));
+		$this->load->view('categoria_producto.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
 	}
 
 	//==================> FUNCIONES ADICIONALES PARA LA VISTA <=====================================//

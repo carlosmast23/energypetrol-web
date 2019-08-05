@@ -1,24 +1,7 @@
 <section class="single-page-section">
     <div class="container">
         <div class="row">
-            <form action="<?= base_url() ?>index.php/admin/categoriaCrear" method="POST" enctype="multipart/form-data">
-
-                <div class="form-group row">
-                    <div class="col-md-3">
-                        <select name="tipo" class="form-control">
-                            <?php
-                            foreach ($tipos->result() as $fila) {
-                                ?>
-
-                                <option value="<?php echo $fila->id ?>"><?php echo $fila->nombre ?></option>
-                            <?php
-                            }
-                            ?>
-
-                        </select>
-                    </div>
-                </div>
-
+            <form action="<?= base_url() ?>index.php/admin/categoriaProductoCrear" method="POST" enctype="multipart/form-data">
                 <div class="form-group row">
                     <div class="col-md-3">
 
@@ -33,11 +16,12 @@
                 </div>
 
                 <div class="form-group row">
-                    <div class="col-md-6">
+                    <div class="col-md-1">
 
-                        <input type="file" value="" name="imagen" placeholder="Imagen">
+                        <input type="text" class="form-control" value="" name="orden" placeholder="Orden">
                     </div>
                 </div>
+
 
                 <div class="form-group row">
                     <div class="col-sm-10">
@@ -52,9 +36,8 @@
                 <thead>
                     <tr>
                         <th style="width:20%">Nombre</th>
-                        <th style="width:20%">Tipo</th>
-                        <th style="width:40%">Descripción</th>
-                        <th style="width:10%">Imagen</th>
+                        <th style="width:20%">Orden</th>
+                        <th style="width:50%">Descripción</th>                        
                         <th>Acciones</th>
 
                     </tr>
@@ -65,14 +48,12 @@
                         ?>
                         <tr>
                             <td><?php echo $fila->nombre ?></td>
-                            <td><?php echo $fila->nombre_tipo ?></td>
+                            <td><?php echo $fila->orden ?></td>
                             <td><?php echo $fila->descripcion ?></td>
+                            
                             <td>
-                                <img src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>"></img>
-                            </td>
-                            <td>
-                                <a href="<?php echo base_url('index.php/admin/categoriaEditarVista') . "/" . $fila->id ?>" title="Editar"><i class="fa fa-edit fa-lg" aria-hidden="true"></i></a>
-                                <a onclick="return confirm('Esta seguro que quiere eliminar el registro?')" href="<?php echo base_url('index.php/admin/categoriaEliminar') . "/" . $fila->id ?>" title="Eliminar">
+                                <a href="<?php echo base_url('index.php/admin/categoriaProductoEditarVista') . "/" . $fila->id ?>" title="Editar"><i class="fa fa-edit fa-lg" aria-hidden="true"></i></a>
+                                <a onclick="return confirm('Esta seguro que quiere eliminar el registro?')" href="<?php echo base_url('index.php/admin/categoriaProductoEliminar') . "/" . $fila->id ?>" title="Eliminar">
                                     <i class="fa fa-trash fa-lg" aria-hidden="true"></i>
                                 </a>
 

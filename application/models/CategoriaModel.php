@@ -3,14 +3,14 @@
     {
         public function todos()
         {
-            $result = $this->db->get('categoria');
+            $result = $this->db->query('SELECT c.id id,c.nombre nombre, c.descripcion descripcion,c.imagen imagen,cp.nombre nombre_tipo FROM categoria c,categoria_producto cp WHERE c.categoria_producto_id=cp.id ');
             return $result;
             //return $this->db->get('post');
         }
 
-        public function crear($nombre,$descripcion,$imagenNombre)
+        public function crear($tipoId,$nombre,$descripcion,$imagenNombre)
         {
-            $consulta = $this->db->query("INSERT INTO categoria VALUES(NULL,'$nombre','$descripcion','$imagenNombre');");
+            $consulta = $this->db->query("INSERT INTO categoria VALUES(NULL,'$tipoId','$nombre','$descripcion','$imagenNombre');");
             if ($consulta == true) {
                 return true;
             } else {
@@ -30,10 +30,18 @@
             return $query->row_array(); //Devuelve un unico resultado
         }
 
-        public function editar($id,$nombre,$descripcion,$imagenNombre)
+        public function buscarPorCategoriaId($id)
+        {
+            $query=$this->db->get_where('categoria',array('categoria_producto_id' => $id));
+            return $query; //Devuelve un unico resultado
+        }
+
+
+        public function editar($id,$tipoId,$nombre,$descripcion,$imagenNombre)
         {
             $data = array(
                 'id' => $id,
+                'categoria_producto_id' => $tipoId,
                 'nombre' => $nombre,
                 'descripcion' => $descripcion,
             );

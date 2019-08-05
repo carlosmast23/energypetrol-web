@@ -91,6 +91,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/index" class="active">General</a> </li>
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/videos" >Videos</a> </li>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/categoriaProducto" >Cat Marcas</a> </li>                            
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/categoria" >Categorias</a> </li>                            
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/producto" >Productos</a> </li>                            
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyecto" >Proyecto</a> </li>                            

@@ -107,7 +107,7 @@
                                 </ul>
                             </li>
                             <li class="drop"><a href="<?= base_url() ?>index.php/welcome/videos">Videos</a> </li>
-                            <li class="drop"><a href="<?= base_url() ?>index.php/welcome/stock">Stock</a> </li>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/welcome/stock/1">Stock</a> </li>
                             <li class="drop"><a href="<?= base_url() ?>index.php/welcome/contactanos">Contacto</a></li>
                             <li class="drop"><a href="http://190.12.34.94:8080/EnergyFac/" target="_blank">Facturaci&oacute;n Electr&oacute;nica</a></li>
                         </ul>

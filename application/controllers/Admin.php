@@ -518,4 +518,79 @@ class Admin extends CI_Controller {
 
 	}
 
+	public function banner()
+	{
+		$this->load->model('BannerModel');
+        $result = $this->BannerModel->todos();
+
+		//$this->load->view('plantilla/cabecera_admin.php');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Banner','ruta'=>'banner'));
+		$this->load->view('admin/banner_admin.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function bannerCrear()
+	{
+		$this->load->model("ArchivoModel");
+		//echo "archivo subir ->".$this->upload;
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+
+		$this->load->model("BannerModel");
+		
+        $add = $this->BannerModel->crear(
+            $this->input->post("titulo"),
+			$this->input->post("subtitulo"),			
+			$this->input->post("descripcion"),
+			$this->input->post("link"),
+			$imagenNombre,
+			$this->input->post("orden")
+		);
+		
+		//echo $imagenNombre;
+		redirect('admin/banner');
+
+	}
+
+	public function bannerEliminar($id)
+	{
+		if($id != NULL)
+        {
+            $this->load->model("BannerModel");
+            $this->BannerModel->eliminar($id);
+            redirect('admin/banner');
+        }
+	}
+
+	public function bannerEditar()
+	{		
+		$this->load->model("ArchivoModel");
+		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
+				
+		$this->load->model('BannerModel');
+        $this->BannerModel->editar(
+			$this->input->post("id"),
+            $this->input->post("titulo"),
+			$this->input->post("subtitulo"),			
+			$this->input->post("descripcion"),
+			$this->input->post("link"),
+			$imagenNombre,
+			$this->input->post("orden")
+		);
+		echo "Datos Editando";
+        redirect('admin/banner');
+	}
+
+	public function bannerEditarVista($id = NULL)
+	{		
+		$this->load->model('BannerModel');
+        $result = $this->BannerModel->buscarPorId($id);
+
+		//$this->load->view('plantilla/cabecera_admin.php');
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Editar Banner','ruta'=>'nuestrosClientesEditarVista'));
+		$this->load->view('admin/banner_editar.php',array('consulta' =>$result));
+		$this->load->view('plantilla/piepagina.php');
+	}
+
 }

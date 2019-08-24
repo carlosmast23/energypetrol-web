@@ -7,59 +7,33 @@
 <div class="tp-banner-container">
     <div class="tp-banner">
         <ul>
-            <!-- SLIDE  -->
-            <li data-title="Intro Slide" data-saveperformance="on" data-masterspeed="500" data-slotamount="7" data-transition="fade">
-                <!-- MAIN IMAGE -->
-                <img data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center top" data-lazyload="<?= base_url() ?>public/upload/slide/1.jpg" alt="slidebg1" src="<?= base_url() ?>public/upload\slide\1.jpg">
-                <!-- LAYERS -->
-                <!-- LAYER NR. 1 -->
-                <div style="z-index: 8; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1200" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="280" data-x="0" class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0">Integradores de Tecnolog&iacute;a&nbsp;&nbsp;<br>
-                    <span>Innovando desde 1998</span> <br>
-                </div>
-                <!-- LAYER NR. 2 -->
-                <div style="z-index: 7; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.05" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1800" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="400" data-x="0" class="tp-caption small_text customin tp-resizeme rs-parallaxlevel-0 backgroun-col">
-                    <div style="text-align: left;">Energypetrol ha venido desarrollando soluciones integrales desde hace m&aacute;s de dos d&eacute;cadas,</div>
-                    <div style="text-align: left;">consolidando su liderazgo&nbsp;en el mercado Petrolero e Industrial del Ecuador.</div>
-                </div>
-                <!-- LAYER NR. 3 -->
-                <div style="text-align: left; z-index: 10; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="530" data-x="0" class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="<?= base_url() ?>index.php/welcome/productosServicios">Ver m&aacute;s</a></div>
-                <!-- LAYER NR. 4 -->
-            </li>
-            <!-- SLIDE  -->
-            <li data-title="Ken Burns Slide" data-saveperformance="on" data-masterspeed="2000" data-slotamount="7" data-transition="fade">
-                <!-- MAIN IMAGE -->
-                <img data-bgpositionend="center bottom" data-bgfitend="100" data-bgfit="115" data-ease="Power0.easeInOut" data-duration="12000" data-kenburns="on" data-bgposition="right top" data-lazyload="<?= base_url() ?>public/upload/slide/6.jpg" alt="2" src="<?= base_url() ?>public/upload\slide\6.jpg">
-                <!-- LAYERS -->
-                <!-- LAYER NR. 1 -->
-                <div style="z-index: 9; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.05" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1200" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="410" data-x="370" class="tp-caption small_text customin tp-resizeme rs-parallaxlevel-0">
-                </div>
-                <!-- LAYER NR. 2 -->
-                <div style="z-index: 7; white-space: nowrap;" data-endelementdelay="0.05" data-elementdelay="0.05" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1500" data-speed="500" data-y="358" data-x="100" class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0">Usted sabe qu&eacute; quiere hacer
-                </div>
-                <!-- LAYER NR. 3 -->
-                <div style="z-index: 7; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1500" data-speed="500" data-y="414" data-x="95" class="tp-caption finewide_medium_white lfr tp-resizeme rs-parallaxlevel-0"><span>NOSOTROS SABEMOS C&Oacute;MO HACERLO <br>
-                        NOSOTROS TENEMOS LA SOLUCI&Oacute;N</span></div>
-                <!-- LAYER NR. 4 -->
-                <div style="z-index: 12; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="580" data-x="470" class="tp-caption lfb tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="<?= base_url() ?>index.php/welcome/videos">Ver Proyectos</a></div>
-            </li>
-            <!-- SLIDE  -->
-            <li data-title="Parallax 3D" data-saveperformance="on" data-masterspeed="1000" data-slotamount="7" data-transition="fade">
-                <!-- MAIN IMAGE -->
-                <img data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center top" data-lazyload="<?= base_url() ?>public/upload/slide/3.jpg" alt="3dbg" src="<?= base_url() ?>public/upload\slide\3.jpg">
-                <!-- LAYERS -->
-                <!-- LAYER NR. 1 -->
-                <div style="z-index: 8; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1200" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="280" data-x="0" class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0"><span>EnergyPetrol</span><br>
-                </div>
-                <!-- LAYER NR. 2 -->
-                <div style="z-index: 7; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.05" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1800" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="350" data-x="0" class="tp-caption small_text customin tp-resizeme rs-parallaxlevel-0 backgroun-col">Trabajamos con miras al desarrollo <br>
-                    constante de nuestro personal y de nuestro pa&iacute;s<br>
-                </div>
-                <!-- LAYER NR. 3 -->
-                <div style="z-index: 10; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="490" data-x="0" class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="<?= base_url() ?>index.php/welcome/nosotros">Ver m&aacute;s</a></div>
-                <!-- LAYER NR. 4 -->
-            </li>
+            <?php
+            foreach ($banner->result() as $fila) {
+                ?>
+                <!-- SLIDE  -->
+                <li data-title="Intro Slide" data-saveperformance="on" data-masterspeed="500" data-slotamount="7" data-transition="fade">
+                    <!-- MAIN IMAGE -->
+                    <img data-bgrepeat="no-repeat" data-bgfit="cover" data-bgposition="center top" data-lazyload="<?= base_url() ?>/uploads/<?php echo $fila->imagen ?>" alt="slidebg1" src="<?= base_url() ?>/uploads/<?php echo $fila->imagen ?>">
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div style="z-index: 8; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1200" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="280" data-x="0" class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0"><?php echo $fila->titulo ?><br>
+                        <span><?php echo $fila->subtitulo ?></span> <br>
+                    </div>
+                    <!-- LAYER NR. 2 -->
+                    <div style="z-index: 7; white-space: nowrap;" data-endelementdelay="0.1" data-elementdelay="0.05" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="1800" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="400" data-x="0" class="tp-caption small_text customin tp-resizeme rs-parallaxlevel-0 backgroun-col">
+                        <div style="text-align: left;"><?php echo $fila->descripcion ?></div>
+                        <!--<div style="text-align: left;">consolidando su liderazgo&nbsp;en el mercado Petrolero e Industrial del Ecuador.</div>-->
+                    </div>
+                    <!-- LAYER NR. 3 -->
+                    <div style="text-align: left; z-index: 10; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="530" data-x="0" class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="<?php echo $fila->link ?>">Ver m&aacute;s</a></div>
+                    <!-- LAYER NR. 4 -->
+                </li>
+            <?php
+            }
+            ?>
         </ul>
         <div class="tp-bannertimer"></div>
+
     </div>
 </div>
 </section>
@@ -154,7 +128,7 @@
                                 <ul class="partner-logo">
                                     <?php foreach ($clientes->result() as $fila) {
                                         ?>
-                                        <li><img alt="" src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>" ></li>                                        
+                                        <li><img alt="" src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>"></li>
                                     <?php }
                                     ?>
                                 </ul>

@@ -23,11 +23,15 @@ class Welcome extends CI_Controller {
 		$this->load->model('ProyectoModel');
 		$result = $this->ProyectoModel->todos();
 		
+		$this->load->model('BannerModel');
+		$banner = $this->BannerModel->todos();
+		
+
 		$this->load->model('NuestrosClientesModel');
         $nuestrosClientes = $this->NuestrosClientesModel->todos();
 
 		$this->vistaCabeceraConDatos();
-		$this->load->view('index.php',array('consulta'=>$result,'clientes'=>$nuestrosClientes));		
+		$this->load->view('index.php',array('consulta'=>$result,'clientes'=>$nuestrosClientes,'banner'=>$banner));		
 		$this->load->view('plantilla/piepagina.php');
 	}
 

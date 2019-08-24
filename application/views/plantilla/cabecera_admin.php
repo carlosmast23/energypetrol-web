@@ -90,13 +90,19 @@
                     <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/index" class="active">General</a> </li>
-                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/videos" >Videos</a> </li>
-                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/categoriaProducto" >Cat Marcas</a> </li>                            
-                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/categoria" >Categorias</a> </li>                            
-                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/producto" >Productos</a> </li>                            
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/banner" >Banner</a> </li>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/videos" >Video</a> </li>                      
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyecto" >Proyecto</a> </li>                            
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyectoAnio" >Proyecto del año</a> </li>
-                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/nuestrosClientes" >Nuestros Clientes</a> </li>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/nuestrosClientes" >Nuestros Cliente</a> </li>
+                            
+                            <li class="drop"><a href="#">Productos</a>
+                                <ul class="dropdown">
+                                    <li><a href="<?= base_url() ?>index.php/admin/categoriaProducto">Categoria Marca</a></li>
+                                    <li><a href="<?= base_url() ?>index.php/admin/categoria">Categoria</a></li>
+                                    <li><a href="<?= base_url() ?>index.php/admin/producto">Producto</a></li>
+                                </ul>
+                            </li>
                             
                         </ul>
                     </div>

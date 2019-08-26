@@ -244,8 +244,7 @@ class Admin extends CI_Controller {
 	}
 
 	public function categoriaEditar()
-	{
-		
+	{	
 		$this->load->model("ArchivoModel");
 		$imagenNombre=$this->ArchivoModel->cargar_archivo("imagen");
 		
@@ -255,7 +254,8 @@ class Admin extends CI_Controller {
 			$this->input->post("tipo"),
 			$this->input->post("nombre"),
 			$this->input->post("descripcion"),
-			$imagenNombre
+			$imagenNombre,
+			$this->input->post("archivo_descarga")
 
         );
         redirect('admin/categoria');
@@ -284,7 +284,8 @@ class Admin extends CI_Controller {
 			$this->input->post("tipo"),
             $this->input->post("nombre"),
 			$this->input->post("descripcion"),
-			$imagenNombre
+			$imagenNombre,
+			$this->input->post("archivo_descarga")
 		);
 		
 		//echo $imagenNombre;
@@ -487,7 +488,8 @@ class Admin extends CI_Controller {
 			$this->input->post("id"),
 			$this->input->post("nombre"),
 			$this->input->post("descripcion"),
-			$this->input->post("orden")
+			$this->input->post("orden"),
+			$this->input->post("email")
         );
         redirect('admin/categoriaProducto');
 	}
@@ -510,7 +512,8 @@ class Admin extends CI_Controller {
         $add = $this->CategoriaProductoModel->crear(
             $this->input->post("nombre"),
 			$this->input->post("descripcion"),
-			$this->input->post("orden")
+			$this->input->post("orden"),
+			$this->input->post("email")
 		);
 		
 		//echo $imagenNombre;

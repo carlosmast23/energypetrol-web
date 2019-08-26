@@ -4,20 +4,23 @@
             <form action="<?= base_url() ?>index.php/admin/categoriaProductoCrear" method="POST" enctype="multipart/form-data">
                 <div class="form-group row">
                     <div class="col-md-3">
-
                         <input type="text" class="form-control" value="" name="nombre" placeholder="Nombre">
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-md-6">
-
                         <input type="text" class="form-control" value="" name="descripcion" placeholder="Descripción">
                     </div>
                 </div>
 
                 <div class="form-group row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" value="" name="email" placeholder="Email">
+                    </div>
+                </div>
+               
+                <div class="form-group row">
                     <div class="col-md-1">
-
                         <input type="text" class="form-control" value="" name="orden" placeholder="Orden">
                     </div>
                 </div>
@@ -36,7 +39,8 @@
                 <thead>
                     <tr>
                         <th style="width:20%">Nombre</th>
-                        <th style="width:20%">Orden</th>
+                        <th style="width:10%">Orden</th>
+                        <th style="width:20%">Email</th>
                         <th style="width:50%">Descripción</th>                        
                         <th>Acciones</th>
 
@@ -49,6 +53,7 @@
                         <tr>
                             <td><?php echo $fila->nombre ?></td>
                             <td><?php echo $fila->orden ?></td>
+                            <td><?php echo $fila->email ?></td>
                             <td><?php echo $fila->descripcion ?></td>
                             
                             <td>

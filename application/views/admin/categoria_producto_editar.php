@@ -17,12 +17,22 @@
                 </div>
 
                 <div class="form-group row">
-                    <div class="col-md-1">
-
-                        <input type="text" class="form-control" value="<?php echo $consulta['orden'] ?>" name="orden" placeholder="Orden">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" value="<?php echo $consulta['email'] ?>" name="email" placeholder="Email">
                     </div>
                 </div>
 
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <input type="password" class="form-control" value="<?php echo $consulta['clave'] ?>" name="clave" placeholder="Clave">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-1">
+                        <input type="text" class="form-control" value="<?php echo $consulta['orden'] ?>" name="orden" placeholder="Orden">
+                    </div>
+                </div>
 
                 <div class="form-group row">
                     <div class="col-sm-10">

@@ -35,6 +35,13 @@
                 <div class="form-group row">
                     <div class="col-md-6">
 
+                        <input type="text" class="form-control" value="" name="archivo_descarga" placeholder="Link archivo PDF descarga">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-6">
+
                         <input type="file" value="" name="imagen" placeholder="Imagen">
                     </div>
                 </div>
@@ -52,8 +59,9 @@
                 <thead>
                     <tr>
                         <th style="width:20%">Nombre</th>
-                        <th style="width:20%">Tipo</th>
+                        <th style="width:15%">Tipo</th>                        
                         <th style="width:40%">Descripción</th>
+                        <th style="width:15%">Link Archivo Descarga</th>
                         <th style="width:10%">Imagen</th>
                         <th>Acciones</th>
 
@@ -67,9 +75,11 @@
                             <td><?php echo $fila->nombre ?></td>
                             <td><?php echo $fila->nombre_tipo ?></td>
                             <td><?php echo $fila->descripcion ?></td>
+                            <td><?php echo $fila->archivo_descarga ?></td>
                             <td>
                                 <img src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>"></img>
                             </td>
+                            
                             <td>
                                 <a href="<?php echo base_url('index.php/admin/categoriaEditarVista') . "/" . $fila->id ?>" title="Editar"><i class="fa fa-edit fa-lg" aria-hidden="true"></i></a>
                                 <a onclick="return confirm('Esta seguro que quiere eliminar el registro?')" href="<?php echo base_url('index.php/admin/categoriaEliminar') . "/" . $fila->id ?>" title="Eliminar">

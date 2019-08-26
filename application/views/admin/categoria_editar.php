@@ -32,6 +32,13 @@
                         <input type="text" value="<?php echo $consulta['descripcion'] ?>" class="form-control" value="" name="descripcion" placeholder="Descripción">
                     </div>
                 </div>
+                
+                <div class="form-group row">
+                    <div class="col-md-6">
+
+                        <input type="text" class="form-control" value="<?php echo $consulta['archivo_descarga'] ?>" name="archivo_descarga" placeholder="Link archivo PDF descarga">
+                    </div>
+                </div>
 
                 <div class="form-group row">
                     <div class="col-md-6">

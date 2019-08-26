@@ -81,11 +81,14 @@ class Welcome extends CI_Controller {
 		$result = $this->CategoriaModel->buscarPorCategoriaId($id);
 		
 		$this->load->model('CategoriaProductoModel');
-        $categorias = $this->CategoriaProductoModel->todos();
+		$categorias = $this->CategoriaProductoModel->todos();
+		
+		$this->load->model('CategoriaProductoModel');
+        $categoriaSeleccionada = $this->CategoriaProductoModel->buscarPorId($id);
 
 		$this->vistaCabeceraConDatos();
 		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Stock','ruta'=>'stock'));
-		$this->load->view('stock.php',array('consulta' =>$result,'categorias'=>$categorias));
+		$this->load->view('stock.php',array('consulta' =>$result,'categorias'=>$categorias,'categoriaSeleccionada'=>$categoriaSeleccionada));
 		$this->load->view('plantilla/piepagina.php');
 	}
 
@@ -256,10 +259,14 @@ class Welcome extends CI_Controller {
 	public function productoVenta($id = NULL)
 	{
 		$this->load->model('ProductoVentaModel');
-        $result = $this->ProductoVentaModel->buscarPorCategoriaId($id);
+		$result = $this->ProductoVentaModel->buscarPorCategoriaId($id);
+		
+		$this->load->model('CategoriaModel');
+		$categoriaSeleccionada = $this->CategoriaModel->buscarPorId($id);
+		
 		$this->vistaCabeceraConDatos();
 		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Productos','ruta'=>'productoVenta'));
-		$this->load->view('producto_venta.php',array('consulta' =>$result));
+		$this->load->view('producto_venta.php',array('consulta' =>$result,'categoriaSeleccionada'=>$categoriaSeleccionada));
 		$this->load->view('plantilla/piepagina.php');
 
 		
@@ -274,6 +281,28 @@ class Welcome extends CI_Controller {
 		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Productos','ruta'=>'productos'));
 		$this->load->view('categoria_producto.php',array('consulta' =>$result));
 		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function enviarCorreoProducto()
+	{
+		$mensaje="=================> ME INTERESA EL PRODUCTO <===================\n";
+
+		$mensaje=$mensaje."Producto: ".$this->input->post('producto')."\n";
+		$mensaje=$mensaje."Correo: ".$this->input->post('correo')."\n";
+		$mensaje=$mensaje."Telefono: ".$this->input->post('telefono')."\n";
+		$mensaje=$mensaje."Mensaje: ".$this->input->post('mensaje')."\n";
+		
+		$this->load->model("email_model","model");
+
+		if($this->model->enviar_mail($this->input->post('correo_vendedor'),"Me interesa el producto:",$mensaje))
+		{
+			redirect('welcome/stock/1');
+		}
+		else 
+		{
+			redirect('welcome/stock/1');
+		}
+
 	}
 
 	//==================> FUNCIONES ADICIONALES PARA LA VISTA <=====================================//

@@ -16,9 +16,7 @@
                     </figcaption>
                     <div class="bottom-wrap">
                         <a href="" onclick='$("#test1").val("<?php echo $fila->nombre ?>");' class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#exampleModal">Me interesa</a>
-                        <div class="price-wrap h5">
-                            <span class="price-new">$$$$</span>
-                        </div> <!-- price-wrap.// -->
+                        
                     </div> <!-- bottom-wrap.// -->
                 </figure>
             </div>

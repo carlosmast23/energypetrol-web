@@ -12,10 +12,31 @@
 
         public function login($usuario,$clave)
         {
-            if($usuario=="root" && $clave=="1234")
+            if($usuario=="root" && $clave=="Adminsis2019")
             {
                 return true;
             }
+
+            if($usuario=="mecanica" && $clave=="Mecanica2019")
+            {
+                return true;
+            }
+
+            if($usuario=="electrica" && $clave=="Electronica2019")
+            {
+                return true;
+            }
+
+            if($usuario=="instrumentacion" && $clave=="Instrumentacion2019")
+            {
+                return true;
+            }
+
+            if($usuario=="sci" && $clave=="Sci2019")
+            {
+                return true;
+            }
+            
             return false;
         }
 

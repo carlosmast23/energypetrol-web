@@ -94,7 +94,7 @@
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/videos" >Video</a> </li>                      
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyecto" >Proyecto</a> </li>                            
                             <li class="drop"><a href="<?= base_url() ?>index.php/admin/proyectoAnio" >Proyecto del año</a> </li>
-                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/nuestrosClientes" >Nuestros Cliente</a> </li>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/admin/nuestrosClientes" >Nuestros Clientes</a> </li>
                             
                             <li class="drop"><a href="#">Productos</a>
                                 <ul class="dropdown">

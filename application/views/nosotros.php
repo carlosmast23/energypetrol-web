@@ -29,7 +29,7 @@
             <div class="project-content">
                <div class="project-content-box">
                   <h2>Misi&oacute;n</h2>
-                  <p>Ser la empresa l&iacute;der en la provisi&oacute;n de tecnolog&iacute;a acorde al avance del mercado mundial, para satisfacer los requerimientos y expectativas de nuestros clientes.</p>
+                  <p>Ser una empresa líder en la provisión de tecnología acorde con el avance del mercado mundial, para satisfacer los requerimientos y expectativas de los clientes en la provisión de equipos, materiales, servicios de ingeniería y construcción; entregando calidad, efectividad y valor agreegado, que están incorporados en nuestras actividades, asegurando de ésta manera el mejoramiento continuo; siempre comprometidos con el bienestar de sus empleados y de la comunidad.</p>
                </div>
                <div class="project-content-box">
                   <h2>Visi&oacute;n</h2>

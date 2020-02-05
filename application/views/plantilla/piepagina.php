@@ -15,13 +15,13 @@
                         <div class="footer-widget">
                             <p>Productos y Servicios</p>
                             <ul class="tag-list">
-                                <li><a href="mecanico.html">Mec&aacute;nico</a></li>
-                                <li><a href="electrico.html">El&eacute;ctrico</a></li>
-                                <li><a href="fireandgas.html">Sistema Contra Incendio</a></li>
-                                <li><a href="instrumentacion.html">Instrumentaci&oacute;n</a></li>
-                                <li><a href="paquetizados.html">Paquetizados</a></li>
-                                <li><a href="simoprime.html">Simoprime</a></li>
-                                <li><a href="gabinetes.html">Gabinetes Met&aacute;licos</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/firegas">Sistema Contra Incendio</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/instrumentacion">Instrumentaci&oacute;n</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
                             </ul>
                         </div>
                     </div>

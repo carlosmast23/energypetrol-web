@@ -95,7 +95,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="drop"><a href="<?= base_url() ?>index.php/welcome" class="active">Inicio</a> </li>
                             <li class="drop"><a href="<?= base_url() ?>index.php/welcome/nosotros">Nosotros</a> </li>
-                            <li class="drop"><a href="<?= base_url() ?>index.php/welcome/productosServicios">Productos y Servicios</a>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/welcome/productosServicios">Proyectos y Servicios</a>
                                 <ul class="dropdown">
                                     <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
                                     <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
@@ -107,7 +107,7 @@
                                 </ul>
                             </li>
                             <li class="drop"><a href="<?= base_url() ?>index.php/welcome/videos">Videos</a> </li>
-                            <li class="drop"><a href="<?= base_url() ?>index.php/welcome/stock">Stock</a> </li>
+                            <li class="drop"><a href="<?= base_url() ?>index.php/welcome/stock/1">Stock</a> </li>
                             <li class="drop"><a href="<?= base_url() ?>index.php/welcome/contactanos">Contacto</a></li>
                             <li class="drop"><a href="http://190.12.34.94:8080/EnergyFac/" target="_blank">Facturaci&oacute;n Electr&oacute;nica</a></li>
                         </ul>

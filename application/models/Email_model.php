@@ -27,9 +27,9 @@ class Email_model extends CI_Model {
             );
         $mail->Host = "smtp.gmail.com";
         $mail->Port       = 587;                   // SMTP port to connect to GMail
-        $mail->Username   = "carlosmast2302@gmail.com";  // user email address
-        $mail->Password   = "especodesoft2302";            // password in GMail
-        $mail->SetFrom('carlosmast2302@gmail.com', ',MedImagenes');  //Who is sending the email
+        $mail->Username   = "servicios@energypetrol.net";  // user email address
+        $mail->Password   = "Energy+2019";            // password in GMail
+        $mail->SetFrom('carlosmast2302@gmail.com', 'EnergyPetrol');  //Who is sending the email
 
         $mail->Subject = $subject;
         $mail->Body = $body;

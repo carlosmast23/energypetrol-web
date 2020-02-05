@@ -43,7 +43,7 @@
                             <h2>Informaci&oacute;n de Cont&aacute;cto</h2>
                             <ul class="information-list">
                                 <li><em class="fa fa-phone"></em><span> 593 2 292 3064 / ext.103</span></li>
-                                <li><em class="fa fa-envelope-o"></em><span> cesar_duque@energypetrol.net</span></li>
+                                <li><em class="fa fa-envelope-o"></em><span> cesar_flores@energypetrol.net</span></li>
                             </ul>
                         </div>
                     </div>

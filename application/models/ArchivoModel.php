@@ -21,7 +21,7 @@ class ArchivoModel extends CI_Model {
         if (!$this->upload->do_upload($mi_archivo)) {
             //*** ocurrio un error
             $data['uploadError'] = $this->upload->display_errors();
-            echo $this->upload->display_errors();
+            //echo $this->upload->display_errors();
             return;
         }
 

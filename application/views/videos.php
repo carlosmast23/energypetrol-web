@@ -6,7 +6,7 @@
                                         ?>
                                         <div class="project-post interior">
                                                 <iframe src="<?php echo $fila->url ?>" width="262" height="175" frameborder="0"></iframe>
-                                                <p><a href="<?php echo $fila->url ?>">Separador Trif&aacute;sico Horizontal 24000 BPD</a> from <a href="<?php echo $fila->url ?>">ENERGYPETROL S.A.</a></p>
+                                                <p><a href="<?php echo $fila->url ?>"><?php echo $fila->titulo ?></a> from <a href="<?php echo $fila->url ?>">ENERGYPETROL S.A.</a></p>
                                         </div>
                                 <?php
                                 }

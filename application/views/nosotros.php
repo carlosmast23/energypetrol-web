@@ -41,35 +41,42 @@
                      <table>
                         <tr>
                            <td>* Honestidad</td>
-                           <td width="30%"/>
+                           <td width="18%"/>
                            <td>* Gratitud</td>
                         </tr>
                         <tr>
                            <td>* Veracidad</td>
+                           <td width="18%"/>
                            <td>* Prudencia</td>
                         </tr>
                         <tr>
                            <td>* Honor</td>
+                           <td width="18%"/>
                            <td>* Sobriedad</td>
                         </tr>
                         <tr>
                            <td>* Integridad</td>
+                           <td width="18%"/>
                            <td>* Liderazgo</td>
                         </tr>
                         <tr>
                            <td>* Solidad</td>                           
+                           <td width="18%"/>
                            <td>* Perseverancia</td>
                         </tr>
                         <tr>
                            <td>* Responsabilidad</td>
+                           <td width="18%"/>
                            <td>* Proactividad</td>
                         </tr>
                         <tr>
                            <td>* Respeto</td>
+                           <td width="18%"/>
                            <td>* Transparencia</td>
                         </tr>
                         <tr>
                            <td>* Optimismo</td>
+                           <td width="18%"/>
                            <td>* Calidad</td>
                         </tr>
                         <tr>

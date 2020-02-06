@@ -37,15 +37,45 @@
                </div>
                <div class="project-content-box">
                   <h2>Valores Organizacionales</h2>
-                  <p>*  HONESTIDAD           *  GRATITUD </p>
-                  <p>*  VERACIDAD            *  PRUDENCIA </p>
-                  <p>*  HONOR                *  SOBRIEDAD </p>
-                  <p>*  INTEGRIDAD           *  LIDERAZGO </p>
-                  <p>*  SOLIDARIDAD          *  PERSEVERANCIA </p>
-                  <p>*  RESPONSABILIDAD      *  PROACTIVIDAD </p>
-                  <p>*  RESPETO              *  TRANSPARENCIA</p>
-                  <p>*  OPTIMISMO            *  CALIDAD</p>
-                  <p>*  LEALTAD</p>
+                  <p>
+                     <table>
+                        <tr>
+                           <td>* Honestidad</td>
+                           <td>* Gratitud</td>
+                        </tr>
+                        <tr>
+                           <td>* Veracidad</td>
+                           <td>* Prudencia</td>
+                        </tr>
+                        <tr>
+                           <td>* Honor</td>
+                           <td>* Sobriedad</td>
+                        </tr>
+                        <tr>
+                           <td>* Integridad</td>
+                           <td>* Liderazgo</td>
+                        </tr>
+                        <tr>
+                           <td>* Solidad</td>
+                           <td>* Perseverancia</td>
+                        </tr>
+                        <tr>
+                           <td>* Responsabilidad</td>
+                           <td>* Proactividad</td>
+                        </tr>
+                        <tr>
+                           <td>* Respeto</td>
+                           <td>* Transparencia</td>
+                        </tr>
+                        <tr>
+                           <td>* Optimismo</td>
+                           <td>* Calidad</td>
+                        </tr>
+                        <tr>
+                           <td>* Lealtad</td>
+                        </tr>
+                     </table>
+                  </p>
                </div>
             </div>
          </div>

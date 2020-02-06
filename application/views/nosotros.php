@@ -37,7 +37,6 @@
                </div>
                <div class="project-content-box">
                   <h2>Valores Organizacionales</h2>
-                  <p>
                      <table>
                         <tr>
                            <td>* Honestidad</td>
@@ -83,7 +82,6 @@
                            <td>* Lealtad</td>
                         </tr>
                      </table>
-                  </p>
                </div>
             </div>
          </div>

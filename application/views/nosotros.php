@@ -18,22 +18,32 @@
                      <br>
                   </p>
                   <h2>Historia</h2>
-                  <p><strong>ENERGYPETROL S.A.</strong> es una compa&ntilde;&iacute;a Ecuatoriana Fundada en 1998, la empresa cuenta con experiencia desde el a&ntilde;o de 1993.&nbsp;El objetivo principal de Energypetrol es atender las necesidades en provisiones de productos y servicios para el sector petrolero e industrial del pa&iacute;s.</p>
-                  <p>Gracias a nuestros a&ntilde;os de experiencia y nuestro buen desempe&ntilde;o en el sector Petrolero e Industrial, contamos con la fortaleza de tener representaciones de l&iacute;neas de productos de primera categor&iacute;a. </p>
+                  <p align="justify"><strong>ENERGYPETROL S.A.</strong> es una compa&ntilde;&iacute;a Ecuatoriana Fundada en 1998, la empresa cuenta con experiencia desde el a&ntilde;o de 1993.&nbsp;El objetivo principal de Energypetrol es atender las necesidades en provisiones de productos y servicios para el sector petrolero e industrial del pa&iacute;s.</p>
+                  <p align="justify">Gracias a nuestros a&ntilde;os de experiencia y nuestro buen desempe&ntilde;o en el sector Petrolero e Industrial, contamos con la fortaleza de tener representaciones de l&iacute;neas de productos de primera categor&iacute;a. </p>
                </div>
             </div>
          </div>
       </div>
+
+      <div class="row">
+          <div class="col-md-5">
+             <h2>POLÍTICA DEL SISTEMA INTEGRADO DE GESTIÓN</h2>
+             <p align="justify">ENERGYPETROL S.A.  Es una empresa dedicada a la "Comercialización, intalación de equipos, materiales y sistemas integrados electrónicos y mecánicos para el sector petrolero industrial" comprometida con la seguridad, salud de los trabajadores y el medio ambiente, proporcionando condiciones seguras y saludables para la prevención de riesgos y evitar el deterioro de la salud, además concientiza al cumplimiento de las mejores prácticas ambientales como la protección del medio ambiente y prevención de la contaminación.
+             ENERGYPETROL S.A. Tiene el firme compromiso del cumplimiento de los requisitos legales y otros aplicables, tendiendo a la mejora continua y con la participación y consulta de los trabajadores.
+             La Alta Dirección de la empresa está comprometida con su utilización revisandola cuando sea conveniente para asegurar su vigencia.</p>
+          </div>
+      </div>
+
       <div class="row">
          <div class="col-md-5">
             <div class="project-content">
                <div class="project-content-box">
                   <h2>Misi&oacute;n</h2>
-                  <p>Ser una empresa líder en la provisión de tecnología acorde con el avance del mercado mundial, para satisfacer los requerimientos y expectativas de los clientes en la provisión de equipos, materiales, servicios de ingeniería y construcción; entregando calidad, efectividad y valor agreegado, que están incorporados en nuestras actividades, asegurando de ésta manera el mejoramiento continuo; siempre comprometidos con el bienestar de sus empleados y de la comunidad.</p>
+                  <p align="justify">Ser una empresa líder en la provisión de tecnología acorde con el avance del mercado mundial, para satisfacer los requerimientos y expectativas de los clientes en la provisión de equipos, materiales, servicios de ingeniería y construcción; entregando calidad, efectividad y valor agreegado, que están incorporados en nuestras actividades, asegurando de ésta manera el mejoramiento continuo; siempre comprometidos con el bienestar de sus empleados y de la comunidad.</p>
                </div>
                <div class="project-content-box">
                   <h2>Visi&oacute;n</h2>
-                  <p>Fortalecer nuestro liderazgo mediante soluciones tecnológicas integrales e innovadoras, para satisfacer los requerimientos del sector industrial nacional e internacional.Aplicando lo mejor de la acumulación de conocimiento y experiencia tecnológica mundial, para producir aplicaciones prácticas y económicas, con capacitación continua a nuestro personal, generando motivación y alta calificación profesional manteniendo un equipo de trabajo efectivo. La calidad en los productos y servicios que ofrecemos permanecerán como nuestra prioridad para lograr un cliente satisfecho.</p>
+                  <p align="justify">Fortalecer nuestro liderazgo mediante soluciones tecnológicas integrales e innovadoras, para satisfacer los requerimientos del sector industrial nacional e internacional.Aplicando lo mejor de la acumulación de conocimiento y experiencia tecnológica mundial, para producir aplicaciones prácticas y económicas, con capacitación continua a nuestro personal, generando motivación y alta calificación profesional manteniendo un equipo de trabajo efectivo. La calidad en los productos y servicios que ofrecemos permanecerán como nuestra prioridad para lograr un cliente satisfecho.</p>
                </div>
                <div class="project-content-box">
                   <h2>Valores Organizacionales</h2>
@@ -41,7 +51,7 @@
                         <tr>
                            <td>* Honestidad</td>
                            <td width="18%"/>
-                           <td>* Gratitud</td>
+                           <table></table>d>* Gratitud</td>
                         </tr>
                         <tr>
                            <td>* Veracidad</td>

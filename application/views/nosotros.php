@@ -29,11 +29,23 @@
             <div class="project-content">
                <div class="project-content-box">
                   <h2>Misi&oacute;n</h2>
-                  <p align="justify">Ser una empresa líder en la provisión de tecnología acorde con el avance del mercado mundial, para satisfacer los requerimientos y expectativas de los clientes en la provisión de equipos, materiales, servicios de ingeniería y construcción; entregando calidad, efectividad y valor agreegado, que están incorporados en nuestras actividades, asegurando de ésta manera el mejoramiento continuo; siempre comprometidos con el bienestar de sus empleados y de la comunidad.</p>
+                  <p>Ser una empresa líder en la provisión de tecnología acorde con el avance del mercado mundial, para satisfacer los requerimientos y expectativas de los clientes en la provisión de equipos, materiales, servicios de ingeniería y construcción; entregando calidad, efectividad y valor agreegado, que están incorporados en nuestras actividades, asegurando de ésta manera el mejoramiento continuo; siempre comprometidos con el bienestar de sus empleados y de la comunidad.</p>
                </div>
                <div class="project-content-box">
                   <h2>Visi&oacute;n</h2>
-                  <p>Consolidar nuestro liderazgo mediante soluciones integrales e innovadoras priorizando la calidad en los productos y servicios que ofrecemos para lograr un cliente satisfecho.</p>
+                  <p>Fortalecer nuestro liderazgo mediante soluciones tecnológicas integrales e innovadoras, para satisfacer los requerimientos del sector industrial nacional e internacional.Aplicando lo mejor de la acumulación de conocimiento y experiencia tecnológica mundial, para producir aplicaciones prácticas y económicas, con capacitación continua a nuestro personal, generando motivación y alta calificación profesional manteniendo un equipo de trabajo efectivo. La calidad en los productos y servicios que ofrecemos permanecerán como nuestra prioridad para lograr un cliente satisfecho.</p>
+               </div>
+               <div class="project-content-box">
+                  <h2>Valores Organizacionales</h2>
+                  <p>*  HONESTIDAD           *  GRATITUD </p>
+                  <p>*  VERACIDAD            *  PRUDENCIA </p>
+                  <p>*  HONOR                *  SOBRIEDAD </p>
+                  <p>*  INTEGRIDAD           *  LIDERAZGO </p>
+                  <p>*  SOLIDARIDAD          *  PERSEVERANCIA </p>
+                  <p>*  RESPONSABILIDAD      *  PROACTIVIDAD </p>
+                  <p>*  RESPETO              *  TRANSPARENCIA</p>
+                  <p>*  OPTIMISMO            *  CALIDAD</p>
+                  <p>*  LEALTAD</p>
                </div>
             </div>
          </div>

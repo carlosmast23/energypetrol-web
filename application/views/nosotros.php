@@ -27,10 +27,12 @@
 
       <div class="row">
          <div class="col-md-12">
-            <h2>Política del Sistema Integrado de Gestión</h2>
-            <p align="justify">ENERGYPETROL S.A.  Es una empresa dedicada a la "Comercialización, intalación de equipos, materiales y sistemas integrados electrónicos y mecánicos para el sector petrolero industrial" comprometida con la seguridad, salud de los trabajadores y el medio ambiente, proporcionando condiciones seguras y saludables para la prevención de riesgos y evitar el deterioro de la salud, además concientiza al cumplimiento de las mejores prácticas ambientales como la protección del medio ambiente y prevención de la contaminación.
-            ENERGYPETROL S.A. Tiene el firme compromiso del cumplimiento de los requisitos legales y otros aplicables, tendiendo a la mejora continua y con la participación y consulta de los trabajadores.
-            La Alta Dirección de la empresa está comprometida con su utilización revisandola cuando sea conveniente para asegurar su vigencia.</p>
+            <div class="project-content-box">
+               <h2>Política del Sistema Integrado de Gestión</h2>
+               <p align="justify">ENERGYPETROL S.A.  Es una empresa dedicada a la "Comercialización, intalación de equipos, materiales y sistemas integrados electrónicos y mecánicos para el sector petrolero industrial" comprometida con la seguridad, salud de los trabajadores y el medio ambiente, proporcionando condiciones seguras y saludables para la prevención de riesgos y evitar el deterioro de la salud, además concientiza al cumplimiento de las mejores prácticas ambientales como la protección del medio ambiente y prevención de la contaminación.
+               ENERGYPETROL S.A. Tiene el firme compromiso del cumplimiento de los requisitos legales y otros aplicables, tendiendo a la mejora continua y con la participación y consulta de los trabajadores.
+               La Alta Dirección de la empresa está comprometida con su utilización revisandola cuando sea conveniente para asegurar su vigencia.</p>
+            </div>
          </div>
          <div class="col-md-5">
             <div class="project-content">

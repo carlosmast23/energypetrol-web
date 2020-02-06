@@ -41,6 +41,7 @@
                      <table>
                         <tr>
                            <td>* Honestidad</td>
+                           <td>\t</td>
                            <td>* Gratitud</td>
                         </tr>
                         <tr>
@@ -49,26 +50,32 @@
                         </tr>
                         <tr>
                            <td>* Honor</td>
+                           <td>\t</td>
                            <td>* Sobriedad</td>
                         </tr>
                         <tr>
                            <td>* Integridad</td>
+                           <td>\t</td>
                            <td>* Liderazgo</td>
                         </tr>
                         <tr>
                            <td>* Solidad</td>
+                           <td>\t</td>
                            <td>* Perseverancia</td>
                         </tr>
                         <tr>
                            <td>* Responsabilidad</td>
+                           <td>\t</td>
                            <td>* Proactividad</td>
                         </tr>
                         <tr>
                            <td>* Respeto</td>
+                           <td>\t</td>
                            <td>* Transparencia</td>
                         </tr>
                         <tr>
                            <td>* Optimismo</td>
+                           <td>\t</td>
                            <td>* Calidad</td>
                         </tr>
                         <tr>

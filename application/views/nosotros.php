@@ -42,7 +42,7 @@
                </div>
                <div class="project-content-box">
                   <h2>Visi&oacute;n</h2>
-                  <p align="justify">Fortalecer nuestro liderazgo mediante soluciones tecnológicas integrales e innovadoras, para satisfacer los requerimientos del sector industrial nacional e internacional.Aplicando lo mejor de la acumulación de conocimiento y experiencia tecnológica mundial, para producir aplicaciones prácticas y económicas, con capacitación continua a nuestro personal, generando motivación y alta calificación profesional manteniendo un equipo de trabajo efectivo. La calidad en los productos y servicios que ofrecemos permanecerán como nuestra prioridad para lograr un cliente satisfecho.</p>
+                  <p align="justify">Fortalecer nuestro liderazgo mediante soluciones tecnológicas integrales e innovadoras, para satisfacer los requerimientos del sector industrial nacional e internacional. Aplicando lo mejor de la acumulación de conocimiento y experiencia tecnológica mundial, para producir aplicaciones prácticas y económicas, con capacitación continua a nuestro personal, generando motivación y alta calificación profesional manteniendo un equipo de trabajo efectivo. La calidad en los productos y servicios que ofrecemos permanecerán como nuestra prioridad para lograr un cliente satisfecho.</p>
                </div>
                <div class="project-content-box">
                   <h2>Valores Organizacionales</h2>
@@ -68,7 +68,7 @@
                            <td>* Liderazgo</td>
                         </tr>
                         <tr>
-                           <td>* Solidad</td>                           
+                           <td>* Solidaridad</td>                           
                            <td width="18%"/>
                            <td>* Perseverancia</td>
                         </tr>

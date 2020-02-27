@@ -31,7 +31,7 @@
             <div class="project-content-box">
                <h2>Política de Calidad</h2>
                <p align="justify">La Alta dirección de ENERGYPETROL S.A. quiere expresar su compromiso para cumplir los requisitos definidos en el Sistema de Gestión de Calidad, así como para aplicar mejoras continuas que lo hagan más eficaz a través de la siguiente política de calidad.</p>
-               <p align="justify">"ENERGYPETROL S.A. tiene el firme compromiso con los clientes de satisfacer sus requerimientos y expectativas, con la creatividad e innovación, para ello garantizamos una cultura de calidad en procesos de ingeniería, aseguramiento de la información, provisión y construcción, basada en los principios de mejora continua, seguridad insdustrial, salud y cuidado con el medio ambiente en nuestras operaciones, con el fin de lograr rentabilidad social económica".</p>
+               <p align="justify">"ENERGYPETROL S.A. tiene el firme compromiso con los clientes de satisfacer sus requerimientos y expectativas, con la creatividad e innovación, para ello garantizamos una cultura de calidad en procesos de ingeniería, aseguramiento de la información, provisión y construcción, basada en los principios de mejora continua, seguridad industrial, salud y cuidado con el medio ambiente en nuestras operaciones, con el fin de lograr rentabilidad social económica".</p>
                <p align="justify">Esta política de calidad define el marco de referencia para el establecimiento de Objetivos de Calidad.</p>
                <p align="justify">La Dirección de la empresa está comprometida con su utilización revisándola cuando sea conveniente para asegurar su vigencia.</p>
             </div>

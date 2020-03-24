@@ -19,7 +19,7 @@
                                 <li><em class="fa fa-map-marker"></em><span>Quito, Ecuador</span></li>
                                 <li><em class="fa fa-phone"></em><span>593 2 292 3064</span></li>
                                 <li><em class="fa fa-envelope-o"></em>
-                                    <div style="margin-left: 20px;">energypetrol@energypetrol.net</div>
+                                    <div style="margin-left: 2px;">energypetrol@energypetrol.net</div>
                                 </li>
                             </ul>
                         </div>

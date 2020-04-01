@@ -65,7 +65,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="blog-post single-post">
-                            <img alt="" src="<?= base_url() ?>public/images\firengas\fire1.jpg">
+                            <img alt="" src="<?= base_url() ?>public/images\firengas\fire1.png">
                             <div class="post-content-text">
                                 <h1>DET-TRONICS</h1>
                                 <p>ENERGYPETROL es Representante Oficial de DET-TRONICS en Ecuador. L&iacute;deres mundiales en detecci&oacute;n de fuego, gas y control para automatizaci&oacute;n de sistemas contra incendio (Fire &amp; Gas). </p>

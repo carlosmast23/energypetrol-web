@@ -76,7 +76,7 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'energype_energypetrol',
+	'username' => 'energype_admin',
 	'password' => 'Admin$is2019',
 	'database' => 'energype_energypetrol',
 	'dbdriver' => 'mysqli',
@@ -94,6 +94,3 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-
-//'password' => 'Admin$is2019',
-//	'database' => 'energype_energypetrol',

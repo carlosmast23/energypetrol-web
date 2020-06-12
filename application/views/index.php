@@ -1,8 +1,8 @@
 <!--
-			#################################
-				- THEMEPUNCH BANNER -
-			#################################
-            -->
+                        #################################
+                                - THEMEPUNCH BANNER -
+                        #################################
+-->
 
 <div class="tp-banner-container">
     <div class="tp-banner">
@@ -28,7 +28,7 @@
                     <div style="text-align: left; z-index: 10; white-space: nowrap;" data-linktoslide="next" data-endelementdelay="0.1" data-elementdelay="0.1" data-splitout="none" data-splitin="none" data-easing="Power3.easeInOut" data-start="2400" data-speed="500" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-y="530" data-x="0" class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"><a class="trans-btn" href="<?php echo $fila->link ?>">Ver m&aacute;s</a></div>
                     <!-- LAYER NR. 4 -->
                 </li>
-            <?php
+                <?php
             }
             ?>
         </ul>
@@ -39,7 +39,7 @@
 </section>
 <!-- End home section -->
 <!-- banner-section 
-			================================================== -->
+                        ================================================== -->
 <section class="banner-section">
     <div class="container">
         <h2>Proyecto del A&ntilde;o<a data-lightbox="example-1" href="<?= base_url() ?>uploads/<?php echo buscarDato($parametro, "proyecto_anio"); ?>" class="button-one">Ver m&aacute;s</a></h2>
@@ -47,7 +47,7 @@
 </section>
 <!-- End banner section -->
 <!-- services-offer 
-			================================================== -->
+                        ================================================== -->
 <section class="services-offer-section">
     <div class="container">
         <div class="row">
@@ -66,14 +66,22 @@
                     <p>La empresa procura atender a clientes que necesiten de ingenier&iacute;as especializadas en las que se requiera soluciones innovadoras, con las m&aacute;s recientes y avanzadas tecnolog&iacute;as.</p>
                 </div>
             </div>
-            
+            <div class="col-md-4">
+                <div class="offer-post">
+                    <br>
+                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\prueba\4.jpg"></a>
+                    <h2><a href="<?= base_url() ?>index.php/welcome/productosServicios">Qu&eacute; hacemos</a></h2>
+                    <p>La empresa procura atender a clientes que necesiten de ingenier&iacute;as especializadas en las que se requiera soluciones innovadoras, con las m&aacute;s recientes y avanzadas tecnolog&iacute;as.</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 </div>
 <!-- End services-offer section -->
 <!-- about section 
-			================================================== -->
+                        ================================================== -->
 <section class="about-section">
     <div class="container">
         <div class="row">
@@ -96,7 +104,7 @@
 </section>
 <!-- End about section -->
 <!-- clients-section 
-			================================================== -->
+                        ================================================== -->
 <section class="clients-section">
     <div class="container">
         <div class="clients-title">
@@ -156,12 +164,11 @@
                         ?>
                     </div>
                     <div class="row">
-                    <?php
+                        <?php
                     }
-
                     ?>
 
-                <?php
+                    <?php
                 }
                 ?>
 

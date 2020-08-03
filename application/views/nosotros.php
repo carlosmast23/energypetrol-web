@@ -70,7 +70,7 @@
                         <tr>
                            <td>* Honor</td>
                            <td width="18%"/>
-                           <td>* Sobriedad</td>
+                           <td>* Lealtad</td>
                         </tr>
                         <tr>
                            <td>* Integridad</td>
@@ -97,9 +97,7 @@
                            <td width="18%"/>
                            <td>* Calidad</td>
                         </tr>
-                        <tr>
-                           <td>* Lealtad</td>
-                        </tr>
+                        
                      </table>
                </div>
             </div>

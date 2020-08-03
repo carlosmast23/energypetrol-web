@@ -50,15 +50,15 @@
                         ================================================== -->
 <section class="services-offer-section">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row" align="center">
+            <div class="col-md-5">
                 <div class="offer-post">
                     <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\logof.png"></a>
                     <h2><a href="<?= base_url() ?>index.php/welcome/productosServicios">Qui&eacute;nes Somos</a></h2>
                     <p>ENERGYPETROL S.A. es una compa&ntilde;&iacute;a Ecuatoriana Fundada en 1998, su objetivo principal es entregar calidad, efectividad y valor agregado en todas sus actividades, tales como la provisi&oacute;n de productos y servicios de la m&aacute;s alta calidad para el sector petrolero e industrial del pa&iacute;s.</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <div class="offer-post">
                     <br>
                     <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\prueba\4.jpg"></a>
@@ -79,13 +79,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <iframe width="500" height="281" frameborder="0" src="https://player.vimeo.com/video/139344238"></iframe>
+                <iframe width="345" height="281" frameborder="0" src="https://player.vimeo.com/video/139344238"></iframe>
                 <p><a href="https://vimeo.com/139344238">Instalaciones CDT Energypetrol</a> from <a href="https://vimeo.com/user11205494">ENERGYPETROL S.A.</a></p>
                 <h2>Instalaciones CDT Energypetrol</h2>
                 <p>En Energypetrol, nuestra fortaleza reside en el capital humano y los procesos a su cargo. Por este motivo, la directiva ha invertido en conseguir las mejores condiciones de trabajo y estabilidad para todo su personal. En el Centro de Desarrollo Tecnol&oacute;gico de Energypetrol se construyen grandes proyectos que enriquecen a sus ejecutores como al desarrollo de la industria del Ecuador </p>
             </div>
             <div class="col-md-6">
-                <iframe width="500" height="281" frameborder="0" src="https://player.vimeo.com/video/139349833"></iframe>
+                <iframe width="345" height="281" frameborder="0" src="https://player.vimeo.com/video/139349833"></iframe>
                 <p><a href="https://vimeo.com/139349833">SEPARADOR TRIF&Aacute;SICO HORIZONTAL 30000 BPD</a> from <a href="https://vimeo.com/user11205494">ENERGYPETROL S.A.</a></p>
                 <h2>SEPARADOR TRIF&Aacute;SICO HORIZONTAL 30000 BPD</h2>
                 <p>Las nuevas instalaciones contribuyen a reafirmar nuestra identidad de integradores de tecnolog&iacute;a, en donde se conjugan la ingenier&iacute;a, los materiales, los equipos, el personal y los procedimientos de la m&aacute;s alta calidad con el fin de pasar de la conceptualizaci&oacute;n de productos y soluciones complejas hasta el comisionado y la puesta en operaci&oacute;n de proyectos como el Separador Trif&aacute;sico Horizontal totalmente instrumentado e integrado en Ecuador en nuestro Centro de Desarrollo Tecnol&oacute;gico. </p>

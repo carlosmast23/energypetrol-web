@@ -1,4 +1,4 @@
-<iframe width="1550" height="425" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3989.800256554863!2d-78.47276024879321!3d-0.17241127017849578!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sec!4v1427926587212" style="border: 0px none;"></iframe>
+<iframe width="100%" height="425" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3989.800256554863!2d-78.47276024879321!3d-0.17241127017849578!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sec!4v1427926587212" style="border: 0px none;"></iframe>
 <section class="contact-section">
     <div class="container">
         <div class="col-md-4">
@@ -6,9 +6,9 @@
                 <h2>Informaci&oacute;n de Cont&aacute;cto</h2>
                 <p>Puede contactarnos o visitarnos en nuestras oficinas de lunes a viernes de 8:00 - 17:00</p>
                 <ul class="information-list">
-                    <li><em class="fa fa-map-marker"></em><span>Quito - Ecuador</span></li>
+                    <li><em class="fa fa-map-marker"></em><span>Ventas y Requerimientos</span></li>
                     <img src="<?= base_url() ?>public/images\flags.png" class="flag flag-ec" alt="ecuador">
-                    <li><em class="fa fa-phone"></em><span>593 2 292 3064</span></li>
+                    <li><em class="fa fa-phone"></em><span>+593958920430</span></li>
                     <li><em class="fa fa-map-marker"></em><span>Puembo - Ecuador</span></li>
                     <img src="<?= base_url() ?>public/images\flags.png" class="flag flag-ec" alt="ecuador">
                     <li><em class="fa fa-phone"></em><span>593 2 214 7040</span></li>

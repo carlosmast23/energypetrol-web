@@ -1,4 +1,4 @@
-<iframe width="100%" height="425" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3989.800256554863!2d-78.47276024879321!3d-0.17241127017849578!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sec!4v1427926587212" style="border: 0px none;"></iframe>
+<iframe width="100%" height="425" frameborder="0" src="https://www.google.com.ec/maps/search/energypetrol/@-0.1747932,-78.4684708,16z" style="border: 0px none;"></iframe>
 <section class="contact-section">
     <div class="container">
         <div class="col-md-4">

@@ -1,4 +1,6 @@
-<iframe width="100%" height="425" frameborder="0" src="https://www.google.com.ec/maps/search/energypetrol/@-0.1747932,-78.4684708,16z" style="border: 0px none;"></iframe>
+<div align="center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7979.600143403408!2d-78.47254773091728!3d-0.1732911982551052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59077096f5739%3A0x9f0117c8ecc3fca2!2sEnergypetrol%20S.%20A.!5e0!3m2!1ses!2sec!4v1604940804962!5m2!1ses!2sec" width="600" height="450" frameborder="0" style="border:0;text-align: center" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
 <section class="contact-section">
     <div class="container">
         <div class="col-md-4">

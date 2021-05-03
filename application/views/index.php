@@ -66,7 +66,7 @@
     <!-- The Modal -->
     <div id="myModal" class="modal" style="text-align: center">
         <!-- Modal content -->
-        <div style="width: 30%;height: 30%;background-color: #ffffff;padding: 20px;margin: auto;position: absolute;transform: translate(120%,160%)">
+        <div style="width: 30%;height: 30%;background-color: #ffffff;padding: 20px;margin: auto;position: absolute;transform: translate(120%,190%)">
             <span class="close">&times;</span>
             <h2>COMUNICADO IMPORTANTE</h2>
             <p><b>ENERGYPETROL S.A. comunica que: </b></p> 

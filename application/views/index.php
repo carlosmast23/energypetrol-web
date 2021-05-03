@@ -4,6 +4,34 @@
                         #################################
 -->
 
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+        console.log("despues de carrgar");
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    }, false);
+
+
+</script>
+
+
 <div class="tp-banner-container">
     <div class="tp-banner">
         <ul>
@@ -35,6 +63,18 @@
         <div class="tp-bannertimer"></div>
 
     </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal" style="text-align: center">
+        <!-- Modal content -->
+        <div style="width: 30%;height: 30%;background-color: #ffffff;padding: 20px;margin: auto;position: absolute;transform: translate(120%,90%)">
+            <span class="close">&times;</span>
+            <h2>COMUNICADO IMPORTANTE</h2>
+            <p><b>ENERGYPETROL S.A. comunica que: </b></p> 
+            <p><b>NO SOLICITA NI HA SOLICITADO JAMAS</b> ningún pago de dinero o favor bajo ningun concepto, para la contratacion de personal.</p>
+        </div>
+
+    </div>
+
 </div>
 </section>
 <!-- End home section -->
@@ -66,7 +106,7 @@
                     <p>La empresa procura atender a clientes que necesiten de ingenier&iacute;as especializadas en las que se requiera soluciones innovadoras, con las m&aacute;s recientes y avanzadas tecnolog&iacute;as.</p>
                 </div>
             </div>
-           
+
 
         </div>
     </div>

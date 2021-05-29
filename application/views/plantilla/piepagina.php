@@ -21,9 +21,9 @@
                             </ul>
                         </div>
                     </div>
-<!--                    <div class="col-md-3">
+                    <div class="col-md-3">
                         <div class="footer-widget">
-                            <h2>Flickr</h2>
+                            <h2></h2>
                             <style type="text/css">
                                 .flickr_badge_image {
                                     margin: 0px;
@@ -44,7 +44,7 @@
                                 <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&display=latest&size=s&layout=x&source=user&user=134211586@N02"></script>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="col-md-3">
                         <div class="footer-widget info-widget">
                             <h2>Contacto</h2>

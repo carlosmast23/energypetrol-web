@@ -23,7 +23,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="footer-widget">
-                            <h2>Integradores de Tecnolog&iacute;</h2>
+                            <h2></h2>
                             <style type="text/css">
                                 .flickr_badge_image {
                                     margin: 0px;

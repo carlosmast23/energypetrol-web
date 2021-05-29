@@ -18,7 +18,7 @@
                      <br>
                   </p>
                   <h2>Historia</h2>
-                  <p align="justify"><strong>ENERGYPETROL S.A.</strong> es una compa&ntilde;&iacute;a Ecuatoriana Fundada en 1998, la empresa cuenta con experiencia desde el a&ntilde;o de 1993.&nbsp;El objetivo principal de Energypetrol es atender las necesidades en provisiones de productos y servicios para el sector petrolero e industrial del pa&iacute;s.</p>
+                  <p align="justify"><strong>ENERGYPETROL S.A.</strong> es una compa&ntilde;&iacute;a Fundada en 1998, la empresa cuenta con experiencia desde el a&ntilde;o de 1993.&nbsp;El objetivo principal de Energypetrol es atender las necesidades en provisiones de productos y servicios para el sector petrolero e industrial del pa&iacute;s.</p>
                   <p align="justify">Gracias a nuestros a&ntilde;os de experiencia y nuestro buen desempe&ntilde;o en el sector Petrolero e Industrial, contamos con la fortaleza de tener representaciones de l&iacute;neas de productos de primera categor&iacute;a. </p>
                </div>
             </div>

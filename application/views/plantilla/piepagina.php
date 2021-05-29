@@ -13,15 +13,11 @@
                     </div>
                     <div class="col-md-3">
                         <div class="footer-widget">
-                            <p>Productos y Servicios</p>
+<!--                            <p>Productos y Servicios</p>-->
                             <ul class="tag-list">
-                                <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/firegas">Sistema Contra Incendio</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/instrumentacion">Instrumentaci&oacute;n</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome">Ingenier&iacute;a</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/stock/1">Procura</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/productosServicios">Construcci&oacute;n</a></li>
                             </ul>
                         </div>
                     </div>

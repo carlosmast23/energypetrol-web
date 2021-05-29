@@ -1304,7 +1304,7 @@ a.button-one {
 .page-banner-section ul.page-depth {
   margin: 0;
   padding: 0;
-  text-align: right;
+  text-align: left;/*estaba antes en el derecho*/
 }
 .page-banner-section ul.page-depth li {
   display: inline-block;

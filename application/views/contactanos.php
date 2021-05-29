@@ -9,10 +9,10 @@
                 <ul class="information-list">
                     <li><em class="fa fa-map-marker"></em><span>Ventas y Requerimientos</span></li>
                     <img src="<?= base_url() ?>public/images\flags.png" class="flag flag-ec" alt="ecuador">
-                    <li><em class="fa fa-phone"></em><span>+593958920430</span></li>
+                    <li><em class="fa fa-phone"></em><span>+593 958920430</span></li>
                     <li><em class="fa fa-map-marker"></em><span>Puembo - Ecuador</span></li>
                     <img src="<?= base_url() ?>public/images\flags.png" class="flag flag-ec" alt="ecuador">
-                    <li><em class="fa fa-phone"></em><span>593 2 214 7040</span></li>
+                    <li><em class="fa fa-phone"></em><span>+593 984580538</span></li>
                     <li><em class="fa fa-envelope-o" style="color: #333333 !important;"></em>
                         <div style="margin-left: 20px;">energypetrol@energypetrol.net</div>
                     </li>

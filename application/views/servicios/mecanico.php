@@ -63,7 +63,7 @@
                             <h1>Experiencia</h1>
                             <p>Energypetrol Posee una amplia experiencia en el desarrollo de proyectos Modalidad IPC (Ingenier&iacute;a procura y construcci&oacute;n), con la construcci&oacute;n de Separadores Trif&aacute;sicos, Manifolds de producci&oacute;n, Scrubbers, Close Drain Sump, entre otros; Somos representantes de las mejor marcas en v&aacute;lvulas, filtros y bombas; brindando asistencia t&eacute;cnica y mantenimiento con personal calificado, adem&aacute;s de entregar todos los materiales y equipos con garant&iacute;a.</p>
                             <p>Brindamos servicios de Ingenier&iacute;a, asistencia t&eacute;cnica, c&aacute;lculos estructurales y pruebas hidrost&aacute;ticos, con personal profesional y tecnolog&iacute;a de punta.</p>
-                            <p>En el nuevo Centro De Desarrollo Tecnol&oacute;gico &ndash; Puembo, nos encontramos siempre a la vanguardia, desarrollando y brindando servicios de Corte CNC con Laser y Plasma; y Doblado CNC .</p>
+                            <p>En el nuevo Centro De Desarrollo Tecnol&oacute;gico &ndash;, nos encontramos siempre a la vanguardia, desarrollando y brindando servicios de Corte CNC con Laser y Plasma; y Doblado CNC .</p>
                         </div>
                     </div>
                     <div class="blog-post single-post">

@@ -95,7 +95,7 @@
                                                                                             <ul class="nav navbar-nav navbar-right">
                                                                                                 <li class="drop"><a href="<?= base_url() ?>index.php/welcome" class="active">Inicio</a> </li>
                                                                                                 <li class="drop"><a href="<?= base_url() ?>index.php/welcome/nosotros">Nosotros</a> </li>
-                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome">Ingenieria</a>
+<!--                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome">Ingenieria</a>
                                                                                                     <ul class="dropdown">
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
@@ -110,6 +110,17 @@
                                                                                                     <ul class="dropdown"><a href="<?= base_url() ?>index.php/welcome/stock/1">Stock</a> </ul>
                                                                                                 </li>
                                                                                                 <li class="drop"><a href="<?= base_url() ?>index.php/welcome/productosServicios">Construccion</a>
+                                                                                                    <ul class="dropdown">
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/firegas">Fire &amp; Gas</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/instrumentacion">Instrumentaci&oacute;n</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
+                                                                                                    </ul>
+                                                                                                </li>-->
+                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome/productosServicios">Productos y Servicios</a>
                                                                                                     <ul class="dropdown">
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>

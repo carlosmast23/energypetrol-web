@@ -18,7 +18,7 @@
                      <br>
                   </p>
                   <h2>Historia</h2>
-                  <p align="justify"><strong>ENERGYPETROL S.A.</strong> es una compa&ntilde;&iacute;a Fundada en 1998, la empresa cuenta con experiencia desde el a&ntilde;o de 1993.&nbsp;El objetivo principal de Energypetrol es atender las necesidades en provisiones de productos y servicios para el sector petrolero e industrial del pa&iacute;s.</p>
+                  <p align="justify"><strong>ENERGYPETROL S.A.</strong> es una compa&ntilde;&iacute;a Fundada en 1998, la empresa cuenta con experiencia desde el a&ntilde;o de 1993.&nbsp;El objetivo principal de Energypetrol es atender las necesidades en provisiones de productos y servicios para el sector petrolero e industrial.</p>
                   <p align="justify">Gracias a nuestros a&ntilde;os de experiencia y nuestro buen desempe&ntilde;o en el sector Petrolero e Industrial, contamos con la fortaleza de tener representaciones de l&iacute;neas de productos de primera categor&iacute;a. </p>
                </div>
             </div>
@@ -33,15 +33,14 @@
                <p align="justify">La Alta dirección de ENERGYPETROL S.A. quiere expresar su compromiso para cumplir los requisitos definidos en el Sistema de Gestión de Calidad, así como para aplicar mejoras continuas que lo hagan más eficaz a través de la siguiente política de calidad.</p>
                <p align="justify">"ENERGYPETROL S.A. tiene el firme compromiso con los clientes de satisfacer sus requerimientos y expectativas, con la creatividad e innovación, para ello garantizamos una cultura de calidad en procesos de ingeniería, aseguramiento de la información, provisión y construcción, basada en los principios de mejora continua, seguridad industrial, salud y cuidado con el medio ambiente en nuestras operaciones, con el fin de lograr rentabilidad social económica".</p>
                <p align="justify">Esta política de calidad define el marco de referencia para el establecimiento de Objetivos de Calidad.</p>
-               <p align="justify">La Dirección de la empresa está comprometida con su utilización revisándola cuando sea conveniente para asegurar su vigencia.</p>
+               <p align="justify">La Dirección de la empresa está comprometida con su utilización revis&aacute;ndola cuando sea conveniente para asegurar su vigencia.</p>
             </div>
          </div>
          <div class="col-md-12">
             <div class="project-content-box">
                <h2>Política del Sistema Integrado de Gestión</h2>
                <p align="justify">ENERGYPETROL S.A.  Es una empresa dedicada a la "Comercialización, intalación de equipos, materiales y sistemas integrados electrónicos y mecánicos para el sector petrolero industrial" comprometida con la seguridad, salud de los trabajadores y el medio ambiente, proporcionando condiciones seguras y saludables para la prevención de riesgos y evitar el deterioro de la salud, además concientiza al cumplimiento de las mejores prácticas ambientales como la protección del medio ambiente y prevención de la contaminación.
-               ENERGYPETROL S.A. Tiene el firme compromiso del cumplimiento de los requisitos legales y otros aplicables, tendiendo a la mejora continua y con la participación y consulta de los trabajadores.
-               La Alta Dirección de la empresa está comprometida con su utilización revisandola cuando sea conveniente para asegurar su vigencia.</p>
+               ENERGYPETROL S.A. Tiene el firme compromiso del cumplimiento de los requisitos legales y otros aplicables, tendiendo a la mejora continua y con la participación y consulta de los trabajadores.</p>
             </div>
          </div>
          <div class="col-md-5">

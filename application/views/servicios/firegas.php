@@ -42,8 +42,8 @@
                             </div>
                             <h2>Informaci&oacute;n de Cont&aacute;cto</h2>
                             <ul class="information-list">
-                                <li><em class="fa fa-phone"></em><span> 593 2 292 3064 / ext.103</span></li>
-                                <li><em class="fa fa-envelope-o"></em><span> cesar_flores@energypetrol.net</span></li>
+                                <li><em class="fa fa-phone">&nbsp;</em><span><?php echo buscarDato($parametro, 'telefono'); ?></span></li>
+                                <li><em class="fa fa-envelope-o">&nbsp;</em><span><?php echo buscarDato($parametro, 'correo'); ?></span></li>
                             </ul>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                         <div style="text-align: center;"><img alt="" src="<?= base_url() ?>public/images\firengas\DETECCION FUEGO.jpg" style="width: 400px; height: 300px;"></div>
                         <div class="post-content-text">
                             <h1></h1>
-                            <p>ENERGYPETROL es especialista y referente l&iacute;der en Ecuador en aplicaciones para detecci&oacute;n de Fuego y Gas, y control autom&aacute;tico de la extinci&oacute;n de incendios, con una experiencia de m&aacute;s de 18 a&ntilde;os desarrollando este tipo de sistemas tanto en dise&ntilde;o como en la provisi&oacute;n, instalaci&oacute;n y puesta en marcha.</p>
+                            <p>ENERGYPETROL es especialista y referente l&iacute;der en aplicaciones para detecci&oacute;n de Fuego y Gas, y control autom&aacute;tico de la extinci&oacute;n de incendios, con una experiencia de m&aacute;s de 18 a&ntilde;os desarrollando este tipo de sistemas tanto en dise&ntilde;o como en la provisi&oacute;n, instalaci&oacute;n y puesta en marcha.</p>
                         </div>
                     </div>
                     <div class="blog-post single-post">
@@ -68,7 +68,7 @@
                             <img alt="" src="<?= base_url() ?>public/images\firengas\fire1.png">
                             <div class="post-content-text">
                                 <h1>DET-TRONICS</h1>
-                                <p>ENERGYPETROL es Representante Oficial de DET-TRONICS en Ecuador. L&iacute;deres mundiales en detecci&oacute;n de fuego, gas y control para automatizaci&oacute;n de sistemas contra incendio (Fire &amp; Gas). </p>
+                                <p>ENERGYPETROL es Representante Oficial de DET-TRONICS. L&iacute;deres mundiales en detecci&oacute;n de fuego, gas y control para automatizaci&oacute;n de sistemas contra incendio (Fire &amp; Gas). </p>
                                 <ul>
                                     <li>Detectores / Sensores de Fuego o Flama</li>
                                     <li>Detectores / Sensores de Gas</li>
@@ -83,7 +83,7 @@
                             <img alt="" src="<?= base_url() ?>public/images\firengas\fire2.jpg">
                             <div class="post-content-text">
                                 <h1>PRODUCTOS KIDDE</h1>
-                                <p>ENERGYPETROL es Distribuidor Autorizado de KIDDE en Ecuador. Compa&ntilde;&iacute;a l&iacute;der en sistemas de detecci&oacute;n de humo, calor, y sistemas de supresi&oacute;n con agentes limpios FM-200, NOVEC 1230, ARGONITE; y otros agentes de extinci&oacute;n como CO2, Polvos Qu&iacute;micos.</p>
+                                <p>ENERGYPETROL es Distribuidor Autorizado de KIDDE. Compa&ntilde;&iacute;a l&iacute;der en sistemas de detecci&oacute;n de humo, calor, y sistemas de supresi&oacute;n con agentes limpios FM-200, NOVEC 1230, ARGONITE; y otros agentes de extinci&oacute;n como CO2, Polvos Qu&iacute;micos.</p>
                                 <p><br>
                                 </p>
                                 <p><br>
@@ -97,7 +97,7 @@
                             <img alt="" src="<?= base_url() ?>public/images\firengas\fire3.jpg">
                             <div class="post-content-text">
                                 <h1>Federal Signal</h1>
-                                <p>ENERGYPETROL es Distribuidor Autorizado de FEDERAL SIGNAL en Ecuador. Federal Signal se destaca como la mejor fuente para soluciones de alarma y comunicaci&oacute;n en entornos peligrosos y exigentes aplicaciones industriales.</p>
+                                <p>ENERGYPETROL es Distribuidor Autorizado de FEDERAL SIGNAL. Federal Signal se destaca como la mejor fuente para soluciones de alarma y comunicaci&oacute;n en entornos peligrosos y exigentes aplicaciones industriales.</p>
                                 <p>Ver m&aacute;s: <a href="https://www.federalsignal.com/fs-industrial" target="_blank">Federal Signal</a></p>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                             <img alt="" src="<?= base_url() ?>public/images\firengas\fire4.jpg">
                             <div class="post-content-text">
                                 <h1>Dorot</h1>
-                                <p>ENERGYPETROL es Representante Oficial de DOROT en Ecuador. Principales investigadores y fabricantes de una amplia variedad de v&aacute;lvulas de control autom&aacute;tico de alta calidad. El Departamento de Investigaci&oacute;n y Desarrollo de DOROT, con una amplia experiencia, posee una larga tradici&oacute;n en generar soluciones innovadoras para la aplicaci&oacute;n de sistemas de control de agua, incluyendo redes de distribuci&oacute;n de agua, alcantarillado y disposici&oacute;n de fluidos, sistemas de protecci&oacute;n contra incendios, miner&iacute;a y sistemas de riego.</p>
+                                <p>ENERGYPETROL es Representante Oficial de DOROT. Principales investigadores y fabricantes de una amplia variedad de v&aacute;lvulas de control autom&aacute;tico de alta calidad. El Departamento de Investigaci&oacute;n y Desarrollo de DOROT, con una amplia experiencia, posee una larga tradici&oacute;n en generar soluciones innovadoras para la aplicaci&oacute;n de sistemas de control de agua, incluyendo redes de distribuci&oacute;n de agua, alcantarillado y disposici&oacute;n de fluidos, sistemas de protecci&oacute;n contra incendios, miner&iacute;a y sistemas de riego.</p>
                                 <p>Ver m&aacute;s: <a href="http://www.dorot.com/" target="_blank">Dorot</a></p>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                             <img alt="" src="<?= base_url() ?>public/images\firengas\FM-200 ADS.jpg" style="width: 120px; height: 170px;" class="derecha">
                             <h2>RECARGA DE CILINDROS CON AGENTES LIMPIOS FM-200, NOVEC 1230.</h2>
                             <span></span>
-                            <p>ENERGYPETROL ofrece los servicios de recarga de cilindros con AGENTES LIMPIOS FM-200 y NOVEC 1230 en Ecuador, y de conformidad con los procedimientos de recarga del fabricante y requeridos por las condiciones especiales de manipulaci&oacute;n que requieren estos agentes.</p>
+                            <p>ENERGYPETROL ofrece los servicios de recarga de cilindros con AGENTES LIMPIOS FM-200 y NOVEC 1230, y de conformidad con los procedimientos de recarga del fabricante y requeridos por las condiciones especiales de manipulaci&oacute;n que requieren estos agentes.</p>
                             <p> </p>
                         </div>
                         <br>

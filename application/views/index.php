@@ -91,23 +91,26 @@
 <section class="services-offer-section">
     <div class="container">
         <div class="row" align="center">
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <div class="offer-post">
-                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\logof.png"></a>
-                    <h2><a href="<?= base_url() ?>index.php/welcome/productosServicios">Qui&eacute;nes Somos</a></h2>
-                    <p>ENERGYPETROL S.A. es una compa&ntilde;&iacute;a Ecuatoriana Fundada en 1998, su objetivo principal es entregar calidad, efectividad y valor agregado en todas sus actividades, tales como la provisi&oacute;n de productos y servicios de la m&aacute;s alta calidad para el sector petrolero e industrial del pa&iacute;s.</p>
+                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\logof.png" style="width: 60%"></a>
+                    <h2><a href="<?= base_url() ?>index.php/welcome/nosotros">Qui&eacute;nes Somos</a></h2>
+                    <p style="text-align: justify">ENERGYPETROL S.A. es una compa&ntilde;&iacute;a fundada en 1998, su objetivo principal es entregar calidad, efectividad y valor agregado en todas sus actividades, tales como la provisi&oacute;n de productos y servicios de la m&aacute;s alta calidad para el sector petrolero e industrial.</p>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <div class="offer-post">
                     <br>
-                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\prueba\4.jpg"></a>
+                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\prueba\4.jpg" style="width: 70%"></a>
                     <h2><a href="<?= base_url() ?>index.php/welcome/productosServicios">Qu&eacute; hacemos</a></h2>
-                    <p>La empresa procura atender a clientes que necesiten de ingenier&iacute;as especializadas en las que se requiera soluciones innovadoras, con las m&aacute;s recientes y avanzadas tecnolog&iacute;as.</p>
+                    <p style="text-align: justify">La empresa procura atender a clientes que necesiten de ingenier&iacute;as especializadas en las que se requiera soluciones innovadoras, con las m&aacute;s recientes y avanzadas tecnolog&iacute;as.</p>
                 </div>
             </div>
-
-
+            <div class="col-md-4">
+                <iframe width="100%" frameborder="0" src="https://player.vimeo.com/video/139344238"></iframe>
+                 <h4><a href="<?= base_url() ?>index.php/welcome/videos">Instalaciones CDT Energypetrol</a></h4>
+                <p style="text-align: justify">En Energypetrol, nuestra fortaleza reside en el capital humano y los procesos a su cargo. Por este motivo, la directiva ha invertido en conseguir las mejores condiciones de trabajo y estabilidad para todo su personal. En el Centro de Desarrollo Tecnol&oacute;gico de Energypetrol se construyen grandes proyectos que enriquecen a sus ejecutores como al desarrollo de la industria. </p>
+            </div>
         </div>
     </div>
 </section>
@@ -115,26 +118,26 @@
 <!-- End services-offer section -->
 <!-- about section 
                         ================================================== -->
-<section class="about-section">
+<!--<section class="about-section">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <iframe width="345" height="281" frameborder="0" src="https://player.vimeo.com/video/139344238"></iframe>
                 <p><a href="https://vimeo.com/139344238">Instalaciones CDT Energypetrol</a> from <a href="https://vimeo.com/user11205494">ENERGYPETROL S.A.</a></p>
                 <h2>Instalaciones CDT Energypetrol</h2>
-                <p>En Energypetrol, nuestra fortaleza reside en el capital humano y los procesos a su cargo. Por este motivo, la directiva ha invertido en conseguir las mejores condiciones de trabajo y estabilidad para todo su personal. En el Centro de Desarrollo Tecnol&oacute;gico de Energypetrol se construyen grandes proyectos que enriquecen a sus ejecutores como al desarrollo de la industria del Ecuador </p>
+                <p style="text-align: justify">En Energypetrol, nuestra fortaleza reside en el capital humano y los procesos a su cargo. Por este motivo, la directiva ha invertido en conseguir las mejores condiciones de trabajo y estabilidad para todo su personal. En el Centro de Desarrollo Tecnol&oacute;gico de Energypetrol se construyen grandes proyectos que enriquecen a sus ejecutores como al desarrollo de la industria. </p>
             </div>
             <div class="col-md-6">
                 <iframe width="345" height="281" frameborder="0" src="https://player.vimeo.com/video/139349833"></iframe>
                 <p><a href="https://vimeo.com/139349833">SEPARADOR TRIF&Aacute;SICO HORIZONTAL 30000 BPD</a> from <a href="https://vimeo.com/user11205494">ENERGYPETROL S.A.</a></p>
                 <h2>SEPARADOR TRIF&Aacute;SICO HORIZONTAL 30000 BPD</h2>
-                <p>Las nuevas instalaciones contribuyen a reafirmar nuestra identidad de integradores de tecnolog&iacute;a, en donde se conjugan la ingenier&iacute;a, los materiales, los equipos, el personal y los procedimientos de la m&aacute;s alta calidad con el fin de pasar de la conceptualizaci&oacute;n de productos y soluciones complejas hasta el comisionado y la puesta en operaci&oacute;n de proyectos como el Separador Trif&aacute;sico Horizontal totalmente instrumentado e integrado en Ecuador en nuestro Centro de Desarrollo Tecnol&oacute;gico. </p>
+                <p style="text-align: justify">Las nuevas instalaciones contribuyen a reafirmar nuestra identidad de integradores de tecnolog&iacute;a, en donde se conjugan la ingenier&iacute;a, los materiales, los equipos, el personal y los procedimientos de la m&aacute;s alta calidad con el fin de pasar de la conceptualizaci&oacute;n de productos y soluciones complejas hasta el comisionado y la puesta en operaci&oacute;n de proyectos como el Separador Trif&aacute;sico Horizontal totalmente instrumentado e integrado en nuestro Centro de Desarrollo Tecnol&oacute;gico. </p>
                 <p>
                 </p>
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!-- End about section -->
 <!-- clients-section 
                         ================================================== -->

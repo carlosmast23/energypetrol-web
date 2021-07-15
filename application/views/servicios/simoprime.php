@@ -40,8 +40,8 @@
                         <div class="contact-info">
                             <h2>Informaci&oacute;n de Cont&aacute;cto</h2>
                             <ul class="information-list">
-                                <li><em class="fa fa-phone"></em><span> 593 2 292 3064 / ext.104</span></li>
-                                <li><em class="fa fa-envelope-o"></em><span> edison_lopez@energypetrol.net </span></li>
+                                <li><em class="fa fa-phone">&nbsp;</em><span><?php echo buscarDato($parametro, 'telefono'); ?></span></li>
+                                <li><em class="fa fa-envelope-o">&nbsp;</em><span><?php echo buscarDato($parametro, 'correo'); ?></span></li>
                             </ul>
                         </div>
                     </div>

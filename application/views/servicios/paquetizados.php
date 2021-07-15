@@ -38,7 +38,7 @@
                                             <img alt="" src="<?= base_url() ?>public/images\paquetizado.jpg">
                                             <div class="post-content-text">
                                                 <h1>Experiencia</h1>
-                                                <p>Sistemas integrados construidos sobre una estructura met&aacute;lica que permite realizar el control de las variables de proceso, los paquetizados son construidos en el centro de desarrollo tecnol&oacute;gico de Energypetrol en Puembo.</p>
+                                                <p>Sistemas integrados construidos sobre una estructura met&aacute;lica que permite realizar el control de las variables de proceso, los paquetizados son construidos en el centro de desarrollo tecnol&oacute;gico de Energypetrol.</p>
                                             </div>
                                         </div>
                                         <div class="blog-post single-post">

@@ -27,9 +27,9 @@
                     <div class="side-navigation">
                         <div class="contact-info">
                             <h2>Informaci&oacute;n de Cont&aacute;cto</h2>
-                            <ul class="information-list">
-                                <li><em class="fa fa-phone"></em><span> 593 2 292 3064 / ext.104</span></li>
-                                <li><em class="fa fa-envelope-o"></em><span> edison_lopez@energypetrol.net </span></li>
+                             <ul class="information-list">
+                                <li><em class="fa fa-phone">&nbsp;</em><span><?php echo buscarDato($parametro, 'telefono'); ?></span></li>
+                                <li><em class="fa fa-envelope-o">&nbsp;</em><span><?php echo buscarDato($parametro, 'correo'); ?></span></li>
                             </ul>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                             <img alt="" src="<?= base_url() ?>public/images\electrico\electrico1.jpg">
                             <div class="post-content-text">
                                 <h2>Okonite</h2>
-                                <p>Definiendo el est&aacute;ndar desde 1878, The Okonite Company, la m&aacute;s alta calidad en cables de instrumentaci&oacute;n, poder, control, de bajo, medio y alto voltaje en un rango de 300V hasta 345kV incluyendo aislamiento Okoguard&reg; su f&oacute;rmula de EPR con un record mundial m&aacute;s de 47 a&ntilde;os de instalaciones sin fallas. Energypetrol, representante exclusivo para el Ecuador.</p>
+                                <p>Definiendo el est&aacute;ndar desde 1878, The Okonite Company, la m&aacute;s alta calidad en cables de instrumentaci&oacute;n, poder, control, de bajo, medio y alto voltaje en un rango de 300V hasta 345kV incluyendo aislamiento Okoguard&reg; su f&oacute;rmula de EPR con un record mundial m&aacute;s de 47 a&ntilde;os de instalaciones sin fallas. Energypetrol, representante exclusivo.</p>
                                 <p>Ver m&aacute;s: <a target="_blank" href="http://okonite.com/index.html">Okonite</a></p>
                             </div>
                         </div>

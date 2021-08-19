@@ -45,7 +45,7 @@
                         <li><em class="fa fa-map-marker"></em><span>Santiago - Chile</li>
                         <li><em class="fa fa-phone"></em><span><?php echo buscarDato($parametro, 'telefonoChile'); ?></span></li>
                         <li><em class="fa fa-envelope-o"></em>
-                          <?php echo buscarDato($parametro, 'correo'); ?><
+                          <?php echo buscarDato($parametro, 'correo'); ?>
                         </li>
                     </ul>
                 </div>

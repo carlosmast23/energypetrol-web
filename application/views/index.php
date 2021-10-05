@@ -6,33 +6,53 @@
 
 <script>
 
-//    document.addEventListener('DOMContentLoaded', function () {
-//
-//        console.log("despues de carrgar");
-//        var modal = document.getElementById("myModal");
-//        modal.style.display = "block";
-//
-//        // Get the <span> element that closes the modal
-//        var span = document.getElementsByClassName("close")[0];
-//
-//        // When the user clicks on <span> (x), close the modal
-//        span.onclick = function () {
-//            modal.style.display = "none";
-//        }
-//
-//        // When the user clicks anywhere outside of the modal, close it
-//        window.onclick = function (event) {
-//            if (event.target == modal) {
-//                modal.style.display = "none";
-//            }
-//        }
-//    }, false);
+    document.addEventListener('DOMContentLoaded', function () {
 
+        console.log("despues de carrgar");
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            document.getElementById("bannerPictures").hidden = false;
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                document.getElementById("bannerPictures").hidden = false;
+                modal.style.display = "none";
+            }
+        }
+    }, false);
+
+    function showPictures() {
+        document.getElementById("bannerPictures").hidden = false;
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    }
 
 </script>
 
+<div id="myModal" class="modal" style="text-align: center">
+    <!-- Modal content -->
+    <div id="messageEnergy" style="background-color: #ffffff;padding: 80px;margin: auto;position: relative">
+        <span class="close">&times;</span>
+        <h2>COMUNICADO IMPORTANTE</h2>
+        <p><b>ENERGYPETROL S.A. comunica que: </b></p> 
+        <p><b>NO SOLICITA NI HA SOLICITADO JAMAS</b> ningún pago de dinero o favor bajo ningun concepto, para la contratación de personal.</p>
+        <div style="text-align: center">
+            <button style="background-color: #1ba1dd;color: #ffffff" onclick="showPictures()">Aceptar</button>
 
-<div class="tp-banner-container">
+        </div>
+    </div>
+
+</div>
+<div class="tp-banner-container" id="bannerPictures" hidden="true">
     <div class="tp-banner">
         <ul>
             <?php
@@ -63,19 +83,9 @@
         <div class="tp-bannertimer"></div>
 
     </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal" style="text-align: center">
-        <!-- Modal content -->
-        <div style="width: 30%;height: 30%;background-color: #ffffff;padding: 20px;margin: auto;position: absolute;transform: translate(120%,190%)">
-            <span class="close">&times;</span>
-            <h2>COMUNICADO IMPORTANTE</h2>
-            <p><b>ENERGYPETROL S.A. comunica que: </b></p> 
-            <p><b>NO SOLICITA NI HA SOLICITADO JAMAS</b> ningún pago de dinero o favor bajo ningun concepto, para la contratacion de personal.</p>
-        </div>
-
-    </div>
-
 </div>
+<!-- The Modal -->
+
 </section>
 <!-- End home section -->
 <!-- banner-section 
@@ -108,7 +118,7 @@
             </div>
             <div class="col-md-4">
                 <iframe width="100%" frameborder="0" src="https://player.vimeo.com/video/139344238"></iframe>
-                 <h4><a href="<?= base_url() ?>index.php/welcome/videos">Instalaciones CDT Energypetrol</a></h4>
+                <h4><a href="<?= base_url() ?>index.php/welcome/videos">Instalaciones CDT Energypetrol</a></h4>
                 <p style="text-align: justify">En Energypetrol, nuestra fortaleza reside en el capital humano y los procesos a su cargo. Por este motivo, la directiva ha invertido en conseguir las mejores condiciones de trabajo y estabilidad para todo su personal. En el Centro de Desarrollo Tecnol&oacute;gico de Energypetrol se construyen grandes proyectos que enriquecen a sus ejecutores como al desarrollo de la industria. </p>
             </div>
         </div>

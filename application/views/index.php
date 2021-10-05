@@ -42,11 +42,11 @@
     <!-- Modal content -->
     <div id="messageEnergy" style="background-color: #ffffff;padding: 80px;margin: auto;position: relative">
         <span class="close">&times;</span>
-        <h2>COMUNICADO IMPORTANTE</h2>
-        <p><b>ENERGYPETROL S.A. comunica que: </b></p> 
-        <p><b>NO SOLICITA NI HA SOLICITADO JAMAS</b> ningún pago de dinero o favor bajo ningun concepto, para la contratación de personal.</p>
+        <h3>COMUNICADO IMPORTANTE</h3>
+        <h2><b>ENERGYPETROL S.A </b></h2> 
+        <p><b>NO SOLICITA NI HA SOLICITADO JAMÁS</b> ningún tipo de contribución económica para el proceso de contratación de personal.</p>
         <div style="text-align: center">
-            <button style="background-color: #1ba1dd;color: #ffffff" onclick="showPictures()">Aceptar</button>
+            <button style="background-color: #1ba1dd;color: #ffffff;font-size: large" onclick="showPictures()">Aceptar</button>
 
         </div>
     </div>

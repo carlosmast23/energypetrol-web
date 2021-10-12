@@ -135,7 +135,7 @@ class Welcome extends CI_Controller {
 	public function electrico()
 	{
 		$this->vistaCabeceraConDatos();
-		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Eléctico','ruta'=>'electrico'));
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Eléctrico','ruta'=>'electrico'));
 		$this->load->view('servicios/electrico.php');
 		$this->load->view('plantilla/piepagina.php');
 	}	

@@ -45,6 +45,7 @@
         <h3>COMUNICADO IMPORTANTE</h3>
         <h2><b>ENERGYPETROL S.A </b></h2> 
         <p><b>NO SOLICITA NI HA SOLICITADO JAMÁS</b> ningún tipo de contribución económica para el proceso de contratación de personal.</p>
+        <p>Cualquier inquietud sobre contratación de personal comunicarse a rrhh@energypetrol.net.</p>
         <div style="text-align: center">
             <button style="background-color: #1ba1dd;color: #ffffff;font-size: large" onclick="showPictures()">Aceptar</button>
 

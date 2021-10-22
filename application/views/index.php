@@ -45,7 +45,7 @@
         <h3>COMUNICADO IMPORTANTE</h3>
         <h2><b>ENERGYPETROL S.A </b></h2> 
         <p>Al momento <b>NO SE ENCUENTRA EN PROCESO DE SELECCIÓN DE PERSONAL</b> para ningún <b>CARGO</b> o <b>LOCACIÓN</b> en las que desarrollamos nuestras actividades.</p>
-        <p><b>NO SOLICITA NI HA SOLICITADO JAMÁS</b> ningún tipo de contribución económica para el proceso de contratación de personal.</p>
+        <p><b>NO SOLICITA</b> ningún tipo de contribución económica para el proceso de contratación de personal.</p>
         <p>En caso de requerir personal se publicará en la pagina oficial <b>www.energypetrol.net</b></p>
         <div style="text-align: center">
             <button style="background-color: #1ba1dd;color: #ffffff;font-size: large" onclick="showPictures()">Aceptar</button>

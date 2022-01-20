@@ -72,7 +72,8 @@
                                                                                                     <ul class="social-icons">
                                                                                                         <li><a target="_blank" href="<?php echo buscarDato($parametro, "facebook"); ?>" class="facebook"><em class="fa fa-facebook"></em></a> </li>
                                                                                                         <li><a target="_blank" href="<?php echo buscarDato($parametro, "twiter"); ?>" class="twitter"><em target="_blank" class="fa fa-twitter"></em></a> </li>
-                                                                                                        <li><a target="_blank" href="<?php echo buscarDato($parametro, "google"); ?>" class="google"><em class="fa fa-google-plus"></em></a> </li>
+                                                                                                        <li><a target="_blank" href="<?php echo buscarDato($parametro, "youtube"); ?>" class="youtube"><em class="fa fa-youtube-play"></em></a> </li>
+                                                                                                        <li><a target="_blank" href="<?php echo buscarDato($parametro, "instagram"); ?>" class="instagram"><em class="fa fa-instagram"></em></a> </li>
                                                                                                         <li><a target="_blank" href="<?php echo buscarDato($parametro, "linkedin"); ?>" class="linkedin"><em class="fa fa-linkedin"></em></a> </li>
                                                                                                     </ul>
                                                                                                 </div>
@@ -93,8 +94,19 @@
                                                                                         <!-- Collect the nav links, forms, and other content for toggling -->
                                                                                         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
                                                                                             <ul class="nav navbar-nav navbar-right">
-                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome" class="active">Inicio</a> </li>
-                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome/nosotros">Nosotros</a> </li>
+<!--                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome" class="active">Inicio</a> </li>-->
+                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome/productosServicios">Productos y Servicios</a>
+                                                                                                    <ul class="dropdown">
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/firegas">Fire &amp; Gas</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/instrumentacion">Instrumentaci&oacute;n</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
+                                                                                                    </ul>
+                                                                                                </li>
+                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome/nosotros">Compañía</a> </li>
 <!--                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome">Ingenieria</a>
                                                                                                     <ul class="dropdown">
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
@@ -120,20 +132,9 @@
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
                                                                                                     </ul>
                                                                                                 </li>-->
-                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome/productosServicios">Productos y Servicios</a>
-                                                                                                    <ul class="dropdown">
-                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
-                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
-                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/firegas">Fire &amp; Gas</a></li>
-                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/instrumentacion">Instrumentaci&oacute;n</a></li>
-                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
-                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
-                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
-                                                                                                    </ul>
-                                                                                                </li>
-                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome/videos">Videos</a> </li>
+<!--                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome/videos">Videos</a> </li>-->
                                                                                                 <li class="drop"><a href="<?= base_url() ?>index.php/welcome/contactanos">Contacto</a></li>
-                                                                                                <li class="drop"><a href="http://aplicaciones.energypetrol.net/EnergyFac/" target="_blank">Facturaci&oacute;n Electr&oacute;nica</a></li>
+<!--                                                                                                <li class="drop"><a href="http://aplicaciones.energypetrol.net/EnergyFac/" target="_blank">Facturaci&oacute;n Electr&oacute;nica</a></li>-->
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>

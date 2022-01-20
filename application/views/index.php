@@ -83,7 +83,6 @@
             ?>
         </ul>
         <div class="tp-bannertimer"></div>
-
     </div>
 </div>
 <!-- The Modal -->

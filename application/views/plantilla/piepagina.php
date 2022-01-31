@@ -24,7 +24,7 @@
                     <div class="col-md-4">
                         <div class="footer-widget info-widget">
                             <h2>Contacto</h2>
-                            <p><span>N&uacute;mero de Tel&eacute;fono:</span> <a style="color: #ffffff !important;" href="contacto.html"> <?php echo buscarDato($parametro,'telefono') ?></a></p>
+                            <p><span>N&uacute;mero de Tel&eacute;fono:</span> <a style="color: #ffffff !important;" href="<?= base_url() ?>index.php/welcome/contactanos"> <?php echo buscarDato($parametro,'telefono') ?></a></p>
                             <p><span>Email:</span><a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro,'correo') ?>"><?php echo buscarDato($parametro,'correo') ?></a></p>
 <!--                            <p><span>Horario de Trabajo:</span> 8:00 a.m - 17:00 p.m</p>-->
                         </div>

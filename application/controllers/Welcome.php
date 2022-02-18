@@ -119,7 +119,7 @@ class Welcome extends CI_Controller {
 	public function paquetizados()
 	{
 		$this->vistaCabeceraConDatos();
-		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Paquetizado','ruta'=>'paquetizado'));
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Paquetizados','ruta'=>'paquetizados'));
 		$this->load->view('servicios/paquetizados.php');
 		$this->load->view('plantilla/piepagina.php');
 	}	
@@ -135,7 +135,7 @@ class Welcome extends CI_Controller {
 	public function electrico()
 	{
 		$this->vistaCabeceraConDatos();
-		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Eléctronico','ruta'=>'electronico'));
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Eléctrico','ruta'=>'electrico'));
 		$this->load->view('servicios/electrico.php');
 		$this->load->view('plantilla/piepagina.php');
 	}	

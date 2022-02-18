@@ -3,58 +3,30 @@
 <p>
     <footer>
         <div class="up-footer">
-            <div class="container">
+            <div class="container" style="width: 80%">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="footer-widget">
                             <img alt="" width="170px" src="<?= base_url() ?>public/images\logof.png">
-                            <img alt="" width="170px" src="<?= base_url() ?>public/images\BV_Cert_ISO9001-2015.png">
+<!--                            <img alt="" width="170px" src="<?= base_url() ?>public/images\BV_Cert_ISO9001-2015.png">-->
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4" style="padding-top: 40px">
                         <div class="footer-widget">
-                            <p>Productos y Servicios</p>
+<!--                            <p>Productos y Servicios</p>-->
                             <ul class="tag-list">
-                                <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/firegas">Sistema Contra Incendio</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/instrumentacion">Instrumentaci&oacute;n</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/productosServicios">Ingenier&iacute;a</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/stock/1">Procura</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/productosServicios">Construcci&oacute;n</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="footer-widget">
-                            <h2>Flickr</h2>
-                            <style type="text/css">
-                                .flickr_badge_image {
-                                    margin: 0px;
-                                    display: inline;
-                                }
-
-                                .flickr_badge_image img {
-                                    padding: 1px;
-                                    margin: 2px;
-                                }
-
-                                #flickr_badge_wrapper {
-                                    width: 262.5px;
-                                    text-align: left
-                                }
-                            </style>
-                            <div id="flickr_badge_wrapper">
-                                <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&display=latest&size=s&layout=x&source=user&user=134211586@N02"></script>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="footer-widget info-widget">
                             <h2>Contacto</h2>
-                            <p><span>N&uacute;mero de Tel&eacute;fono:</span> <a style="color: #ffffff !important;" href="contacto.html"> <?php echo buscarDato($parametro,'telefono') ?></a></p>
+                            <p><span>N&uacute;mero de Tel&eacute;fono:</span> <a style="color: #ffffff !important;" href="<?= base_url() ?>index.php/welcome/contactanos"> <?php echo buscarDato($parametro,'telefono') ?></a></p>
                             <p><span>Email:</span><a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro,'correo') ?>"><?php echo buscarDato($parametro,'correo') ?></a></p>
-                            <p><span>Horario de Trabajo:</span> 8:00 a.m - 17:00 p.m</p>
+<!--                            <p><span>Horario de Trabajo:</span> 8:00 a.m - 17:00 p.m</p>-->
                         </div>
                         <br>
                         <div class="col-md-10">

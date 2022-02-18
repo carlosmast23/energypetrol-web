@@ -8,7 +8,7 @@
                     <div class="col-md-4">
                         <div class="footer-widget">
                             <img alt="" width="170px" src="<?= base_url() ?>public/images\logof.png">
-<!--                            <img alt="" width="170px" src="<?= base_url() ?>public/images\BV_Cert_ISO9001-2015.png">-->
+                            <img alt="" width="170px" src="<?= base_url() ?>public/images\BV_Cert_ISO9001-2015.png">
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 40px">

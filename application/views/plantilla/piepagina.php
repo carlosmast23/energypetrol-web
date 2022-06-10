@@ -8,7 +8,7 @@
                     <div class="col-md-4">
                         <div class="footer-widget">
                             <img alt="" width="170px" src="<?= base_url() ?>public/images\logof.png">
-                            <img alt="" width="190px" src="<?= base_url() ?>public/images\BV_Cert_ISO9001-2015.png">
+                            <img alt="" width="190px" src="<?= base_url() ?>public/images\Cert.png">
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 40px">
@@ -42,7 +42,7 @@
             </div>
         </div>
         <p class="copyright">
-            <a style="color: #ffffff;" href="http://alphawavedigital.com" target="_blank"><?php echo buscarDato($parametro,'pie_pagina') ?></a>
+            <a style="color: #ffffff;" href="http://www.energypetrol.net/" target="_blank"><?php echo buscarDato($parametro,'pie_pagina') ?></a>
         </p>
     </footer>
 

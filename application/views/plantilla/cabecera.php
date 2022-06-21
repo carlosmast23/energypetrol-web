@@ -89,7 +89,7 @@
                                                                                                 <span class="icon-bar"></span>
                                                                                                 <span class="icon-bar"></span>
                                                                                             </button>
-                                                                                            <a href="<?= base_url() ?>index.php/welcome/index" class="navbar-brand"><img alt="" width="100px" src="<?= base_url() ?>public/images\logo.png"></a>
+                                                                                            <a href="<?= base_url() ?>index.php/welcome/index" class="navbar-brand"><img alt="" width="100px" src="<?= base_url() ?>public/images/newImages/Logos_Energypetrol_WEB.png"></a>
                                                                                         </div>
                                                                                         <!-- Collect the nav links, forms, and other content for toggling -->
                                                                                         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">

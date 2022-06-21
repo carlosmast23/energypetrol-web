@@ -7,8 +7,8 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="footer-widget">
-                            <img alt="" width="170px" src="<?= base_url() ?>public/images\logof.png">
-                            <img alt="" width="190px" src="<?= base_url() ?>public/images\Cert.png">
+                            <img alt="" width="140px" src="<?= base_url() ?>public/images/newImages/Logos_Energypetrol_WEB.png">
+                            <img alt="" width="150px" style="margin-left: 10px" src="<?= base_url() ?>public/images\Cert.png">
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 40px">

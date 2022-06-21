@@ -104,7 +104,7 @@
         <div class="row" align="center">
             <div class="col-md-4">
                 <div class="offer-post">
-                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\logof.png" style="width: 60%"></a>
+                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images/newImages/Logos_Energypetrol_WEB.png" style="width: 60%"></a>
                     <h2><a href="<?= base_url() ?>index.php/welcome/nosotros">Qui&eacute;nes Somos</a></h2>
                     <p style="text-align: justify">ENERGYPETROL S.A. es una compa&ntilde;&iacute;a fundada en 1998, su objetivo principal es entregar calidad, efectividad y valor agregado en todas sus actividades, tales como la provisi&oacute;n de productos y servicios de la m&aacute;s alta calidad para el sector petrolero e industrial.</p>
                 </div>

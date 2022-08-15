@@ -1,6 +1,6 @@
 
 <?php
-require_once "../shopping-cart/ShoppingCart.php";
+require_once "ShoppingCart.php";
 
 $member_id = 2; // you can your integerate authentication module here to get logged in member
 
@@ -74,7 +74,7 @@ if (!empty($_GET["action"])) {
             if (!empty($cartItem)) {
                 ?>
                 <?php
-                require_once ("../shopping-cart/cart-list.php");//cart-list.php
+                require_once ("cart-list.php");
                 ?>  
                 <div class="align-right">
                     <a href="process-checkout.php"><button class="btn-action" name="check_out">Comprar</button></a>
@@ -85,7 +85,7 @@ if (!empty($_GET["action"])) {
 
         </div>
         <?php
-        require_once "../shopping-cart/product-list.php";//product-list.php
+        require_once "product-list.php";
         ?>
 
     </BODY>

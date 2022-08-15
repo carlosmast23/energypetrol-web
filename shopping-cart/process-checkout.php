@@ -64,7 +64,6 @@
                     <input type="text" name="Apellido" PlaceHolder="Apellido" required>
                 </div>
             </div>
-
             <div class="form-row">
                 <div class="input-field">
                     <input type="text" name="Correo" PlaceHolder="Correo" required>

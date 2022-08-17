@@ -13,12 +13,12 @@
         ?>
         <div class="cart-item-container">
             <div class="cart-info title">
-                <img class="cart-image"
+                <img class="cart-image" width="5%"
                      src="<?php
                      if ($item["image"] != null || $item["image"] != "") {
-                         echo $item["image"];
+                         echo base_url()."public/images/".$item["image"];
                      } else {
-                         echo "product/noImage.jpg";
+                         echo base_url()."public/images/"."product/noImage.jpg";
                      }
                      ?>">
                      <?php echo $item["name"]; ?>
@@ -43,7 +43,7 @@
                 <a
                     href="index.php?action=remove&id=<?php echo $item["cart_id"]; ?>"
                     class="btnRemoveAction"><img
-                        src="image/icon-delete.png" alt="icon-delete"
+                        src="<?= base_url() ?>public/images/image/icon-delete.png" alt="icon-delete"
                         title="Remove Item" /></a>
             </div>
         </div>

@@ -104,6 +104,7 @@
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/shoppingCart">Carrito</a></li>
                                                                                                     </ul>
                                                                                                 </li>
                                                                                                 <li class="drop"><a href="<?= base_url() ?>index.php/welcome/nosotros">Compañía</a> </li>
@@ -134,7 +135,7 @@
                                                                                                 </li>-->
 <!--                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome/videos">Videos</a> </li>-->
                                                                                                 <li class="drop"><a href="<?= base_url() ?>index.php/welcome/contactanos">Contacto</a></li>
-<!--                                                                                                <li class="drop"><a href="http://aplicaciones.energypetrol.net/EnergyFac/" target="_blank">Facturaci&oacute;n Electr&oacute;nica</a></li>-->
+                                                                                                <!--                                                                                                <li class="drop"><a href="http://aplicaciones.energypetrol.net/EnergyFac/" target="_blank">Facturaci&oacute;n Electr&oacute;nica</a></li>-->
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>

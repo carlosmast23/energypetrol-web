@@ -203,6 +203,14 @@ class Welcome extends CI_Controller {
 		$this->load->view('nosotros.php');
 		$this->load->view('plantilla/piepagina.php');
 	}
+        
+        public function shoppingCart()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Shopping Cart','ruta'=>'shoppingCart'));
+		$this->load->view('shopping-cart/index.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
 
 	
 	public function productosServicios()

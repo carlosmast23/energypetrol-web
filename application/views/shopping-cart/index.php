@@ -38,13 +38,14 @@ if (!empty($_GET["action"])) {
 }
 ?>
 <HTML>
-    <HEAD>
+    <head>
         <TITLE>Tienda Energypetrol</TITLE>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="style.css" type="text/css" rel="stylesheet" />
-    </HEAD>
-    <BODY>
+        <link href="<?= base_url() ?>public/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+       <div class="container">
         <?php
         $cartItem = $shoppingCart->getMemberCartItem($member_id);
         $item_quantity = 0;
@@ -63,7 +64,7 @@ if (!empty($_GET["action"])) {
                 <div class="txt-heading-label">Carrito de compras</div>
 
                 <a id="btnEmpty" href="index.php?action=empty"><img
-                        src="image/empty-cart.png" alt="empty-cart"
+                        src="<?= base_url() ?>public/images/image/empty-cart.png" alt="empty-cart"
                         title="Empty Cart" class="float-right" /></a>
                 <div class="cart-status">
                     <div>Cantidad Total: <?php echo $item_quantity; ?></div>
@@ -87,6 +88,6 @@ if (!empty($_GET["action"])) {
         <?php
         require_once "product-list.php";
         ?>
-
-    </BODY>
+        </div>
+    </body>
 </HTML>

@@ -10,7 +10,7 @@
         <TITLE>Comprar Energypetrol</TITLE>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="style.css" type="text/css" rel="stylesheet" />
+        <link href="<?= base_url() ?>public/style.css" type="text/css" rel="stylesheet" />
     </HEAD>
 <BODY>
     <?php

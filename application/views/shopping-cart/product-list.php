@@ -24,9 +24,14 @@
         <div class="txt-heading-label" style="text-align: center">Productos</div>
     </div>
 
-    <form method="post" action="index.php?action=catSelect&cate=cat">
+    <form method="post" action="<?= base_url() ?>index.php/welcome/shoppingCart?action=catSelect&cate=cat">
         <label>Selecciona una categoria: </label>
         <select name="cat">
+            <?php
+            $catSelecc="";
+            $catSelecc=$_POST['cat'];
+            ?>
+            <option value="<?php echo $catSelecc; ?>"><?php echo $catSelecc; ?></option>
             <option value="Todos">Todos</option>
             <?php
             $queryCat = "SELECT distinct category FROM tbl_product";

@@ -80,7 +80,7 @@ function sendComercial($name, $email, $telf, $msg, $order, $msn) {
         //Recipients
         $mail->setFrom($user, 'Tienda Energypetrol');
         $mail->addAddress('andres_muentes@energypetrol.net', 'Comercial');     // Add a recipient
-        $mail->addAddress('danilo_panchez@energypetrol.net', 'Comercial');     // Add a recipient
+        //$mail->addAddress('danilo_panchez@energypetrol.net', 'Comercial');     // Add a recipient
         // Attachments
         //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
         //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
@@ -159,63 +159,65 @@ function sendUser($name, $email, $msn) {
         <link href="<?= base_url() ?>public/style.css" type="text/css" rel="stylesheet" />
     </HEAD>
     <BODY>
-        <div id="shopping-cart">
-            <div class="txt-heading">
-                <div class="txt-heading-label">Carrito de compras</div>
-                <a id="btnEmpty" href="index.php?action = empty">
-                    <img src="<?= base_url() ?>public/images/image/empty-cart.png" alt="empty-cart" title="Empty Cart" class="float-right"/>
-                </a>
-                <div class="cart-status">
-                    <div>Cantidad Total : <?php echo $item_quantity; ?></div>
-                    <div>Precio Total: $ <?php echo $item_price; ?></div>
+        <div class="container">
+            <div id="shopping-cart">
+                <div class="txt-heading">
+                    <div class="txt-heading-label">Carrito de compras</div>
+                    <a id="btnEmpty" href="index.php?action = empty">
+                        <img src="<?= base_url() ?>public/images/image/empty-cart.png" alt="empty-cart" title="Empty Cart" class="float-right"/>
+                    </a>
+                    <div class="cart-status">
+                        <div>Cantidad Total : <?php echo $item_quantity; ?></div>
+                        <div>Precio Total: $ <?php echo $item_price; ?></div>
+                    </div>
                 </div>
+                <?php
+                if (!empty($cartItem)) {
+                    ?>
+                    <?php
+                    require_once ("cart-list.php");
+                    ?>
+                    <?php
+                } // End if !empty $cartItem
+                ?>
             </div>
-            <?php
-            if (!empty($cartItem)) {
-                ?>
-                <?php
-                require_once ("cart-list.php");
-                ?>
-                <?php
-            } // End if !empty $cartItem
-            ?>
-        </div>
 
-        <?php
-        if (!empty($order)) {
-            //echo "<script>alert('Proceso ejecutado correctamente ..!');</script>";
-            ?>
-            <!--
-            <form name="frm_customer_detail" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="POST">
-              <input type = 'hidden'
-              name = 'business' value = 'YOUR_BUSINESS_EMAIL'> <input
-              type = 'hidden' name = 'item_name' value = 'Cart Item'> <input
-              type = 'hidden' name = 'item_number' value = "<?php echo $order; ?>"> <input
-              type = 'hidden' name = 'amount' value = '<?php echo $item_price; ?>'> <input type = 'hidden'
-              name = 'currency_code' value = 'USD'> <input type = 'hidden'
-              name = 'notify_url'
-              value = 'http://yourdomain.com/shopping-cart-check-out-flow-with-payment-integration/notify.php'> <input
-              type = 'hidden' name = 'return'
-              value = 'http://yourdomain.com/shopping-cart-check-out-flow-with-payment-integration/response.php'> <input type = "hidden"
-              name = "cmd" value = "_xclick"> <input
-              type = "hidden" name = "order" value = "<?php echo $order; ?>">
-              <div>
-              <input type = "submit" class = "btn-action"
-              name = "continue_payment" value = "Continue Payment">
-              </div>
-              </form>
-            -->
-            <!--<input type = "submit" class = "btn-action" name = "continue_buying" value = "Continuar comprando">-->
-            <div class = "align-right">
-                <a href = "<?= base_url() ?>index.php/welcome/shoppingCart?action=empty"><button class = "btn-action" name = "check_out">Productos</button></a>
-            </div>
             <?php
-        } else {
-            ?>
-            <div class="warning">Hubo un problema al enviar la solicitud. Porfavor intente nuevamente!</div>
-            <div>
-                <a href = "<?= base_url() ?>index.php/welcome/checkOutCart"><button class = "btn-action" name = "check_out">Regresar</button></a>
-            </div>
-        <?php } ?>
+            if (!empty($order)) {
+                //echo "<script>alert('Proceso ejecutado correctamente ..!');</script>";
+                ?>
+                <!--
+                <form name="frm_customer_detail" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="POST">
+                  <input type = 'hidden'
+                  name = 'business' value = 'YOUR_BUSINESS_EMAIL'> <input
+                  type = 'hidden' name = 'item_name' value = 'Cart Item'> <input
+                  type = 'hidden' name = 'item_number' value = "<?php echo $order; ?>"> <input
+                  type = 'hidden' name = 'amount' value = '<?php echo $item_price; ?>'> <input type = 'hidden'
+                  name = 'currency_code' value = 'USD'> <input type = 'hidden'
+                  name = 'notify_url'
+                  value = 'http://yourdomain.com/shopping-cart-check-out-flow-with-payment-integration/notify.php'> <input
+                  type = 'hidden' name = 'return'
+                  value = 'http://yourdomain.com/shopping-cart-check-out-flow-with-payment-integration/response.php'> <input type = "hidden"
+                  name = "cmd" value = "_xclick"> <input
+                  type = "hidden" name = "order" value = "<?php echo $order; ?>">
+                  <div>
+                  <input type = "submit" class = "btn-action"
+                  name = "continue_payment" value = "Continue Payment">
+                  </div>
+                  </form>
+                -->
+                <!--<input type = "submit" class = "btn-action" name = "continue_buying" value = "Continuar comprando">-->
+                <div class = "align-right">
+                    <a href = "<?= base_url() ?>index.php/welcome/shoppingCart?action=empty"><button class = "btn-action" name = "check_out">Productos</button></a>
+                </div>
+                <?php
+            } else {
+                ?>
+                <div class="success">Hubo un problema al enviar la solicitud. Porfavor intente nuevamente!</div>
+                <div>
+                    <a href = "<?= base_url() ?>index.php/welcome/checkOutCart"><button class = "btn-action" name = "check_out">Regresar</button></a>
+                </div>
+            <?php } ?>
+        </div>
     </BODY>
 </HTML>

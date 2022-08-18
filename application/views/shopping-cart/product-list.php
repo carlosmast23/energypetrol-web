@@ -83,7 +83,7 @@
                             ?>
                             <tr>
                         <form method="post"
-                              action="index.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
+                              action="<?= base_url() ?>index.php/welcome/shoppingCart/index.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
                             <td style="text-align: center;width: 15%">
                                 <div class="product-image">
                                     <img width="30%" src="<?php
@@ -141,7 +141,7 @@
                         ?>
                         <tr>
                     <form method="post"
-                          action="index.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
+                          action="<?= base_url() ?>index.php/welcome/shoppingCart/index.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
                         <td style="text-align: center;width: 15%">
                             <div class="product-image">
                                 <img width="30%" src="<?php

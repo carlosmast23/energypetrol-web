@@ -41,7 +41,7 @@
 
             <div class="cart-info action" style="text-align: right">
                 <a
-                    href="index.php?action=remove&id=<?php echo $item["cart_id"]; ?>"
+                    href="<?= base_url() ?>index.php/welcome/shoppingCart/index.php?action=remove&id=<?php echo $item["cart_id"]; ?>"
                     class="btnRemoveAction"><img
                         src="<?= base_url() ?>public/images/image/icon-delete.png" alt="icon-delete"
                         title="Remove Item" /></a>

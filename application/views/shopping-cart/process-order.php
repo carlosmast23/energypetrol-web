@@ -58,7 +58,7 @@ if (!empty($name) && !empty($email) && !empty($telf)) {
         }
 
         //send email
-        sendComercial($name, $email, $telf, $msg, $order, $msn);
+        //sendComercial($name, $email, $telf, $msg, $order, $msn);
         sendUser($name, $email, $msn);
         echo "<script>alert('Proceso ejecutado correctamente ..!');</script>";
     }
@@ -156,14 +156,14 @@ function sendUser($name, $email, $msn) {
         <TITLE>Comprar Energypetrol</TITLE>
         <meta name="viewport" content="width = device-width, initial-scale = 1">
 
-        <link href="style.css" type="text/css" rel="stylesheet" />
+        <link href="<?= base_url() ?>public/style.css" type="text/css" rel="stylesheet" />
     </HEAD>
     <BODY>
         <div id="shopping-cart">
             <div class="txt-heading">
                 <div class="txt-heading-label">Carrito de compras</div>
                 <a id="btnEmpty" href="index.php?action = empty">
-                    <img src="image/empty-cart.png" alt="empty-cart" title="Empty Cart" class="float-right"/>
+                    <img src="<?= base_url() ?>public/images/image/empty-cart.png" alt="empty-cart" title="Empty Cart" class="float-right"/>
                 </a>
                 <div class="cart-status">
                     <div>Cantidad Total : <?php echo $item_quantity; ?></div>
@@ -207,7 +207,7 @@ function sendUser($name, $email, $msn) {
             -->
             <!--<input type = "submit" class = "btn-action" name = "continue_buying" value = "Continuar comprando">-->
             <div class = "align-right">
-                <a href = "index.php"><button class = "btn-action" name = "check_out">Continuar comprando</button></a>
+                <a href = "<?= base_url() ?>index.php/welcome/shoppingCart?action=empty"><button class = "btn-action" name = "check_out">Productos</button></a>
             </div>
             <?php
         } else {

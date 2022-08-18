@@ -78,7 +78,7 @@ if (!empty($_GET["action"])) {
                 require_once ("cart-list.php");
                 ?>  
                 <div class="align-right">
-                    <a href="process-checkout.php"><button class="btn-action" name="check_out">Comprar</button></a>
+                    <a href="<?= base_url() ?>index.php/welcome/checkOutCart"><button class="btn-action" name="check_out">Comprar</button></a>
                 </div>
                 <?php
             } // End if !empty $cartItem

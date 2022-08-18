@@ -207,8 +207,22 @@ class Welcome extends CI_Controller {
         public function shoppingCart()
 	{
 		$this->vistaCabeceraConDatos();
-		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Shopping Cart','ruta'=>'shoppingCart'));
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Productos disponibles','ruta'=>'shoppingCart'));
 		$this->load->view('shopping-cart/index.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
+        public function checkOutCart()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Verificar productos','ruta'=>'checkOutCart'));
+		$this->load->view('shopping-cart/process-checkout.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
+        public function processOrderCart()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Shopping Cart','ruta'=>'processOrderCart'));
+		$this->load->view('shopping-cart/process-order.php');
 		$this->load->view('plantilla/piepagina.php');
 	}
 

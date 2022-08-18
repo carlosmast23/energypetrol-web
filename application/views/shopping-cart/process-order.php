@@ -212,9 +212,9 @@ function sendUser($name, $email, $msn) {
             <?php
         } else {
             ?>
-            <div class="success">Hubo un problema al enviar la solicitud. Porfavor intente nuevamente!</div>
+            <div class="warning">Hubo un problema al enviar la solicitud. Porfavor intente nuevamente!</div>
             <div>
-                <button class="btn-action">Back</button>
+                <a href = "<?= base_url() ?>index.php/welcome/checkOutCart"><button class = "btn-action" name = "check_out">Regresar</button></a>
             </div>
         <?php } ?>
     </BODY>

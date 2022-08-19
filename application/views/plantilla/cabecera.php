@@ -104,7 +104,7 @@
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
-                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/shoppingCart">Carrito</a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/shoppingCart">COTIZACION DE PRODUCTOS </a></li>
                                                                                                     </ul>
                                                                                                 </li>
                                                                                                 <li class="drop"><a href="<?= base_url() ?>index.php/welcome/nosotros">Compañía</a> </li>

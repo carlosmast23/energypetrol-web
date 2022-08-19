@@ -63,7 +63,7 @@ if (!empty($_GET["action"])) {
             <div class="txt-heading">
                 <div class="txt-heading-label">Carrito de compras</div>
 
-                <a id="btnEmpty" href="index.php?action=empty"><img
+                <a id="btnEmpty" href="<?= base_url() ?>index.php/welcome/shoppingCart/index.php?action=empty"><img
                         src="<?= base_url() ?>public/images/image/empty-cart.png" alt="empty-cart"
                         title="Empty Cart" class="float-right" /></a>
                 <div class="cart-status">
@@ -78,7 +78,7 @@ if (!empty($_GET["action"])) {
                 require_once ("cart-list.php");
                 ?>  
                 <div class="align-right">
-                    <a href="<?= base_url() ?>index.php/welcome/checkOutCart"><button class="btn-action" name="check_out">Comprar</button></a>
+                    <a href="<?= base_url() ?>index.php/welcome/checkOutCart"><button class="btn-action" name="check_out">Continuar</button></a>
                 </div>
                 <?php
             } // End if !empty $cartItem

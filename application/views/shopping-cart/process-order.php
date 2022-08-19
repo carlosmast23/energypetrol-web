@@ -53,7 +53,7 @@ if (!empty($name) && !empty($email) && !empty($telf)) {
                     $total = $total + ($item["price"] * $item["quantity"]);
                     $shoppingCart->insertOrderItem($order, $item["id"], $item["price"], $item["quantity"]);
                 }
-                $msn = $msn . "<br/><div style=\"text-align:right\"><p style=\"font-weight:bold\">Total: $ " . $total . "</p></div>";
+                $msn = $msn . "<br/><div style=\"text-align:right\"><p style=\"font-weight:bold\">Totalsdsdfsd: $ " . $total . "</p></div>";
             }
         }
 
@@ -163,7 +163,7 @@ function sendUser($name, $email, $msn) {
             <div id="shopping-cart">
                 <div class="txt-heading">
                     <div class="txt-heading-label">Carrito de compras</div>
-                    <a id="btnEmpty" href="index.php?action = empty">
+                    <a id="btnEmpty" href="<?= base_url() ?>index.php/welcome/shoppingCart/index.php?action=empty">
                         <img src="<?= base_url() ?>public/images/image/empty-cart.png" alt="empty-cart" title="Empty Cart" class="float-right"/>
                     </a>
                     <div class="cart-status">
@@ -183,8 +183,9 @@ function sendUser($name, $email, $msn) {
             </div>
 
             <?php
+            echo "<script>alert('Orden vacia ! '+ $order);</script>";
             if (!empty($order)) {
-                //echo "<script>alert('Proceso ejecutado correctamente ..!');</script>";
+               //echo "<script>alert('Orden vacia !'+ $order);</script>";
                 ?>
                 <!--
                 <form name="frm_customer_detail" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="POST">
@@ -208,7 +209,7 @@ function sendUser($name, $email, $msn) {
                 -->
                 <!--<input type = "submit" class = "btn-action" name = "continue_buying" value = "Continuar comprando">-->
                 <div class = "align-right">
-                    <a href = "<?= base_url() ?>index.php/welcome/shoppingCart?action=empty"><button class = "btn-action" name = "check_out">Productos</button></a>
+                    <a href = "<?= base_url() ?>index.php/welcome/shoppingCart?action=empty"><button class = "btn-action" name = "check_out">Catalogo</button></a>
                 </div>
                 <?php
             } else {

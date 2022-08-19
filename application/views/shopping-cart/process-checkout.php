@@ -77,13 +77,13 @@ $shoppingCart = new ShoppingCart();
 
                     <div class="form-row">
                         <div class="input-field">
-                            <textarea class="msn" name="Mensaje" placeholder="Ingrese algun mensaje que quisiera para el asesor comercial que lo contactara"></textarea>
+                            <textarea class="msn" name="Mensaje" placeholder="Ingrese alguna observación para el asesor comercial que lo contactará"></textarea>
                         </div>
                     </div>
                 </div>
                 <div>
                     <input type="submit" class="btn-action"
-                           name="proceed_payment" value="Solicitar Informacion">
+                           name="proceed_payment" value="Enviar solicitud">
                 </div>
             </form>
         </div>

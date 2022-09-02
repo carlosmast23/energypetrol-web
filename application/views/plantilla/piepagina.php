@@ -16,7 +16,7 @@
 <!--                            <p>Productos y Servicios</p>-->
                             <ul class="tag-list">
                                 <li><a href="<?= base_url() ?>index.php/welcome/productosServicios">Ingenier&iacute;a</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/stock/1">Procura</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/productosServicios">Procura</a></li>
                                 <li><a href="<?= base_url() ?>index.php/welcome/productosServicios">Construcci&oacute;n</a></li>
                             </ul>
                         </div>

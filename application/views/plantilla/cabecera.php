@@ -57,16 +57,18 @@
                                                                                                         <span><em style="color: #1ba1dd !important;" class="fa fa-phone"></em> <a style="color: #ffffff !important;" href="<?= base_url() ?>index.php/welcome/contactanos"><?php echo buscarDato($parametro, 'telefono'); ?></a></span>
                                                                                                         <span><em style="color: #1ba1dd !important;" class="fa fa-envelope-o"></em> <a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>"><?php echo buscarDato($parametro, "correo"); ?></a></span>
                                                                                                     </p>
-                                                                                                    <a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>">
-                                                                                                    </a>
+<!--                                                                                                    <a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>">
+                                                                                                    </a>-->
                                                                                                 </div>
-                                                                                                <a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>">
-                                                                                                </a>
-                                                                                                <div class="col-md-6"><a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>">
-                                                                                                    </a>
-                                                                                                    <ul class="social-icons"><a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>">
+<!--                                                                                                <a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>">
+                                                                                                </a>-->
+                                                                                                <div class="col-md-6">
+<!--                                                                                                    <a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>"></a>-->
+                                                                                                    <ul class="social-icons">
+<!--                                                                                                        <a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>">-->
                                                                                                         </a><a class="bandera" href="<?= base_url() ?>index.php/welcome/index"><img alt="" src="<?= base_url() ?>public/images\ecu.png"></a>
-                                                                                                        <a class="bandera" id="left" href="http://translate.google.com/translate?sl=es&tl=en&u=http%3A%2F%2Fwww.energypetrol.net"><img alt="" src="<?= base_url() ?>public/images\usa.png"></a>
+                                                                                                        <a class="bandera" id="left" href="http://translate.google.com/translate?sl=es&tl=en&u=http%3A%2F%2Fwww.energypetrol.net"><img alt="" src="<?= base_url() ?>public/images\usaSmall.png"></a>
+                                                                                                        <a class="bandera" href="<?= base_url() ?>index.php/welcome/shoppingCart"><button type="submit" class="btn btn-primary">Cotizar Productos</button></a>
                                                                                                         <a class="bandera" id="left" href="<?= base_url() ?>index.php/welcome/login"><img alt="" src="<?= base_url() ?>public/images\candado-ico.png"></a>
                                                                                                     </ul>
                                                                                                     <ul class="social-icons">

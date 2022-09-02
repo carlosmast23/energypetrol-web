@@ -37,9 +37,10 @@ if (!empty($_GET["action"])) {
     }
 }
 ?>
-<HTML>
+<HTML lang="en" class="no-js">
     <head>
         <TITLE>Tienda Energypetrol</TITLE>
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="<?= base_url() ?>public/style.css" type="text/css" rel="stylesheet" />

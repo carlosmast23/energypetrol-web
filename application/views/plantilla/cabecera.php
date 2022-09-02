@@ -68,7 +68,6 @@
 <!--                                                                                                        <a style="color: #ffffff !important;" href="mailto:<?php echo buscarDato($parametro, "correo"); ?>">-->
                                                                                                         </a><a class="bandera" href="<?= base_url() ?>index.php/welcome/index"><img alt="" src="<?= base_url() ?>public/images\ecu.png"></a>
                                                                                                         <a class="bandera" id="left" href="http://translate.google.com/translate?sl=es&tl=en&u=http%3A%2F%2Fwww.energypetrol.net"><img alt="" src="<?= base_url() ?>public/images\usaSmall.png"></a>
-                                                                                                        <a class="bandera" href="<?= base_url() ?>index.php/welcome/shoppingCart"><button type="submit" class="btn btn-primary">Cotizar Productos</button></a>
                                                                                                         <a class="bandera" id="left" href="<?= base_url() ?>index.php/welcome/login"><img alt="" src="<?= base_url() ?>public/images\candado-ico.png"></a>
                                                                                                     </ul>
                                                                                                     <ul class="social-icons">
@@ -106,7 +105,7 @@
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
                                                                                                         <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
-                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/shoppingCart">COTIZACION DE PRODUCTOS </a></li>
+                                                                                                        <li><a href="<?= base_url() ?>index.php/welcome/shoppingCart">Cotizar Productos</a></li>
                                                                                                     </ul>
                                                                                                 </li>
                                                                                                 <li class="drop"><a href="<?= base_url() ?>index.php/welcome/nosotros">Compañía</a> </li>
@@ -137,6 +136,7 @@
                                                                                                 </li>-->
 <!--                                                                                                <li class="drop"><a href="<?= base_url() ?>index.php/welcome/videos">Videos</a> </li>-->
                                                                                                 <li class="drop"><a href="<?= base_url() ?>index.php/welcome/contactanos">Contacto</a></li>
+                                                                                                <li class="drop" style="margin-top: -10px"><a class="bandera" href="<?= base_url() ?>index.php/welcome/shoppingCart"><button type="submit" class="btn btn-primary">Cotizar Productos</button></a></li>
                                                                                                 <!--                                                                                                <li class="drop"><a href="http://aplicaciones.energypetrol.net/EnergyFac/" target="_blank">Facturaci&oacute;n Electr&oacute;nica</a></li>-->
                                                                                             </ul>
                                                                                         </div>

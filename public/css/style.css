@@ -203,7 +203,7 @@ website:    http://www.themepunch.com
     color: #1ba1dd !important;
 }
 .top-line {
-    padding: 20px 0;
+    padding: 10px 0;
     background: #333333;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;

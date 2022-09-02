@@ -117,7 +117,7 @@
                                 <?php echo "$" . $product_array[$key]["price"]; ?>
                             </td>
                             <td style="text-align: center;width: 50%">
-                                <?php echo $product_array[$key]["description"]; ?>                                
+                                <?php echo utf8_decode($product_array[$key]["description"]); ?>                                
                             </td>
                         </form>
                         </tr>    
@@ -175,7 +175,7 @@
                             <?php echo "$" . $product_array[$key]["price"]; ?>
                         </td>
                         <td style="text-align: center;width: 50%">
-                            <?php echo $product_array[$key]["description"]; ?>                                
+                            <?php echo utf8_decode($product_array[$key]["description"]); ?>                                
                         </td>
                     </form>
                     </tr>    

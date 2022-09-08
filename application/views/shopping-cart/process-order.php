@@ -44,6 +44,7 @@ $msn = "<table style=\"border: 1px solid black;width:50%\"><tr><th>Codigo</th><t
 echo "<script>alert('Datos correo  ! +" . $name . "+" . $email . "+" . $telf . "');</script>";
 if (!empty($name) && !empty($email) && !empty($telf)) {
     // able to insert into database
+    echo "<script>alert('Insertando Order');</script>";
     $order = $shoppingCart->insertOrder($arrCustInfo, $member_id, $item_price);
 
     if (!empty($order)) {

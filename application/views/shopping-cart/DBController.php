@@ -6,7 +6,7 @@ class DBController {
     private $user = 'energype_admin';
     private $password = 'Admin$is2019';
     private $database = 'energype_energypetrol';
-    //private $user = 'root';
+    ///private $user = 'root';
     //private $password = 'Energy+2019';
     //private $database = 'webpage';
     private static $conn;
@@ -27,6 +27,7 @@ class DBController {
             $this->bindParams($sql_statement, $params);
         }
         $sql_statement->execute();
+        //$result = $sql_statement->get_result();
         $result = $sql_statement->get_result();
 
         if ($result->num_rows > 0) {
@@ -43,6 +44,8 @@ class DBController {
     function insertDB($query, $params = array()) {
         @$sql_statement = $this->conn->prepare($query);
         //var_dump($sql_statement);
+        //echo("<script>alert('Parametros +".implode(" ",$params)."');</script>");
+        //print_r($params);
         if (!empty($params)) {
             //    print_r($params);
             //    var_dump($params);
@@ -50,7 +53,7 @@ class DBController {
         }
         //var_dump($sql_statement);
         $sql_statement->execute();
-
+        var_dump($sql_statement->error);
         @$id = mysqli_insert_id($this->conn);
         return $id;
     }

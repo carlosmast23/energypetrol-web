@@ -26,7 +26,7 @@ if (!empty($cartItem)) {
 }
 
 if (!empty($_POST["proceed_payment"])) {
-    echo "<script>alert('!proceed_payment');</script>";
+    //echo "<script>alert('!proceed_payment');</script>";
     $name = $_POST ['Nombre'] . " " . $_POST ['Apellido'];
     $email = $_POST ['Correo'];
     $telf = $_POST ['Telefono'];
@@ -41,7 +41,7 @@ if (!empty($_POST["proceed_payment"])) {
 }
 $order = 0;
 $msn = "<table style=\"border: 1px solid black;width:50%\"><tr><th>Codigo</th><th>Producto</th><th>Cantidad</th><th>Precio</th><tr>";
-echo "<script>alert('Datos correo  ! +" . $name . "+" . $email . "+" . $telf . "');</script>";
+//echo "<script>alert('Datos correo  ! +" . $name . "+" . $email . "+" . $telf . "');</script>";
 if (!empty($name) && !empty($email) && !empty($telf)) {
     // able to insert into database
     echo "<script>alert('Insertando Order');</script>";

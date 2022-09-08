@@ -61,8 +61,8 @@ if (!empty($name) && !empty($email) && !empty($telf)) {
         }
 
         //send email
-        //sendComercial($name, $email, $telf, $msg, $order, $msn);
-        //sendUser($name, $email, $msn);
+        sendComercial($name, $email, $telf, $msg, $order, $msn);
+        sendUser($name, $email, $msn);
         echo "<script>alert('Proceso ejecutado correctamente ..!');</script>";
     }
 }

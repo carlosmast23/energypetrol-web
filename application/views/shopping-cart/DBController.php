@@ -53,7 +53,7 @@ class DBController {
         }
         //var_dump($sql_statement);
         $sql_statement->execute();
-        var_dump($sql_statement->error);
+        //var_dump($sql_statement->error);
         @$id = mysqli_insert_id($this->conn);
         return $id;
     }

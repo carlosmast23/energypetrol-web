@@ -1,10 +1,8 @@
 
 <?php
 require_once "ShoppingCart.php";
-
-$member_id = 2; // you can your integerate authentication module here to get logged in member
-
 $shoppingCart = new ShoppingCart();
+$member_id = $_COOKIE["idMember"]; // you can your integerate authentication module here to get logged in member
 if (!empty($_GET["action"])) {
     switch ($_GET["action"]) {
         case "add":
@@ -46,49 +44,49 @@ if (!empty($_GET["action"])) {
         <link href="<?= base_url() ?>public/style.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
-       <div class="container">
-        <?php
-        $cartItem = $shoppingCart->getMemberCartItem($member_id);
-        $item_quantity = 0;
-        $item_price = 0;
-        if (!empty($cartItem)) {
+        <div class="container">
+            <?php
+            $cartItem = $shoppingCart->getMemberCartItem($member_id);
+            $item_quantity = 0;
+            $item_price = 0;
             if (!empty($cartItem)) {
-                foreach ($cartItem as $item) {
-                    $item_quantity = $item_quantity + $item["quantity"];
-                    $item_price = $item_price + ($item["price"] * $item["quantity"]);
+                if (!empty($cartItem)) {
+                    foreach ($cartItem as $item) {
+                        $item_quantity = $item_quantity + $item["quantity"];
+                        $item_price = $item_price + ($item["price"] * $item["quantity"]);
+                    }
                 }
             }
-        }
-        ?>
-        <div id="shopping-cart">
-            <div class="txt-heading">
-                <div class="txt-heading-label">Carrito de compras</div>
+            ?>
+            <div id="shopping-cart">
+                <div class="txt-heading">
+                    <div class="txt-heading-label">Carrito de compras</div>
 
-                <a id="btnEmpty" href="<?= base_url() ?>index.php/welcome/shoppingCart/index.php?action=empty"><img
-                        src="<?= base_url() ?>public/images/image/empty-cart.png" alt="empty-cart"
-                        title="Empty Cart" class="float-right" /></a>
-                <div class="cart-status">
-                    <div>Cantidad Total: <?php echo $item_quantity; ?></div>
-                    <div>Precio Total: $ <?php echo $item_price; ?></div>
+                    <a id="btnEmpty" href="<?= base_url() ?>index.php/welcome/shoppingCart/index.php?action=empty"><img
+                            src="<?= base_url() ?>public/images/image/empty-cart.png" alt="empty-cart"
+                            title="Empty Cart" class="float-right" /></a>
+                    <div class="cart-status">
+                        <div>Cantidad Total: <?php echo $item_quantity; ?></div>
+                        <div>Precio Total: $ <?php echo $item_price; ?></div>
+                    </div>
                 </div>
+                <?php
+                if (!empty($cartItem)) {
+                    ?>
+                    <?php
+                    require_once ("cart-list.php");
+                    ?>  
+                    <div class="align-right">
+                        <a href="<?= base_url() ?>index.php/welcome/checkOutCart"><button class="btn-action" name="check_out">Continuar</button></a>
+                    </div>
+                    <?php
+                } // End if !empty $cartItem
+                ?>
+
             </div>
             <?php
-            if (!empty($cartItem)) {
-                ?>
-                <?php
-                require_once ("cart-list.php");
-                ?>  
-                <div class="align-right">
-                    <a href="<?= base_url() ?>index.php/welcome/checkOutCart"><button class="btn-action" name="check_out">Continuar</button></a>
-                </div>
-                <?php
-            } // End if !empty $cartItem
+            require_once "product-list.php";
             ?>
-
-        </div>
-        <?php
-        require_once "product-list.php";
-        ?>
         </div>
     </body>
 </HTML>

@@ -8,7 +8,7 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
-$member_id = 2; // you can your integerate authentication module here to get logged in member
+$member_id = $_COOKIE["idMember"]; // you can your integerate authentication module here to get logged in member
 
 $shoppingCart = new ShoppingCart();
 

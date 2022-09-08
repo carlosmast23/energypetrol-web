@@ -6,7 +6,7 @@ class DBController {
     private $user = 'energype_admin';
     private $password = 'Admin$is2019';
     private $database = 'energype_energypetrol';
-    ///private $user = 'root';
+    //private $user = 'root';
     //private $password = 'Energy+2019';
     //private $database = 'webpage';
     private static $conn;

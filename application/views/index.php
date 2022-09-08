@@ -58,6 +58,26 @@
     <div class="tp-banner">
         <ul>
             <?php
+            setcookie("idMember", createRandomCode());
+
+            //setcookie("idMember", createRandomCode(), time()+3600); 
+            function createRandomCode() {
+
+                $chars = "energy1791403916001";
+                srand((double) microtime() * 1000000);
+                $i = 0;
+                $pass = '';
+
+                while ($i <= 7) {
+                    $num = rand() % 33;
+                    $tmp = substr($chars, $num, 1);
+                    $pass = $pass . $tmp;
+                    $i++;
+                }
+                //print_r($pass);
+                return $pass;
+            }
+
             foreach ($banner->result() as $fila) {
                 ?>
                 <!-- SLIDE  -->

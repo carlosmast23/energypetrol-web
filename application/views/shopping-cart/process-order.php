@@ -26,6 +26,7 @@ if (!empty($cartItem)) {
 }
 
 if (!empty($_POST["proceed_payment"])) {
+    echo "<script>alert('!proceed_payment');</script>";
     $name = $_POST ['Nombre'] . " " . $_POST ['Apellido'];
     $email = $_POST ['Correo'];
     $telf = $_POST ['Telefono'];
@@ -40,6 +41,7 @@ if (!empty($_POST["proceed_payment"])) {
 }
 $order = 0;
 $msn = "<table style=\"border: 1px solid black;width:50%\"><tr><th>Codigo</th><th>Producto</th><th>Cantidad</th><th>Precio</th><tr>";
+echo "<script>alert('Datos correo  ! +" . $name . "+" . $email . "+" . $telf . "');</script>";
 if (!empty($name) && !empty($email) && !empty($telf)) {
     // able to insert into database
     $order = $shoppingCart->insertOrder($arrCustInfo, $member_id, $item_price);
@@ -53,13 +55,13 @@ if (!empty($name) && !empty($email) && !empty($telf)) {
                     $total = $total + ($item["price"] * $item["quantity"]);
                     $shoppingCart->insertOrderItem($order, $item["id"], $item["price"], $item["quantity"]);
                 }
-                $msn = $msn . "<br/><div style=\"text-align:right\"><p style=\"font-weight:bold\">Totalsdsdfsd: $ " . $total . "</p></div>";
+                $msn = $msn . "<br/><div style=\"text-align:right\"><p style=\"font-weight:bold\">Total: $ " . $total . "</p></div>";
             }
         }
 
         //send email
         //sendComercial($name, $email, $telf, $msg, $order, $msn);
-        sendUser($name, $email, $msn);
+        //sendUser($name, $email, $msn);
         echo "<script>alert('Proceso ejecutado correctamente ..!');</script>";
     }
 }
@@ -183,9 +185,9 @@ function sendUser($name, $email, $msn) {
             </div>
 
             <?php
-            echo "<script>alert('Orden vacia ! '+ $order);</script>";
+            echo "<script>alert('Orden vacia ! +" . $order . "');</script>";
             if (!empty($order)) {
-               //echo "<script>alert('Orden vacia !'+ $order);</script>";
+                //echo "<script>alert('Orden vacia !'+ $order);</script>";
                 ?>
                 <!--
                 <form name="frm_customer_detail" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="POST">

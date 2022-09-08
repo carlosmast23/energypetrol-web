@@ -40,11 +40,11 @@ if (!empty($_POST["proceed_payment"])) {
     );
 }
 $order = 0;
-$msn = "<table style=\"border: 1px solid black;width:50%\"><tr><th>Codigo</th><th>Producto</th><th>Cantidad</th><th>Precio</th><tr>";
+$msn = "<table style=\"border: 1px solid black;width:100%\"><tr><th>Codigo</th><th>Producto</th><th>Descripcion</th><th>Cantidad</th><th>Precio</th><tr>";
 //echo "<script>alert('Datos correo  ! +" . $name . "+" . $email . "+" . $telf . "');</script>";
 if (!empty($name) && !empty($email) && !empty($telf)) {
     // able to insert into database
-    echo "<script>alert('Insertando Order');</script>";
+    //echo "<script>alert('Insertando Order');</script>";
     $order = $shoppingCart->insertOrder($arrCustInfo, $member_id, $item_price);
 
     if (!empty($order)) {
@@ -52,10 +52,11 @@ if (!empty($name) && !empty($email) && !empty($telf)) {
             if (!empty($cartItem)) {
                 $total = 0;
                 foreach ($cartItem as $item) {
-                    $msn = $msn . "<tr><td style=\"text-align:center\">" . $item["code"] . "</td><td style=\"text-align:center\">" . $item["name"] . "</td><td style=\"text-align:center\">" . $item["quantity"] . "</td><td style=\"text-align:center\">$" . $item["price"] . "</td></tr>";
+                    $msn = $msn . "<tr><td style=\"text-align:center\">" . $item["code"] . "</td><td style=\"text-align:center\">" . $item["name"] . "</td><td style=\"text-align:center\">" . $item["description"] . "</td><td style=\"text-align:center\">" . $item["quantity"] . "</td><td style=\"text-align:center\">$" . $item["price"] . "</td></tr>";
                     $total = $total + ($item["price"] * $item["quantity"]);
                     $shoppingCart->insertOrderItem($order, $item["id"], $item["price"], $item["quantity"]);
                 }
+                $msn = $msn . "</table>";
                 $msn = $msn . "<br/><div style=\"text-align:right\"><p style=\"font-weight:bold\">Total: $ " . $total . "</p></div>";
             }
         }
@@ -186,7 +187,7 @@ function sendUser($name, $email, $msn) {
             </div>
 
             <?php
-            echo "<script>alert('Orden vacia ! +" . $order . "');</script>";
+            //echo "<script>alert('Orden vacia ! +" . $order . "');</script>";
             if (!empty($order)) {
                 //echo "<script>alert('Orden vacia !'+ $order);</script>";
                 ?>

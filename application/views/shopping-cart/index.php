@@ -2,14 +2,21 @@
 <?php
 require_once "ShoppingCart.php";
 $shoppingCart = new ShoppingCart();
-$member_id = $_COOKIE["idMember"]; // you can your integerate authentication module here to get logged in member
+if (isset($_COOKIE["idMember"])) {
+    $member_id = $_COOKIE["idMember"];
+} else {
+    setcookie("idMember", $shoppingCart->createRandomCode());
+}
+// you can your integerate authentication module here to get logged in member
 if (!empty($_GET["action"])) {
     switch ($_GET["action"]) {
         case "add":
             if (!empty($_POST["quantity"])) {
 
                 $productResult = $shoppingCart->getProductByCode($_GET["code"]);
-                $cartResult = $shoppingCart->getCartItemByProduct($productResult[0]["id"], $member_id);
+                if (isset($_COOKIE["idMember"])) {
+                    $cartResult = $shoppingCart->getCartItemByProduct($productResult[0]["id"], $member_id);
+                }
                 if (!empty($cartResult)) {
                     // Update cart item quantity in database
                     $newQuantity = $cartResult[0]["quantity"] + $_POST["quantity"];
@@ -27,7 +34,10 @@ if (!empty($_GET["action"])) {
             break;
         case "empty":
             // Empty cart
-            $shoppingCart->emptyCart($member_id);
+            if (isset($_COOKIE["idMember"])) {
+                $shoppingCart->emptyCart($member_id);
+                unset($_COOKIE['idMember']);
+            }
             break;
         case "catSelect":
 

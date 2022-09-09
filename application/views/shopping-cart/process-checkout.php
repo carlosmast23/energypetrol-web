@@ -1,9 +1,11 @@
 <?php
 require_once "ShoppingCart.php";
-
-$member_id =$_COOKIE["idMember"]; // you can your integerate authentication module here to get logged in member
-
 $shoppingCart = new ShoppingCart();
+if (isset($_COOKIE["idMember"])) {
+    $member_id = $_COOKIE["idMember"];
+} else {
+    setcookie("idMember", $shoppingCart->createRandomCode());
+}
 ?>
 <HTML>
     <HEAD>

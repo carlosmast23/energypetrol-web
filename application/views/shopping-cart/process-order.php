@@ -8,9 +8,13 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
-$member_id = $_COOKIE["idMember"]; // you can your integerate authentication module here to get logged in member
-
+//$member_id = $_COOKIE["idMember"]; // you can your integerate authentication module here to get logged in member
 $shoppingCart = new ShoppingCart();
+if (isset($_COOKIE["idMember"])) {
+    $member_id = $_COOKIE["idMember"];
+} else {
+    setcookie("idMember", $shoppingCart->createRandomCode());
+}
 
 /* Calculate Cart Total Items */
 $cartItem = $shoppingCart->getMemberCartItem($member_id);
@@ -83,9 +87,11 @@ function sendComercial($name, $email, $telf, $msg, $order, $msn) {
         $mail->Port = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
         //Recipients
         $mail->setFrom($user, 'Tienda Energypetrol');
-        $mail->addAddress('andres_muentes@energypetrol.net', 'Comercial');     // Add a recipient
-        //$mail->addAddress('danilo_panchez@energypetrol.net', 'Comercial');     // Add a recipient
-        // Attachments
+        //$mail->addAddress('andres_muentes@energypetrol.net', 'Comercial');     // Add a recipient
+        $mail->addAddress('danilo_panchez@energypetrol.net', 'Comercial');     // Add a recipient
+        $mail->addCC('fernando_chiguano@energypetrol.net','Comercial');
+        $mail->addCC('andres_muentes@energypetrol.net','Comercial');
+// Attachments
         //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
         //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
         // Content

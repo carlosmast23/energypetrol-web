@@ -24,7 +24,7 @@
                      <?php echo $item["name"]; ?>
             </div>
             <div class="cart-info desc" style="overflow-x: scroll">
-                <?php echo $item["name"]; ?> (<?php echo $item["description"]; ?>)
+                <?php echo $item["name"]; ?> (<?php echo utf8_decode($item["description"]); ?>)
             </div>
 
             <div class="cart-info">

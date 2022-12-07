@@ -67,9 +67,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="services-post">
-                                <a href="<?= base_url() ?>index.php/welcome/industrial"> <img alt="" src="<?php echo base_url() ?>uploads\servicio_instalacion_EnergyIndustrial.jpg"></a>
-                                <h2>Energyindustrial</h2>
-                                <p>Sistemas integrados construidos sobre una estructura met&aacute;lica que permite realizar el control de las variables de proceso, los paquetizados son construidos en el centro de desarrollo tecnol&oacute;gico de Energypetrol en Puembo.</p>
+                                <img alt="" src="<?php echo base_url() ?>uploads\Logo_EnergyIndustrial_2022_Small.png" style="width: 20%">
+                                <a href="<?= base_url() ?>index.php/welcome/industrial"> <img alt="" src="<?php echo base_url() ?>uploads\vista_superior copia.jpg"></a>
                                 <a href="<?= base_url() ?>index.php/welcome/industrial">Leer m&aacute;s</a>
                             </div>
                         </div>

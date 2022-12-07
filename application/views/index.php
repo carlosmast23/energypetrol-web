@@ -40,10 +40,10 @@
 
 <div id="myModal" class="modal" style="text-align: center">
     <!-- Modal content -->
-    <div id="messageEnergy" style="background-color: #ffffff;padding: 80px;margin: auto;position: relative">
+    <div id="messageEnergy" style="background-color: #ffffff;padding: 35px;margin: auto;position: absolute;bottom: inherit;width: 100%">
         <span class="close">&times;</span>
-        <h3>COMUNICADO IMPORTANTE</h3>
-        <h2><b>ENERGYPETROL S.A </b></h2> 
+        <h4>COMUNICADO IMPORTANTE</h4>
+        <h3><b>ENERGYPETROL S.A </b></h3> 
         <p>Al momento <b>NO SE ENCUENTRA EN PROCESO DE SELECCIÓN DE PERSONAL</b> para ningún <b>CARGO</b> o <b>LOCACIÓN</b> en las que desarrollamos nuestras actividades.</p>
         <p><b>NO SOLICITA</b> ningún tipo de contribución económica para el proceso de contratación de personal.</p>
         <p>En caso de requerir personal se publicará en la pagina oficial <b>www.energypetrol.net</b></p>
@@ -54,7 +54,7 @@
     </div>
 
 </div>
-<div class="tp-banner-container" id="bannerPictures" hidden="true">
+<div class="tp-banner-container" id="bannerPictures">
     <div class="tp-banner">
         <ul>
             <?php
@@ -63,19 +63,8 @@
             //setcookie("idMember", createRandomCode(), time()+3600); 
             function createRandomCode() {
 
-                $chars = date("Ymd").date("His");
-//                srand((double) microtime() * 1000000);
-//                $i = 0;
-//                $pass = '';
-//
-//                while ($i <= 7) {
-//                    $num = rand() % 33;
-//                    $tmp = substr($chars, $num, 1);
-//                    $pass = $pass . $tmp;
-//                    $i++;
-//                }
-//                //print_r($pass);
-                return $chars.gettimeofday()["sec"];
+                $chars = date("Ymd") . date("His");
+                return $chars . gettimeofday()["sec"];
             }
 
             foreach ($banner->result() as $fila) {
@@ -124,23 +113,26 @@
         <div class="row" align="center">
             <div class="col-md-4">
                 <div class="offer-post">
-                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images/newImages/Logos_Energypetrol_WEB.png" style="width: 60%"></a>
+                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images/newImages/22.jpg" style="width: 100%"></a>
                     <h2><a href="<?= base_url() ?>index.php/welcome/nosotros">Qui&eacute;nes Somos</a></h2>
                     <p style="text-align: justify">ENERGYPETROL S.A. es una compa&ntilde;&iacute;a fundada en 1998, su objetivo principal es entregar calidad, efectividad y valor agregado en todas sus actividades, tales como la provisi&oacute;n de productos y servicios de la m&aacute;s alta calidad para el sector petrolero e industrial.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="offer-post">
-                    <br>
-                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images\prueba\4.jpg" style="width: 70%"></a>
+                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>uploads/pdf\ingenieria.png" style="width: 90%"></a>
                     <h2><a href="<?= base_url() ?>index.php/welcome/productosServicios">Qu&eacute; hacemos</a></h2>
                     <p style="text-align: justify">La empresa procura atender a clientes que necesiten de ingenier&iacute;as especializadas en las que se requiera soluciones innovadoras, con las m&aacute;s recientes y avanzadas tecnolog&iacute;as.</p>
+                    <a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/CATALOGO_ENERGYPETROL_2022_9.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
                 </div>
             </div>
             <div class="col-md-4">
-                <iframe width="100%" frameborder="0" src="https://player.vimeo.com/video/139344238"></iframe>
-                <h4><a href="<?= base_url() ?>index.php/welcome/videos">Instalaciones CDT Energypetrol</a></h4>
-                <p style="text-align: justify">En Energypetrol, nuestra fortaleza reside en el capital humano y los procesos a su cargo. Por este motivo, la directiva ha invertido en conseguir las mejores condiciones de trabajo y estabilidad para todo su personal. En el Centro de Desarrollo Tecnol&oacute;gico de Energypetrol se construyen grandes proyectos que enriquecen a sus ejecutores como al desarrollo de la industria. </p>
+                <div class="offer-post">
+                    <iframe width="100%" height="220px" frameborder="0" src="https://player.vimeo.com/video/139344238"></iframe>
+                    <br><br><br>
+                    <h2><a href="<?= base_url() ?>index.php/welcome/videos">Instalaciones CDT</a></h2>
+                    <p style="text-align: justify">En Energypetrol, nuestra fortaleza reside en el capital humano y los procesos a su cargo. Por este motivo, la directiva ha invertido en conseguir las mejores condiciones de trabajo y estabilidad para todo su personal. En el Centro de Desarrollo Tecnol&oacute;gico de Energypetrol se construyen grandes proyectos que enriquecen a sus ejecutores como al desarrollo de la industria. </p>
+                </div>
             </div>
         </div>
     </div>

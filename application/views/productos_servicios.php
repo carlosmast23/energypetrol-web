@@ -9,8 +9,8 @@
                         <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
                         <li><a href="<?= base_url() ?>index.php/welcome/firegas">Fire and Gas</a></li>
                         <li><a href="<?= base_url() ?>index.php/welcome/instrumentacion">Instrumentaci&oacute;n</a></li>
-                        <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
-                        <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
+<!--                        <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
+                        <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>-->
                     </ul>
                     <div class="side-navigation">
                         <div class="contact-info">
@@ -65,12 +65,12 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="services-post">
-                                <a href="<?= base_url() ?>index.php/welcome/paquetizados"> <img alt="" src="<?php echo base_url() ?>public\images\paquetizado.jpg"></a>
-                                <h2>Paquetizados</h2>
+                                <a href="<?= base_url() ?>index.php/welcome/industrial"> <img alt="" src="<?php echo base_url() ?>uploads\servicio_instalacion_EnergyIndustrial.jpg"></a>
+                                <h2>Energyindustrial</h2>
                                 <p>Sistemas integrados construidos sobre una estructura met&aacute;lica que permite realizar el control de las variables de proceso, los paquetizados son construidos en el centro de desarrollo tecnol&oacute;gico de Energypetrol en Puembo.</p>
-                                <a href="<?= base_url() ?>index.php/welcome/paquetizados">Leer m&aacute;s</a>
+                                <a href="<?= base_url() ?>index.php/welcome/industrial">Leer m&aacute;s</a>
                             </div>
                         </div>
                     </div>

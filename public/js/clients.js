@@ -20,11 +20,29 @@ jQuery(document).ready(function($){
 	//Amazing New Stuff Scroll
 	if($('.bestseller').length){
 	$('.bestseller').bxSlider({
-	minSlides: 3,
-  	maxSlides: 3,
-  	slideWidth: 225,
+	minSlides: 1,
+  	maxSlides: 1,
+  	slideWidth: 450,
 	pager:false,
   	slideMargin: 30
+	});
+	}
+	if($('.bannDescription').length){
+	$('.bannDescription').bxSlider({
+	minSlides: 1,
+  	maxSlides: 1,
+  	slideWidth: 1050,
+	pager:false,
+  	slideMargin: 30
+	});
+	}
+	if($('.servicios').length){
+	$('.servicios').bxSlider({
+	minSlides: 1,
+  	maxSlides: 1,
+  	slideWidth: 550,
+	pager:false,
+  	slideMargin: 20
 	});
 	}
 	
@@ -35,6 +53,24 @@ jQuery(document).ready(function($){
 	minSlides: 5,
   	maxSlides: 5,
   	slideWidth: 234,
+	pager:false,
+  	slideMargin: 0
+	});
+	}
+	if($('.partner-images').length){
+	$('.partner-images').bxSlider({
+	minSlides: 5,
+  	maxSlides: 5,
+  	slideWidth: 350,
+	pager:false,
+  	slideMargin: 0
+	});
+	}
+	if($('.carouselCard').length){
+	$('.carouselCard').bxSlider({
+	minSlides: 1,
+  	maxSlides: 1,
+  	slideWidth: 250,
 	pager:false,
   	slideMargin: 0
 	});

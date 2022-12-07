@@ -162,7 +162,7 @@ color-stop(1, rgb(50,50,50)));display:table;max-width:100%;overflow:hidden;box-s
 .tp-bullets.hidebullets{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";-moz-opacity:0;-khtml-opacity:0;opacity:0;}
 .tp-bullets.simplebullets.navbar{border:1px solid #666;border-bottom:1px solid #444;background:url(../assets/boxed_bgtile.png);height:40px;padding:0px 10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
 .tp-bullets.simplebullets.navbar-old{background:url(../assets/navigdots_bgtile.png);height:35px;padding:0px 10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
-.tp-bullets.simplebullets.round .bullet{cursor:pointer;position:relative;background:transparent;border:1px solid #ffffff;opacity:0.6;width:10px;height:10px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-o-border-radius:50%;margin-right:0px;float:left;margin-top:0px;margin-left:10px}
+.tp-bullets.simplebullets.round .bullet{cursor:pointer;position:relative;background:black;border:1px solid #ffffff;opacity:0.6;width:10px;height:10px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-o-border-radius:50%;margin-right:0px;float:left;margin-top:0px;margin-left:10px}
 .tp-bullets.simplebullets.round .bullet.last{margin-right:10px}
 .tp-bullets.simplebullets.round-old .bullet{cursor:pointer;position:relative;background:url(../assets/bullets.png) no-Repeat bottom left;width:23px;height:23px;margin-right:0px;float:left;margin-top:0px}
 .tp-bullets.simplebullets.round-old .bullet.last{margin-right:0px}

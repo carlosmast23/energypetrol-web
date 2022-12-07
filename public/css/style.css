@@ -1641,6 +1641,9 @@ a.button-one {
 }
 .blog-section .blog-box .blog-post {
     margin-bottom: 40px;
+    margin-right: 14px;
+    margin-left: 14px;
+    
 }
 .blog-section .blog-box .blog-post img,
 .blog-section .blog-box .blog-post iframe {

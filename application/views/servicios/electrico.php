@@ -27,7 +27,7 @@
                     <div class="side-navigation">
                         <div class="contact-info">
                             <h2>Informaci&oacute;n de Cont&aacute;cto</h2>
-                             <ul class="information-list">
+                            <ul class="information-list">
                                 <li><em class="fa fa-phone">&nbsp;</em><span><?php echo buscarDato($parametro, 'telefono'); ?></span></li>
                                 <li><em class="fa fa-envelope-o">&nbsp;</em><span><?php echo buscarDato($parametro, 'correo'); ?></span></li>
                             </ul>
@@ -37,107 +37,217 @@
             </div>
             <div class="col-md-8">
                 <div class="blog-box">
-                    <div class="blog-post single-post">
-                        <img alt="" src="<?= base_url() ?>public/images\electrico\electrico.png">
+                    <div class="blog-post single-post" >
+                        <h1>Experiencia</h1><br>
                         <div class="post-content-text">
-                            <h1>Experiencia</h1>
                             <p>Desde 1998, Energypetrol ha conseguido mantener la representaci&oacute;n y distribuci&oacute;n de las m&aacute;s importantes f&aacute;bricas de materiales el&eacute;ctricos con el fin de ofrecer soluciones rentables en el tiempo y de la m&aacute;s alta calidad.</p>
                             <p>El portafolio de marcas de la l&iacute;nea el&eacute;ctrica de Energypetrol, marca el est&aacute;ndar y el liderazgo en los sectores petrolero, energ&eacute;tico e industrial.</p>
-                            <p>Entre los principales productos se destacan los Cables de Poder, Instrumentaci&oacute;n, Control, Submarinos y Especiales hechos en USA de la marca l&iacute;der mundial The Okonite Company, Switchgears de Media Tensi&oacute;n en la marca Siemens de Alemania, Empalmes y accesorios el&eacute;ctricos en Tyco Raychem, Traceado El&eacute;ctrico en la marca l&iacute;der Thermon.</p>
-                            <p>Al representar a las f&aacute;bricas o contar con distribuci&oacute;n autorizada, podemos ofrecer respaldo, y garant&iacute;a de todos nuestros productos y soluciones, as&iacute; como de constante actualizaci&oacute;n t&eacute;cnica y capacitaciones. </p>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-post single-post">
-                            <img alt="" src="<?= base_url() ?>public/images\electrico\electrico1.jpg">
-                            <div class="post-content-text">
-                                <h2>Okonite</h2>
-                                <p>Definiendo el est&aacute;ndar desde 1878, The Okonite Company, la m&aacute;s alta calidad en cables de instrumentaci&oacute;n, poder, control, de bajo, medio y alto voltaje en un rango de 300V hasta 345kV incluyendo aislamiento Okoguard&reg; su f&oacute;rmula de EPR con un record mundial m&aacute;s de 47 a&ntilde;os de instalaciones sin fallas. Energypetrol, representante exclusivo.</p>
-                                <p>Ver m&aacute;s: <a target="_blank" href="http://okonite.com/index.html">Okonite</a></p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img alt="" src="<?= base_url() ?>uploads\electrico\okonite.jpg" style="margin: 0">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="post-content-text">
+                                    <p style="text-align: justify">Entre los principales productos se destacan los Cables de Poder, Instrumentaci&oacute;n, Control, Submarinos y Especiales hechos en USA de la marca l&iacute;der mundial The Okonite Company, Switchgears de Media Tensi&oacute;n en la marca Siemens de Alemania, Empalmes y accesorios el&eacute;ctricos en Tyco Raychem, Traceado El&eacute;ctrico en la marca l&iacute;der Thermon.</p>
+                                    <p style="text-align: justify">Al representar a las f&aacute;bricas o contar con distribuci&oacute;n autorizada, podemos ofrecer respaldo, y garant&iacute;a de todos nuestros productos y soluciones, as&iacute; como de constante actualizaci&oacute;n t&eacute;cnica y capacitaciones. </p>
+                                    <p style="text-align: center">
+                                        <a target="_blank" href="https://www.okonite.com/media//catalog/product/files/2022_OSL_PDF.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
+                                    </p>
+                                    <p style="text-align: center">
+                                        <a target="_blank" href="https://www.okonite.com/products">Ver más de Okonite</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-                    <div class="col-md-6">
-                        <div class="blog-post single-post">
-                            <img alt="" src="<?= base_url() ?>public/images\electrico\electrico2.jpg">
-                            <div class="post-content-text">
-                                <h2>Tyco-Raychem</h2>
-                                <p>Las compa&ntilde;&iacute;as de servicios utilitarios y las industrias m&aacute;s innovadoras del mundo usan las soluciones de accesorios para cables de bajo, medio y alto voltaje de Tyco &ndash; Raychem.</p>
-                                <p>Ver m&aacute;s: <a target="_blank" href="http://www.te.com/en/industries/energy/energy-global/browse-products/cable-accessories.html">TE Conectivity</a></p>
-                                <br>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="blog-post single-post">
+                    <div class="project-post interior">
+                        <br><br>
+                        <iframe width="350" height="250" src="https://www.youtube.com/embed/8Gtp-_-CoVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p style="text-align: center;color: #23527c">Power Control Rooms</p>
                     </div>
-                    <div class="col-md-6">
-                        <div class="blog-post single-post">
-                            <img alt="" src="<?= base_url() ?>public/images\electrico\electrico3.jpg">
-                            <div class="post-content-text">
-                                <h2>Siemens</h2>
-                                <p>Como un pionero en equipos de maniobra el&eacute;ctrica o Switchgears, aislados en aire y en gas, Siemens con 25 a&ntilde;os de experiencia en el desarrollo de estos dispositivos, ofrece a los clientes pueden tomar total ventaja de su tecnolog&iacute;a.</p>
-                                <p>Ver m&aacute;s: <a target="_blank" href="http://www.energy.siemens.com/hq/en/industries-utilities/oil-gas/products-systems-solutions/power-distribution.htm">Siemens</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-post single-post">
-                            <img alt="" src="<?= base_url() ?>public/images\electrico\electrico4.jpg">
-                            <div class="post-content-text">
-                                <h2>Optical Cable Corporation</h2>
-                                <p>Optical Cable Corporation (OCC) es un fabricante l&iacute;der de los cables de fibra &oacute;ptica tight-buffer calidad y soluciones de comunicaci&oacute;n de datos de conectividad dise&ntilde;ados para los mercados empresariales y soluciones personalizadas para usos especiales y ambientes hostiles. Hoy en d&iacute;a, OCC ofrece un conjunto integrado de calidad, garantizadas soluciones de cableado de redes dise&ntilde;adas para proporcionar caracter&iacute;sticas de rendimiento excepcionales.</p>
-                                <p>Ver m&aacute;s: <a target="_blank" href="http://www.occfiber.com/main/index.php">Optical Cable Corporation</a></p>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-post single-post">
-                            <img alt="" src="<?= base_url() ?>public/images\electrico\electrico5.jpg">
-                            <div class="post-content-text">
-                                <h2>Thermon Heat Tracing</h2>
-                                <p>Thermon ocupa una posici&oacute;n &uacute;nica como la &uacute;nica compa&ntilde;&iacute;a internacional de traceado de calor completamente dedicado a su industria. Desde 1954, Thermon ha concentrado sus esfuerzos exclusivamente en el traceado de calor, la aplicaci&oacute;n externa de calor para tuber&iacute;as, tanques y la instrumentaci&oacute;n.
-                                    Hoy en d&iacute;a, Thermon sigue siendo un l&iacute;der de la industria en el campo especializado de la tecnolog&iacute;a de traceado de calor. La gran base de conocimientos de los empleados de Thermon, combinado con la m&aacute;s amplia l&iacute;nea de productos de rastreo de calor y herramientas de dise&ntilde;o disponibles, optimiza "el coste de propiedad" del cliente al asegurar que se han considerado todos los aspectos de la aplicaci&oacute;n.
-                                </p>
-                                <p>Ver m&aacute;s: <a target="_blank" href="http://www.thermon.com/us/default.aspx">Thermon Heat Tracing</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-post single-post">
-                            <img alt="" src="<?= base_url() ?>public/images\electrico\electrico6.jpg">
-                            <div class="post-content-text">
-                                <h2>La Marche</h2>
-                                <p>Desde 1945, La Marche ha estado proporcionando productos de conversi&oacute;n de energ&iacute;a fiables. Los productos de La Marche incluyen cargadores de bater&iacute;as industriales, rectificadores, fuentes de alimentaci&oacute;n, inversores y muchos m&aacute;s. Ha construido su reputaci&oacute;n mediante el control de todos los aspectos del proceso de desarrollo, incluyendo el dise&ntilde;o, fabricaci&oacute;n y pruebas internas. La Marche es una empresa con certificaci&oacute;n ISO 9001: 2008 del fabricante que incluye pruebas funcionales 100% para todos los productos de La Marche. </p>
-                                <p>Ver m&aacute;s: <a target="_blank" href="http://www.lamarchemfg.com/">La Marche</a></p>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-post single-post">
-                            <img alt="" src="<?= base_url() ?>public/images\electrico\electrico7.jpg">
-                            <div class="post-content-text">
-                                <h2>Crouse Hinds</h2>
-                                <p>La serie de productos Crouse Hinds ha sido dise&ntilde;ada con el m&aacute;s alto est&aacute;ndar de seguridad y productividad, para mantener a las personas a salvo y las plantas con precisi&oacute;n.</p>
-                                <p>Ver m&aacute;s: <a target="_blank" href="http://www.cooperindustries.com/content/public/en/crouse-hinds/products.html">Crouse Hinds</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-post single-post">
-                            <img alt="" src="images\electrico\electrico8.jpg">
-                            <div class="post-content-text">
-                                <h2>Hawke</h2>
-                                <p>Reconocido como un l&iacute;der mundial en el desarrollo y fabricaci&oacute;n de prensa estopas o terminales de cables para &aacute;reas peligrosas.</p>
-                                <p>Ver m&aacute;s: <a target="_blank" href="http://www.ehawke.com/">Hawke</a></p>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <div class="blog-post single-post">
+                    <p style="text-align: center">
+                        <a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/CATALOGO_PCR.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="blog-post single-post">
+                    <h2 style="text-align: center">Power Control Rooms (PCR
+                        )</h2>
+                    <p style="text-align: justify">
+                        Los sistemas eléctricos de instrumentación y control de nuestros PCRs son totalmente ensamblados en nuestro Centro de Desarrollo Tecnológico.
+                    </p>
+                    <p style="text-align: justify">
+                        Los cuartos llegan al cliente con todos los equipos completamente interconectados y probados por personal de inspección altamente calificado antes del envío al cliente. El PCR es fácilmente adaptable para instalaciones aéreas o subterráneas. La disponibilidad de instalación de bandejas de entrada y salida lateral o inferior son opcionales.
+                    </p>
+                    <p style="text-align: justify">
+                        Nuestros PCRs, a diferencia de las construcciones con estructura y cimentación de losa de hormigón, no requieren de fundiciones de concreto y transporte de materiales al sitio, evitando varias horas de trabajo en la ejecución del proyecto.
+                    </p>
+                    <p style="text-align: justify">
+                        Con esta solución el cliente ya no debe coordinar, interpretar y manejar la transferencia de información civil, eléctrica y mecánica. De esta manera, el usuario final no requiere producir planos de interconexión entre varios equipos y muchas veces entre varios proveedores, evitando así un innecesario incremento del costo y tiempo de construcción.
+                    </p>
+                    <ul class="partner-logo">
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small5.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small5.jpg"></a>
+
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small6.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small6.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small7.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small7.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small8.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small8.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small9.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small9.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small10.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small10.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small11.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small11.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small12.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small12.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small13.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small13.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small2.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small2.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small3.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small4.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?php echo base_url() ?>uploads/electrico\pcr\small3.jpg" class="button-one"><img alt="" src="<?php echo base_url() ?>uploads/electrico\pcr\small4.jpg"></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <br><br><h2 style="text-align: center">Celdas de media tensión (Simoprime)</h2><br><br>
+            <div class="col-md-4">
+                <div class="blog-post single-post">
+                    <h5 style="font-weight: bold">Normas</h5>
+                    <p style="text-align: justify">Las celdas de media tensi&oacute;n SIMOPRIME cumplen las normas vigentes al momento de los ensayos de tipo.</p>
+                    <p style="text-align: justify">De conformidad con el acuerdo de armonizaci&oacute;n de los pa&iacute;ses de la Comunidad Europea, las normas nacionales de los pa&iacute;ses miembros concuerdan con la norma IEC.</p>
+                    <h5 style="font-weight: bold">Capacidad de aislamiento</h5>
+                    <p style="text-align: justify">La capacidad de aislamiento se comprueba mediante ensayo de la celda con los valores nominales de tensi&oacute;n resistida de breve duraci&oacute;n a frecuencia industrial y la tensi&oacute;n resistida de impulso de acuerdo con IEC 60694 / VDE 0670-1000.</p>
+                    <h5 style="font-weight: bold">Factor de Correcci&oacute;n de Altitud</h5>
+                    <span></span>
+                    <p style="text-align: justify">Los valores nominales est&aacute;n referidos al nivel del mar y bajo condiciones de aires normales</p>
+                    <p style="text-align: justify">La capacidad de aislamiento dismuniye con la altitud</p>
+                    <p style="text-align: justify">Altitud de emplazamiento</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post single-post">
+                    <h5 style="font-weight: bold">Aplicaciones</h5>
+                    <ul class="category-list">
+                        <li>Subestaci&oacute;n de transformadores</li>
+                        <span></span>
+                        <li>Compa&ntilde;&iacute;as El&eacute;ctricas</li>
+                        <li>Centrales El&eacute;ctricas</li>
+                        <li>Industria Cementera</li>
+                        <li>Industria del Autom&oacute;vil</li>
+                        <li>Plantas Sider&uacute;rgicas</li>
+                        <li>Industria minera</li>
+                        <li>Industria Textil y Alimentaria</li>
+                        <li>Industria Qu&iacute;mica</li>
+                        <li>Industria de Aceites Minerales</li>
+                        <li>Instalaciones de Oleoductos</li>
+                        <li>Instalaciones en alta mar</li>
+                        <li>Industria Electroqu&iacute;mica</li>
+                        <li>Industria Petroqu&iacute;mica</li>
+                        <li>Industria de Construcci&oacute;n Naval</li>
+                        <li>Centrales Diesel</li>
+                        <li>Grupos Electr&oacute;genos de Emergencia</li>
+                        <li>Minas de Lignito a cielo abierto</li>
+                        <li>Electrificaci&oacute;n ferroviaria</li>
+                    </ul>
+                    <br><br>
+                    <p style="text-align: center">
+                        <a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/CATALOGO_ENERGYPETROL_2022_9.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post single-post" style="text-align: right">
+                    <ul class="carouselCard">
+                        <li>
+                            <a data-lightbox="example-1" href="<?= base_url() ?>uploads/electrico/simoprime/s7.jpg" class="button-one"><img alt="" src="<?= base_url() ?>uploads/electrico/simoprime/s7.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?= base_url() ?>uploads/electrico/simoprime/s4.jpg" class="button-one"><img alt="" src="<?= base_url() ?>uploads/electrico/simoprime/s4.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?= base_url() ?>uploads/electrico/simoprime/s1.jpg" class="button-one"><img alt="" src="<?= base_url() ?>uploads/electrico/simoprime/s1.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="blog-post single-post">
+                <h3>Cat&aacutelogo de Marcas</h3>
+                <!--<a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/mecanico.pdf"><img src="<?php echo base_url() ?>uploads/icon/pdf.png" style="width: 4%"/></a>-->
+            </div>
+            <div class="col-md-12">
+                <div class="blog-post single-post">
+                    <ul class="partner-images">
+                        <li>
+                            <a href="http://okonite.com/index.html" target="_blank"><img alt="" src="<?= base_url() ?>public/images\electrico\electrico1.jpg"></a>
+                            <h5 style="text-align: center">Okonite</h5>
+                        </li>
+                        <li>
+                            <a href="http://www.te.com/en/industries/energy/energy-global/browse-products/cable-accessories.html" target="_blank"><img alt="" src="<?= base_url() ?>public/images\electrico\electrico2.jpg"></a>
+                            <h5 style="text-align: center">Tyco-Raychem</h5>
+                        </li>
+                        <li>
+                            <a href="https://www.siemens.com/global/en.html" target="_blank"> <img alt="" src="<?= base_url() ?>public/images\electrico\electrico3.jpg"></a>
+                            <h5 style="text-align: center">Siemens</h5>
+                        </li>
+                        <li>
+                            <a href="http://www.occfiber.com/main/index.php" target="_blank"><img alt="" src="<?= base_url() ?>public/images\electrico\electrico4.jpg"></a>
+                            <h5 style="text-align: center">Optical Cable Corporation</h5>
+                        </li>
+                        <li>
+                            <a href="http://www.thermon.com/us/default.aspx" target="_blank"><img alt="" src="<?= base_url() ?>public/images\electrico\electrico5.jpg"></a>
+                            <h5 style="text-align: center">Thermon Heat Tracing</h5>
+                        </li>
+                        <li>
+                            <a href="http://www.lamarchemfg.com/" target="_blank"> <img alt="" src="<?= base_url() ?>public/images\electrico\electrico6.jpg"></a>
+                            <h5 style="text-align: center">La Marche</h5>
+                        </li>
+                        <li>
+                            <a href="https://www.eaton.com/us/en-us/company/about-us/our-heritage/crouse-hinds-series.html" target="_blank"> <img alt="" src="<?= base_url() ?>public/images\electrico\electrico7.jpg"></a>
+                            <h5 style="text-align: center">Crouse Hinds</h5>
+                        </li>
+                        <li>
+                            <a href="http://www.ehawke.com/" target="_blank"><img alt="" src="<?= base_url() ?>public/images\electrico\electrico8.jpg"></a>
+                            <h5 style="text-align: center">Hawke</h5>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

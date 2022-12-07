@@ -10,6 +10,7 @@
                 <script type="text/javascript">
                     var jslang = 'EN';
                 </script>
+                
                 <link type="image/x-icon" href="<?= base_url() ?>public/images\favicon.ico" rel="icon">
                     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
                         <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900">
@@ -90,7 +91,7 @@
                                                                                         <span class="icon-bar"></span>
                                                                                         <span class="icon-bar"></span>
                                                                                     </button>
-                                                                                    <a href="<?= base_url() ?>index.php/welcome/index" class="navbar-brand"><img alt="" width="100px" src="<?= base_url() ?>public/images/newImages/Logos_Energypetrol_WEB.png"></a>
+                                                                                    <a href="<?= base_url() ?>index.php/welcome/index" class="navbar-brand"><img alt="" width="100px" src="<?= base_url() ?>public/images/newImages/energypetrol_365_Head_banner.png" style="width: 100%"></a>
                                                                                 </div>
                                                                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                                                                 <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
@@ -102,10 +103,11 @@
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/firegas">Fire &amp; Gas</a></li>
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/instrumentacion">Instrumentaci&oacute;n</a></li>
-                                                                                                <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
+                                                                                                <li><a href="<?= base_url() ?>index.php/welcome/industrial">Energyindustrial</a></li>
+<!--                                                                                                <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/gabinetes">Gabinetes Met&aacute;licos</a></li>
-                                                                                                <li><a href="<?= base_url() ?>index.php/welcome/shoppingCart">Cotizar Productos</a></li>
+                                                                                                <li><a href="<?= base_url() ?>index.php/welcome/shoppingCart">Cotizar Productos</a></li>-->
                                                                                             </ul>
                                                                                         </li>
                                                                                         <li class="drop"><a href="<?= base_url() ?>index.php/welcome/nosotros">Compañía</a> </li>

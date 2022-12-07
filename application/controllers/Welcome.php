@@ -99,6 +99,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('servicios/mecanico.php');
 		$this->load->view('plantilla/piepagina.php');
 	}	
+	public function industrial()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Energyindustrial','ruta'=>'industrial'));
+		$this->load->view('servicios/industrial.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
 
 	public function gabinetes()
 	{
@@ -143,7 +150,7 @@ class Welcome extends CI_Controller {
 	public function firegas()
 	{
 		$this->vistaCabeceraConDatos();
-		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Fire Gas','ruta'=>'firegas'));
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Fire & Gas','ruta'=>'firegas'));
 		$this->load->view('servicios/firegas.php');
 		$this->load->view('plantilla/piepagina.php');
 	}	

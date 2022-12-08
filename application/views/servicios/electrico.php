@@ -187,7 +187,7 @@
                     </ul>
                     <br><br>
                     <p style="text-align: center">
-                        <a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/CATALOGO_ENERGYPETROL_2022_9.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
+                        <a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/Simoprime Switchgear.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
                     </p>
                 </div>
             </div>

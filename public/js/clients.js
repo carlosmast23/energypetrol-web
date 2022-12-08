@@ -57,6 +57,15 @@ jQuery(document).ready(function($){
   	slideMargin: 0
 	});
 	}
+	if($('.partner-logoSmall').length){
+	$('.partner-logoSmall').bxSlider({
+	minSlides: 4,
+  	maxSlides: 4,
+  	slideWidth: 234,
+	pager:false,
+  	slideMargin: 0
+	});
+	}
 	if($('.partner-images').length){
 	$('.partner-images').bxSlider({
 	minSlides: 5,

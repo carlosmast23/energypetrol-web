@@ -215,7 +215,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="blog-post single-post" style="text-align: right">
+                <div class="blog-post single-post">
                     <ul class="servicios">
                         <li>
                             <a data-lightbox="example-1" href="<?= base_url() ?>uploads/cnc/c6.png" class="button-one"><img alt="" src="<?= base_url() ?>uploads/cnc/c6.png"></a> 

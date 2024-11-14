@@ -113,25 +113,25 @@
         <div class="row" align="center">
             <div class="col-md-4">
                 <div class="offer-post">
-                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images/newImages/22.jpg" style="width: 100%"></a>
+                    <iframe width="360" height="220" src="https://www.youtube.com/embed/e0HybKJ6PVo?si=GtrBR2TvzZbj2imA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <br><br>
                     <h2><a href="<?= base_url() ?>index.php/welcome/nosotros">Qui&eacute;nes Somos</a></h2>
-                    <p style="text-align: justify">ENERGYPETROL S.A. es una compa&ntilde;&iacute;a fundada en 1998, su objetivo principal es entregar calidad, efectividad y valor agregado en todas sus actividades, tales como la provisi&oacute;n de productos y servicios de la m&aacute;s alta calidad para el sector petrolero e industrial.</p>
+                    <p style="text-align: justify">ENERGYPETROL S.A. con 25 años de experiencia se ha consolidado como un referente en innovación e integración tecnológica  en el sector. Desde su creación ha evolucionado para ofrecer productos y servicios de alta calidad, aportando a la industria Ecuatoriana en el desarrollo del sector petrolero y energético.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="offer-post">
                     <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>uploads/pdf\ingenieria.png" style="width: 90%"></a>
                     <h2><a href="<?= base_url() ?>index.php/welcome/productosServicios">Qu&eacute; hacemos</a></h2>
-                    <p style="text-align: justify">La empresa procura atender a clientes que necesiten de ingenier&iacute;as especializadas en las que se requiera soluciones innovadoras, con las m&aacute;s recientes y avanzadas tecnolog&iacute;as.</p>
+                    <p style="text-align: justify">ENERGYPETROL S.A. se especializa en soluciones de ingeniería avanzada, combinando innovación e integración de las tecnologías más vanguardistas del mercado para satisfacer las necesidades más exigentes del sector.</p>
                     <a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/CATALOGO_ENERGYPETROL_2022_9.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="offer-post">
-                    <iframe width="100%" height="220px" frameborder="0" src="https://player.vimeo.com/video/139344238"></iframe>
-                    <br><br><br>
+                    <a href="<?= base_url() ?>index.php/welcome/productosServicios"><img alt="" src="<?= base_url() ?>public/images/newImages/22.jpg" style="width: 100%"></a>
                     <h2><a href="<?= base_url() ?>index.php/welcome/videos">Instalaciones CDT</a></h2>
-                    <p style="text-align: justify">En Energypetrol, nuestra fortaleza reside en el capital humano y los procesos a su cargo. Por este motivo, la directiva ha invertido en conseguir las mejores condiciones de trabajo y estabilidad para todo su personal. En el Centro de Desarrollo Tecnol&oacute;gico de Energypetrol se construyen grandes proyectos que enriquecen a sus ejecutores como al desarrollo de la industria. </p>
+                    <p style="text-align: justify">ENERGYPETROL confía en su capital humano y lo considera como su mayor fortaleza. La compañía mejora constantemente sus instalaciones para potenciar el desempeño de sus colaboradores. En el Centro de Desarrollo Tecnológico creamos nuestros proyectos con las mejores condiciones para nuestra mayor fortaleza.</p>
                 </div>
             </div>
         </div>
@@ -162,39 +162,6 @@
     </div>
 </section>-->
 <!-- End about section -->
-<!-- clients-section 
-                        ================================================== -->
-<section class="clients-section">
-    <div class="container">
-        <div class="clients-title">
-            <h2>Nuestros clientes</h2>
-            <p>Algunas de las empresas que han confiado en nosotros</p>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="brand-logo">
-                    <div class="container">
-                        <div class="row">
-                            <div class="span12">
-                                <ul class="partner-logo">
-                                    <?php foreach ($clientes->result() as $fila) {
-                                        ?>
-                                        <li><img alt="" src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>"></li>
-                                    <?php }
-                                    ?>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ============================ Brand Logo End  ================================= -->
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- End clients section -->
 <section class="news-section">
     <div class="container">
         <div class="news-title">
@@ -237,3 +204,33 @@
         </div>
     </div>
 </section>
+<!-- clients-section                     ================================================== -->
+<section class="clients-section">
+    <div class="container">
+        <div class="clients-title">
+            <h2>Nuestros clientes</h2>
+            <p>Algunas de las empresas que han confiado en nosotros</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="brand-logo">
+                    <div class="container">
+                        <div class="row">
+                            <div class="span12">
+                                <ul class="partner-logo">
+                                    <?php foreach ($clientes->result() as $fila) {
+                                        ?>
+                                        <li><img alt="" src="<?php echo base_url() ?>uploads/<?php echo $fila->imagen ?>"></li>
+                                    <?php }
+                                    ?>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================ Brand Logo End  ================================= -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End clients section -->

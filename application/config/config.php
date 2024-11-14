@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-//$config['base_url'] = 'https://www.energypetrol.net/';
-$config['base_url'] = 'http://localhost/energypetrol-web/';
+$config['base_url'] = 'https://www.energypetrol.net/';
+//$config['base_url'] = 'http://localhost/energypetrol-web/';
 
 
 /*

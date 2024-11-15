@@ -186,9 +186,10 @@
                 </div>
             </div>
         </div>
+        <br/>
         <div class="row">
             <div class="blog-post single-post">
-                <h3>Cat&aacutelogo de Marcas</h3>
+                <h2>Cat&aacutelogo de Marcas</h2>
                 <!--<a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/mecanico.pdf"><img src="<?php echo base_url() ?>uploads/icon/pdf.png" style="width: 4%"/></a>-->
             </div>
             <div class="col-md-12">

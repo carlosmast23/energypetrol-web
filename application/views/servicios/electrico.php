@@ -49,7 +49,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="post-content-text">
-                                    <p style="text-align: justify">Entre los principales productos se destacan los Cables de Poder, Instrumentaci&oacute;n, Control, Submarinos y Especiales hechos en USA de la marca l&iacute;der mundial The Okonite Company, Switchgears de Media Tensi&oacute;n en la marca Siemens de Alemania, Empalmes y accesorios el&eacute;ctricos en Tyco Raychem, Traceado El&eacute;ctrico en la marca l&iacute;der Thermon.</p>
+                                    <p style="text-align: justify">Entre los principales productos se destacan los Cables de Poder, Instrumentación, Control, Submarinos y Especiales hechos en USA de la marca líder mundial The Okonite Company, Switchgears de MV y Swichboards de BV en la marca Siemens de Alemania, Empalmes y accesorios eléctricos en Tyco Raychem, Traceado Eléctrico en la marca líder Thermon</p>
                                     <p style="text-align: justify">Al representar a las f&aacute;bricas o contar con distribuci&oacute;n autorizada, podemos ofrecer respaldo, y garant&iacute;a de todos nuestros productos y soluciones, as&iacute; como de constante actualizaci&oacute;n t&eacute;cnica y capacitaciones. </p>
                                     <p style="text-align: center">
                                         <a target="_blank" href="https://www.okonite.com/media//catalog/product/files/2022_OSL_PDF.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
@@ -60,19 +60,82 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </div>
+        <div class="row" style="background-color: aliceblue;padding: 40px">
+            <h2 style="text-align: left">Celdas de media tensión (Simoprime)</h2>
+            <div class="col-md-4">
+                <div class="blog-post single-post">
+                    <h5 style="font-weight: bold">Normas</h5>
+                    <p style="text-align: justify">Las celdas de media tensi&oacute;n SIMOPRIME cumplen las normas vigentes al momento de los ensayos de tipo.</p>
+                    <p style="text-align: justify">De conformidad con el acuerdo de armonizaci&oacute;n de los pa&iacute;ses de la Comunidad Europea, las normas nacionales de los pa&iacute;ses miembros concuerdan con la norma IEC.</p>
+                    <h5 style="font-weight: bold">Capacidad de aislamiento</h5>
+                    <p style="text-align: justify">La capacidad de aislamiento se comprueba mediante ensayo de la celda con los valores nominales de tensi&oacute;n resistida de breve duraci&oacute;n a frecuencia industrial y la tensi&oacute;n resistida de impulso de acuerdo con IEC 60694 / VDE 0670-1000.</p>
+                    <h5 style="font-weight: bold">Factor de Correcci&oacute;n de Altitud</h5>
+                    <span></span>
+                    <p style="text-align: justify">Los valores nominales est&aacute;n referidos al nivel del mar y bajo condiciones de aires normales</p>
+                    <p style="text-align: justify">La capacidad de aislamiento dismuniye con la altitud</p>
+                    <p style="text-align: justify">Altitud de emplazamiento</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post single-post">
+                    <h5 style="font-weight: bold">Aplicaciones</h5>
+                    <ul class="category-list">
+                        <li>Subestaci&oacute;n de transformadores</li>
+                        <span></span>
+                        <li>Compa&ntilde;&iacute;as El&eacute;ctricas</li>
+                        <li>Centrales El&eacute;ctricas</li>
+                        <li>Industria Cementera</li>
+                        <li>Industria del Autom&oacute;vil</li>
+                        <li>Plantas Sider&uacute;rgicas</li>
+                        <li>Industria minera</li>
+                        <li>Industria Textil y Alimentaria</li>
+                        <li>Industria Qu&iacute;mica</li>
+                        <li>Industria de Aceites Minerales</li>
+                        <li>Instalaciones de Oleoductos</li>
+                        <li>Instalaciones en alta mar</li>
+                        <li>Industria Electroqu&iacute;mica</li>
+                        <li>Industria Petroqu&iacute;mica</li>
+                        <li>Industria de Construcci&oacute;n Naval</li>
+                        <li>Centrales Diesel</li>
+                        <li>Grupos Electr&oacute;genos de Emergencia</li>
+                        <li>Minas de Lignito a cielo abierto</li>
+                        <li>Electrificaci&oacute;n ferroviaria</li>
+                    </ul>
+                    <br><br>
+                    <p style="text-align: center">
+                        <a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/Simoprime Switchgear.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post single-post" style="text-align: right">
+                    <ul class="partner-logo">
+                        <li>
+                            <a data-lightbox="example-1" href="<?= base_url() ?>uploads/electrico/simoprime/s1.jpg" class="button-one"><img alt="" src="<?= base_url() ?>uploads/electrico/simoprime/s1.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?= base_url() ?>uploads/electrico/simoprime/s4.jpg" class="button-one"><img alt="" src="<?= base_url() ?>uploads/electrico/simoprime/s4.jpg"></a>
+                        </li>
+                        <li>
+                            <a data-lightbox="example-1" href="<?= base_url() ?>uploads/electrico/simoprime/s7.jpg" class="button-one"><img alt="" src="<?= base_url() ?>uploads/electrico/simoprime/s7.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
         <div class="row">
             <div class="col-md-4">
                 <div class="blog-post single-post">
                     <div class="project-post interior">
                         <br><br>
                         <iframe width="350" height="250" src="https://www.youtube.com/embed/8Gtp-_-CoVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p style="text-align: center;color: #23527c">Power Control Rooms</p>
+                        <p style="text-align: left;color: #23527c">Power Control Rooms</p>
                     </div>
                 </div>
                 <div class="blog-post single-post">
@@ -144,73 +207,28 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <br><br><h2 style="text-align: center">Celdas de media tensión (Simoprime)</h2><br><br>
-            <div class="col-md-4">
-                <div class="blog-post single-post">
-                    <h5 style="font-weight: bold">Normas</h5>
-                    <p style="text-align: justify">Las celdas de media tensi&oacute;n SIMOPRIME cumplen las normas vigentes al momento de los ensayos de tipo.</p>
-                    <p style="text-align: justify">De conformidad con el acuerdo de armonizaci&oacute;n de los pa&iacute;ses de la Comunidad Europea, las normas nacionales de los pa&iacute;ses miembros concuerdan con la norma IEC.</p>
-                    <h5 style="font-weight: bold">Capacidad de aislamiento</h5>
-                    <p style="text-align: justify">La capacidad de aislamiento se comprueba mediante ensayo de la celda con los valores nominales de tensi&oacute;n resistida de breve duraci&oacute;n a frecuencia industrial y la tensi&oacute;n resistida de impulso de acuerdo con IEC 60694 / VDE 0670-1000.</p>
-                    <h5 style="font-weight: bold">Factor de Correcci&oacute;n de Altitud</h5>
-                    <span></span>
-                    <p style="text-align: justify">Los valores nominales est&aacute;n referidos al nivel del mar y bajo condiciones de aires normales</p>
-                    <p style="text-align: justify">La capacidad de aislamiento dismuniye con la altitud</p>
-                    <p style="text-align: justify">Altitud de emplazamiento</p>
-                </div>
+        <br/>
+        <div class="row" style="background-color: aliceblue;padding: 40px">
+            <h2 style="text-align: left">Swichboard SIVACON</h2>
+            <div class="post-content-text" style="text-align: left">
+                <p>Tableros IEC de bajo voltaje</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="blog-post single-post">
-                    <h5 style="font-weight: bold">Aplicaciones</h5>
-                    <ul class="category-list">
-                        <li>Subestaci&oacute;n de transformadores</li>
-                        <span></span>
-                        <li>Compa&ntilde;&iacute;as El&eacute;ctricas</li>
-                        <li>Centrales El&eacute;ctricas</li>
-                        <li>Industria Cementera</li>
-                        <li>Industria del Autom&oacute;vil</li>
-                        <li>Plantas Sider&uacute;rgicas</li>
-                        <li>Industria minera</li>
-                        <li>Industria Textil y Alimentaria</li>
-                        <li>Industria Qu&iacute;mica</li>
-                        <li>Industria de Aceites Minerales</li>
-                        <li>Instalaciones de Oleoductos</li>
-                        <li>Instalaciones en alta mar</li>
-                        <li>Industria Electroqu&iacute;mica</li>
-                        <li>Industria Petroqu&iacute;mica</li>
-                        <li>Industria de Construcci&oacute;n Naval</li>
-                        <li>Centrales Diesel</li>
-                        <li>Grupos Electr&oacute;genos de Emergencia</li>
-                        <li>Minas de Lignito a cielo abierto</li>
-                        <li>Electrificaci&oacute;n ferroviaria</li>
-                    </ul>
-                    <br><br>
-                    <p style="text-align: center">
-                        <a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/Simoprime Switchgear.pdf"><button type="button" class="btn btn-success btn-lg">Descargar cat&aacute;logo</button></a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-post single-post" style="text-align: right">
-                    <ul class="carouselCard">
-                        <li>
-                            <a data-lightbox="example-1" href="<?= base_url() ?>uploads/electrico/simoprime/s7.jpg" class="button-one"><img alt="" src="<?= base_url() ?>uploads/electrico/simoprime/s7.jpg"></a>
-                        </li>
-                        <li>
-                            <a data-lightbox="example-1" href="<?= base_url() ?>uploads/electrico/simoprime/s4.jpg" class="button-one"><img alt="" src="<?= base_url() ?>uploads/electrico/simoprime/s4.jpg"></a>
-                        </li>
-                        <li>
-                            <a data-lightbox="example-1" href="<?= base_url() ?>uploads/electrico/simoprime/s1.jpg" class="button-one"><img alt="" src="<?= base_url() ?>uploads/electrico/simoprime/s1.jpg"></a>
-                        </li>
+                    <ul class="partner-images">
+                        <li><img alt="" src="<?= base_url() ?>public/images\electrico\swSib1.jpg"></li>
+                        <li><img alt="" src="<?= base_url() ?>public/images\electrico\swSib3.jpg"></li>
+                        <li><img alt="" src="<?= base_url() ?>public/images\electrico\swSib2.jpg"></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <br/>
+        <br/>
+<!--        <div class="row">
             <div class="blog-post single-post">
-                <h3>Cat&aacutelogo de Marcas</h3>
-                <!--<a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/mecanico.pdf"><img src="<?php echo base_url() ?>uploads/icon/pdf.png" style="width: 4%"/></a>-->
+                <h2>Cat&aacutelogo de Marcas</h2>
+                <a target="_blank" href="<?php echo base_url() ?>/uploads/pdf/mecanico.pdf"><img src="<?php echo base_url() ?>uploads/icon/pdf.png" style="width: 4%"/></a>
             </div>
             <div class="col-md-12">
                 <div class="blog-post single-post">
@@ -250,6 +268,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 </section>

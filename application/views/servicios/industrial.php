@@ -103,13 +103,13 @@
                                         </li>
                                     </ul>
                                 </div>
-                                
+
                                 <div style="text-align: center">
                                     <a target="_blank" href="https://www.youtube.com/embed/UIrQiyjg-ak">Ver Video Elevadores</a>
                                 </div>
-<!--                                <div class="blog-post single-post">
-                                    <iframe style="width: 370px;height: 143px" src="https://www.youtube.com/embed/UIrQiyjg-ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div> -->
+                                <!--                                <div class="blog-post single-post">
+                                                                    <iframe style="width: 370px;height: 143px" src="https://www.youtube.com/embed/UIrQiyjg-ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                </div> -->
                             </div>
                         </div>
                     </div>  
@@ -205,9 +205,9 @@
 
                 <p style="font-weight: bold">*Servicio de corte plasma CNC</p>
                 <p style="font-weight: bold">*Servicio de corte láser CNC</p>
+                <p style="font-weight: bold">*Servicio Torno CNC</p>
                 <p style="font-weight: bold">*Dobladora</p>
                 <p style="font-weight: bold">*Fresadora</p>
-                <p style="font-weight: bold">*Torno</p>
                 <p style="font-weight: bold">*Diseño</p>
                 <p style="font-weight: bold">*Soldadura</p>
                 <div style="text-align: center">

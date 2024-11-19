@@ -10,18 +10,22 @@
                             <li>Kidde Fire Systems</li>
                             <li>Federal Signal</li>
                             <li>Dorot</li>
-                            <li style="margin-top: 10px;">STF Filtros</li>
+                            <li>Pumpsense</li>
+                            <li>FireSCI</li>
+                            <li>Autrónica</li>
+                            <li>Aquestia </li>
                         </ul>
                     </div>
                     <div class="category-widget widget">
                         <h2>Servicios</h2>
                         <ul class="category-list">
-                            <li>Ingenieria Especializada</li>
+                            <li>Ingeniería Especializada</li>
                             <li>Dise&ntilde;o e Implementaci&oacute;n de sistemas</li>
-                            <li>EPC'S de Sistemas de Detecci&oacute;n y Supresi&oacute;n Automatica de incendios</li>
+                            <li>EPC'S de Sistemas de Detecci&oacute;n y Supresi&oacute;n Automática de incendios</li>
                             <li>Asistencia T&eacute;cnica especializada</li>
                             <li>Mantenimiento de Sistemas de Detecci&oacute;n</li>
                             <li>Proyectos PCR's</li>
+                            <li>Recargas de Agentes Límpios: FM-200, Novec 1230, Fluoro-K</li>
                         </ul>
                     </div>
                     <div class="side-navigation">
@@ -31,7 +35,7 @@
                                 <ul>
                                     <li>Sistemas autom&aacute;ticos REPSOL</li>
                                     <li>Ingenier&iacute;a Balao - Lago Agrio</li>
-                                    <li>Ingenier&iacute;a REfiner&iacute;a Esmeraldas</li>
+                                    <li>Ingenier&iacute;a Refiner&iacute;a Esmeraldas</li>
                                     <li>Ingenier&iacute;a Poliducto SSFD - UIO</li>
                                     <li>Ingenier&iacute;a Poliducto ESM - UIO</li>
                                     <li>Ingenier&iacute;a del EDEN</li>
@@ -52,7 +56,7 @@
             <div class="col-md-8">
                 <div class="blog-box">
                     <div class="blog-post single-post">
-                        <p>ENERGYPETROL es especialista y referente l&iacute;der en aplicaciones para detecci&oacute;n de Fuego y Gas, y control autom&aacute;tico de la extinci&oacute;n de incendios, con una experiencia de m&aacute;s de 18 a&ntilde;os desarrollando este tipo de sistemas tanto en dise&ntilde;o como en la provisi&oacute;n, instalaci&oacute;n y puesta en marcha.</p>
+                        <p><b>ENERGYPETROL</b> es especialista y referente l&iacute;der en aplicaciones para detecci&oacute;n de Fuego y Gas, y control autom&aacute;tico de la extinci&oacute;n de incendios, con una experiencia de m&aacute;s de 25 a&ntilde;os desarrollando este tipo de sistemas tanto en dise&ntilde;o como en la provisi&oacute;n, instalaci&oacute;n y puesta en marcha.</p>
                         <img alt="" src="<?= base_url() ?>uploads/electrico\pcr\small12.jpg">
                     </div>
                     <div class="blog-post single-post">
@@ -89,7 +93,7 @@
                     <div class="col-md-6">
                         <div class="autor-content">
                             <h2></h2>
-                            <h2>INGENIERIA ESPECIALIZADA, B&Aacute;SICA Y DETALLE DE SISTEMAS DE DETECCI&Oacute;N DE FUEGO Y GAS; Y SUPRESI&Oacute;N AUTOM&Aacute;TICA DE INCENDIOS (FIRE &amp; GAS).</h2>
+                            <h2>INGENIERÍA BÁSICA Y DE DETALLE ESPECIALIZADA EN SISTEMAS DE DETECCIÓN DE FUEGO Y GAS Y SUPRESIÓN AUTOMÁTICA DE INCENDIOS (FIRE & GAS).</h2>
                             <span></span>
                             <p>ENERGYPETROL es actualmente l&iacute;der en dise&ntilde;o de sistemas de detecci&oacute;n de fuego y gas, y supresi&oacute;n autom&aacute;tica de incendios, aplicando tecnolog&iacute;a de punta para el cumplimiento de los est&aacute;ndares y normativas internacionales aplicables a estos sistemas de clasificaci&oacute;n especial.</p>
                             <p> </p>

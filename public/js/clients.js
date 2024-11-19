@@ -36,6 +36,15 @@ jQuery(document).ready(function($){
   	slideMargin: 30
 	});
 	}
+	if($('.bannMarcas').length){
+	$('.bannMarcas').bxSlider({
+	minSlides: 3,
+  	maxSlides: 3,
+  	slideWidth: 1050,
+	pager:false,
+  	slideMargin: 30
+	});
+	}
 	if($('.servicios').length){
 	$('.servicios').bxSlider({
 	minSlides: 1,

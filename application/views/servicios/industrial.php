@@ -199,10 +199,11 @@
                     faciliten la ejecución de cualquier idea que el
                     cliente desee llevar a cabo.
                 </p>
-                <p style="font-weight: bold">
+                <p style="font-weight: bold"><hr/></p>
+                <p style="font-weight: bold;font-size: medium">
                     Servicios especializados en metal.
                 </p>
-
+                <p style="font-weight: bold"><hr/></p>
                 <p style="font-weight: bold">*Servicio de corte plasma CNC</p>
                 <p style="font-weight: bold">*Servicio de corte láser CNC</p>
                 <p style="font-weight: bold">*Servicio Torno CNC</p>

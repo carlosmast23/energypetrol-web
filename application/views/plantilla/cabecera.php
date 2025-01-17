@@ -101,8 +101,9 @@
                                                                                             <ul class="dropdown">
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/mecanico">Mec&aacute;nico</a></li>
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/electrico">El&eacute;ctrico</a></li>
-                                                                                                <li><a href="<?= base_url() ?>index.php/welcome/firegas">Fire &amp; Gas</a></li>
+                                                                                                <li><a href="<?= base_url() ?>index.php/welcome/firegas">Sistema contra incendios</a></li>
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/instrumentacion">Instrumentaci&oacute;n</a></li>
+                                                                                                <li><a href="<?= base_url() ?>index.php/welcome/energias">Energ&iacute;as Renovables</a></li>
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/industrial">Energyindustrial</a></li>
 <!--                                                                                                <li><a href="<?= base_url() ?>index.php/welcome/paquetizados">Paquetizados</a></li>
                                                                                                 <li><a href="<?= base_url() ?>index.php/welcome/simoprime">Simoprime</a></li>

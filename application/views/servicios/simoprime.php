@@ -40,8 +40,8 @@
                         <div class="contact-info">
                             <h2>Informaci&oacute;n de Cont&aacute;cto</h2>
                             <ul class="information-list">
-                                <li><em class="fa fa-phone"></em><span> 593 2 292 3064 / ext.104</span></li>
-                                <li><em class="fa fa-envelope-o"></em><span> edison_lopez@energypetrol.net </span></li>
+                                <li><em class="fa fa-phone">&nbsp;</em><span><?php echo buscarDato($parametro, 'telefono'); ?></span></li>
+                                <li><em class="fa fa-envelope-o">&nbsp;</em><span><?php echo buscarDato($parametro, 'correo'); ?></span></li>
                             </ul>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                             <p>Las celdas de media tensi&oacute;n SIMOPRIME cumplen las normas vigentes al momento de los ensayos de tipo.</p>
                             <p>De conformidad con el acuerdo de armonizaci&oacute;n de los pa&iacute;ses de la Comunidad Europea, las normas nacionales de los pa&iacute;ses miembros concuerdan con la norma IEC.</p>
                             <p><img alt="" src="<?= base_url() ?>public/images\simoprime\CELDAS.jpg" style="border: 0px solid; width: 500px; height: 450px;"></p>
-                            <p><img alt="" src="<?= base_url() ?>public/http://www.energypetrol.net/images/simoprime/CELDAS01.jpg" style="width: 452px; height: 282px;"></p>
+<!--                            <p><img alt="" src="<?= base_url() ?>public/http://www.energypetrol.net/images/simoprime/CELDAS01.jpg" style="width: 452px; height: 282px;"></p>-->
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -85,7 +85,7 @@
                 <div class="autor-post">
                     <div class="col-md-6">
                         <div class="blog-post single-post">
-                            <div class="post-content-text"><img alt="" src="http://www.energypetrol.net/images/simoprime/Factor de Correccion.jpg" style="vertical-align: middle; width: 450px; height: 600px;">
+                            <div class="post-content-text">
                                 <div class="autor-content">
                                     <h2 class="blog-post single-post"></h2>
                                 </div>

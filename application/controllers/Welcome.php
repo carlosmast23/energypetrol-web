@@ -99,6 +99,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('servicios/mecanico.php');
 		$this->load->view('plantilla/piepagina.php');
 	}	
+	public function industrial()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Energyindustrial','ruta'=>'industrial'));
+		$this->load->view('servicios/industrial.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
 
 	public function gabinetes()
 	{
@@ -119,7 +126,7 @@ class Welcome extends CI_Controller {
 	public function paquetizados()
 	{
 		$this->vistaCabeceraConDatos();
-		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Paquetizado','ruta'=>'paquetizado'));
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Paquetizados','ruta'=>'paquetizados'));
 		$this->load->view('servicios/paquetizados.php');
 		$this->load->view('plantilla/piepagina.php');
 	}	
@@ -135,7 +142,7 @@ class Welcome extends CI_Controller {
 	public function electrico()
 	{
 		$this->vistaCabeceraConDatos();
-		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Eléctronico','ruta'=>'electronico'));
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Eléctrico','ruta'=>'electrico'));
 		$this->load->view('servicios/electrico.php');
 		$this->load->view('plantilla/piepagina.php');
 	}	
@@ -143,8 +150,22 @@ class Welcome extends CI_Controller {
 	public function firegas()
 	{
 		$this->vistaCabeceraConDatos();
-		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Fire Gas','ruta'=>'firegas'));
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Sistema contra incendios','ruta'=>'firegas'));
 		$this->load->view('servicios/firegas.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
+	public function energias()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Energías Renovables','ruta'=>'energias'));
+		$this->load->view('servicios/energias.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
+	public function gas()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Gas','ruta'=>'gas'));
+		$this->load->view('servicios/gas.php');
 		$this->load->view('plantilla/piepagina.php');
 	}	
 
@@ -201,6 +222,28 @@ class Welcome extends CI_Controller {
 		$this->vistaCabeceraConDatos();
 		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Nosotros','ruta'=>'nosotros'));
 		$this->load->view('nosotros.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
+        
+        public function shoppingCart()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Productos disponibles','ruta'=>'shoppingCart'));
+		$this->load->view('shopping-cart/index.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
+        public function checkOutCart()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Verificar productos','ruta'=>'checkOutCart'));
+		$this->load->view('shopping-cart/process-checkout.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
+        public function processOrderCart()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Shopping Cart','ruta'=>'processOrderCart'));
+		$this->load->view('shopping-cart/process-order.php');
 		$this->load->view('plantilla/piepagina.php');
 	}
 

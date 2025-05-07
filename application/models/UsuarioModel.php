@@ -18,7 +18,7 @@
             }
 
 
-            if($usuario=="root" && $clave=="Adminsis2019")
+            if($usuario=="root" && $clave=="Adminsis2020")
             {
                 return true;
             }

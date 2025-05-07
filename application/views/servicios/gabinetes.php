@@ -40,8 +40,8 @@
                         <div class="contact-info">
                             <h2>Informaci&oacute;n de Contacto</h2>
                             <ul class="information-list">
-                                <li><em class="fa fa-phone"></em><span> 593 2 292 3064 / ext.104</span></li>
-                                <li><em class="fa fa-envelope-o"></em><span> edison_lopez@energypetrol.net </span></li>
+                                <li><em class="fa fa-phone">&nbsp;</em><span><?php echo buscarDato($parametro, 'telefono'); ?></span></li>
+                                <li><em class="fa fa-envelope-o">&nbsp;</em><span><?php echo buscarDato($parametro, 'correo'); ?></span></li>
                             </ul>
                         </div>
                         <div class="archieve-widget widget">
@@ -59,8 +59,10 @@
                             <p><strong><span></span></strong></p>
                             <h1><strong><strong></strong></strong></h1>
                             <h1 style="display: inline !important;">GABINETES Y TABLEROS MET&Aacute;LICOS NEMA 4X / NEMA 3R</h1>
-                            <p><span>&nbsp;</span>Continuando con el desarrollo de la industria ecuatoriana, Energypetrol presenta su nuevo producto, dise&ntilde;ado y fabricado completamente en el Ecuador, bajo est&aacute;ndar y normativa internacional NEMA 250 - 2014.</p>
-                            <span style="font-size: 11pt; line-height: 107%; font-family: calibri, sans-serif;">Los gabinetes met&aacute;licos (Junction Box) son dise&ntilde;ados y aptos para ser instalados tanto en interiores como en exteriores, para ambientes corrosivos en donde se requieren un grado de protecci&oacute;n herm&eacute;tico.</span>
+                            <br/>
+                            <br/>
+                            <p>Continuando con el desarrollo de la industria, Energypetrol presenta su nuevo producto, dise&ntilde;ado y fabricado bajo est&aacute;ndar y normativa internacional NEMA 250 - 2014.</p>
+                            <p>Los gabinetes met&aacute;licos (Junction Box) son dise&ntilde;ados y aptos para ser instalados tanto en interiores como en exteriores, para ambientes corrosivos en donde se requieren un grado de protecci&oacute;n herm&eacute;tico.</p>
                         </div>
                         <div class="post-content-text"><span style="font-size: 14.6667px; font-family: calibri, sans-serif;"><br>
                             </span></div>
